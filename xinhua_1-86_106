@@ -1,0 +1,2109 @@
+xinhua_1-86_106
+
+# ::id xinhua_es.1 ::annotator 106
+
+(c11 / publication
+     :name (c12 / nameasociación
+               :op1 "Agencia"
+               :op2 "de"
+               :op3 "noticias"
+               :op4 "Xinhua")
+     :location (c5 / city
+                   :name (c6 / name
+                            :op1 "Pekín"))
+     :time (c10 / date-entity
+                :day 11
+                :month 9)
+     :ARG1-of (c13 / escribir-01
+     			   :ARG0 (c0 / person
+                  		     :example-of (c1 / periodista)
+                           	 :name (c4 / name
+                                       :op1 “Guojun”
+                                       :op2 “Yang”))))
+
+# ::id xinhua_es.2 ::annotator 106
+
+(c0 / decir-01
+    :time-of (c1 / reunir-03
+                 :ARG1 (c13 / person
+                            :name (c14 / name
+                                      :op1 "Chavalit"
+                                      :op2 "Yoncayu")
+                            :ARG0-of (c17 / have-org-role-91
+                                          :ARG2 (c20 / y
+                                                     :op1 (c21 / viceprimer
+                                                               :mod (c22 / ministro))
+                                                     :op2 (c23 / ministro
+                                                               :poss (c24 / asunto
+                                                                          :mod (c25 / interno))))
+                                          :ARG1 (c18 / country
+                                                     :name (c70 / name
+                                                     			:op1 "Tailandia"))))
+                 :location (c26 / place
+                                :name (c27 / name
+                                          :op1 "Casa"
+                                          :op2 "de"
+                                          :op3 "huéspedes")
+                                :poss (c31 / estado
+                                           :poss (c33 / place
+                                                      :name (c34 / name
+                                                                 :op1 “diaoyutai”))))
+                 :ARG0 (c2 / person
+                           :name (c3 / name
+                                    :op1 "Huaqing"
+                                    :op2 "Liu")
+                           :ARG0-of (c6 / have-org-role-91
+                                        :ARG2 (c7 / vicepresidente)
+                                        :ARG1 (c11 / government-organization
+                                                   :name (c12 / name
+                                                             :op1 "Comisión"
+                                                             :op2 "militar"
+                                                             :op3 "central")))))
+    :ARG0 c2
+    :ARG1 (c35 / otorgar-01
+               :ARG0 (c36 / country
+                          :name (c37 / name
+								     :op1 ”China"))
+               :ARG1 (c38 / importancia
+                          :mod (c39 / gran))
+               :ARG2 (c40 / desarrollar-02
+                          :ARG0 c36
+                          :ARG1 (c41 / amistad
+                                     :accompanier (c42 / y
+                                                     :op1 (c43 / gobierno)
+                                                     :op2 (c44 / pueblo)
+                                                     :op3 (c45 / fuerza
+                                                               :ARG1-of (c46 / armar-02)
+                                                               :poss c18)
+                                                     :ARG0-of (c49 / incluir-01
+                                                                   :ARG1 (c50 / cooperar-01      
+                                                                              :mod (c53 / económica)
+                                                                              :mod (c54 / comercial)
+                                                                              :ARG0 (c55 / país
+                                                                                         :quant 2)
+                                                                              :ARG1 c55)
+                                                                   :manner (c51 / especialmente)))))))
+
+# ::id xinhua_es.3 ::annotator 106
+
+(c0 / decir-01
+    :ARG0 (c1 / person
+              :name (c2 / name
+                       :op1 "Huaaqing"
+                       :op2 "Liu"))
+    :ARG1 (c5 / y
+              :op1 (c6 / tener-01
+                       :ARG0 (c7 / gente
+                                 :mod (c8 / y
+                                           :op1 (c9 / country
+                                                    :name (c11 / name
+															   :op1 ”China"))
+                                           :op2 (c10 / country
+                                                     :name (c12 / name
+																:op1 ”Tailandia"))))
+                       :ARG1 (c13 / amistad
+                                  :mod (c14 / tradicional)))
+              :op2 (c15 / amigable
+                        :domain (c16 / relación
+                                     :location (c17 / entre
+                                     		  	   :op1 c9
+                                     		  	   :op2 c10))
+                        :degree (c19 / muy))))
+
+# ::id xinhua_es.4 ::annotator 106
+
+(c0 / decir-01
+	:ARG1 (c1 / beneficiar-01
+    		  :ARG0 (c3 / y
+                		  :op1 (c4 / visitar-01
+                         		   :ARG0 (c6 / ministro
+                                   		     :mod (c5 / viceprimer)))
+                		  :op2 (c7 / visitar-01
+                         		   :manner (c8 / mutuas)
+                         		   :ARG0 (c9 / líder
+                                   			 :mod (c10 / otro)
+                                  			 :mod (c11 / nivel
+                                             		   :degree (c12 / alto))
+                                   			 :mod (c13 / y
+                                              			:op1 (c14 / country
+                                                        		 :name (c16 / name
+			                              								   :op1 ”China"))
+                                              		    :op2 (c15 / country
+                                                        		  :name (c17 / name
+				                   									        :op1 ”Tailandia")))))))
+    :purpose (c2 / promover-01
+                 :ARG0 c3
+                 :ARG1 (c18 / desarrollar-01
+                            :mod (c19 / mayor)
+                            :ARG1 (c20 / y
+                                       :op1 (c21 / relación)
+                                       :op2 (c22 / cooperación
+                                                 :mod (c23 / eficiente)
+                                                 :loccation (c24 / campo
+                                                               :mod (c25 / todo)
+                                                               :location (c26 / entre
+                                                               				  :op1 c14
+                                                               				  :op2 c15))))))
+    :ARG0 (c40 / third-person-sing-sinnombre))
+
+# ::id xinhua_es.5 ::annotator 106
+
+(c0 / decir-01
+    :ARG0 (c1 / person
+              :name (c2 / name
+                        :op1 "Chavalit"))
+    :ARG1 (c4 / contento
+              :domain (c5 / conocer-01
+                              :ARG0 c1
+                              :ARG1 (c6 / person
+                                        :name (c7 / name
+                                                  :op1 "Liu")
+                                        :ARG0-of (c8 / have-org-role-91
+                                        			 :ARG2 (c9 / vicepresidente))))))
+
+# ::id xinhua_es.6 ::annotator 106
+
+(c0 / decir-01
+    :ARG1 (c9 / y
+              :op1 (c8 / acelerar-01
+                       :time (c4 / año
+                                 :mod (c3 / último))
+                       :ARG1 (c2 / desarrollar-02
+                                 :ARG1 (c5 / economía
+                                           :poss (c7 / country
+                                                     :name (c6 / name
+				               								   :op1 ”China")))))
+              :op2 (c10 / sentir-01
+                        :ARG1 (c11 / y
+                                   :op1 (c14 / gobierno
+                                             :poss (c17 / country
+                                                        :name (c16 / name
+				                  								  :op1 ”Tailandia")))
+                                   :op2 (c15 / pueblo
+                                             :poss c17))
+                        :ARG2 (c12 / feliz
+                                   :degree (c13 / extremadamente)))))
+
+# ::id xinhua_es.7 ::annotator 106
+
+(c0 / decir-01
+    :ARG1 (c1 / estar_de_acuerdo-01
+              :ARG1 (c2 / opinar-01
+                        :ARG0 (c3 / person
+                                  :name (c4 / name
+                                           :op1 "Huaqing"
+                                           :op2 "Liu"))
+                        :ARG1 (c7 / deber-03
+                                        :ARG1 (c13 / seguir-03
+                                                   :ARG0 (c8 / y
+                                                  			 :op1 (c9 / country
+                                                           			  :name (c11 / name
+				                     								 			 :op1 “Tailandia"))
+                                                 			 :op2 (c10 / country
+                                                            		   :name (c12 / name
+					          										  			  :op1 ”China")))
+                                                   :ARG1 (c14 / desarrollar-02
+                                                              :ARG0 c8
+                                                              :ARG1 (c15 / forma
+                                                                         :mod (c16 / diversa)
+                                                                         :consist-of (c17 / cooperación
+                                                                                          :mod (c18 / y
+                                                                                                    :op1 económica
+                                                                                                    :op2 comercial)))))))
+              :ARG0 c21)
+    :ARG0 (c21 / third-person-sing-sinnombre))
+
+# ::id xinhua_es.8 ::annotator 106
+
+(c0 / fin)
+
+# ::id xinhua_es.9 ::annotator 106
+
+(c11 / publication
+     :name (c12 / name
+               :op1 "Agencia"
+               :op2 "de"
+               :op3 "noticias"
+               :op4 "Xinhua")
+     :location (c5 / city
+                   :name (c6 / name
+                            :op1 "Pekín"))
+     :time (c10 / date-entity
+                :day 1
+                :month 9))
+
+# ::id xinhua_es.10 ::annotator 106
+
+(c0 / anunciar-01
+    :ARG0 (c1 / person
+              :name (c2 / name
+                       :op1 "Guofang"
+                       :op2 "Shen")
+              :ARG0-of (c5 / have-org-role-91
+                           :ARG2 (c9 / portavoz)
+                           :ARG1 (c6 / ministro
+                                     :poss (c7 / asunto
+                                               :mod (c8 / exterior)))))
+    :location (c10 / conferencia
+                   :mod (c11 / prensa)
+                   :ARG1-of (c50 / celebrar-01))
+    :time (c12 / tarde
+               :domain (c13 / esta))
+    :ARG1 (c14 / realizar-01
+               :ARG0 (c15 / person
+                          :ARG0-of (c19 / have-org-role-91
+                                        :ARG2 (c29 / presidente)
+                                        :ARG1 (c20 / country
+                                                   :name (c21 / name
+                                                             :op1 "República"
+                                                             :op2 "de"
+                                                             :op3 "Hungría")))
+                          :name (c16 / name
+                                    :op1 "Gentzs"
+                                    :op2 "Aerpade")
+                          :ARG1-of (c37 / invitar-01
+                                        :ARG0 (c40 / person
+                                                   :name (c39 / name
+                                                             :op1 "Zemin"
+                                                             :op2 "Jiang")
+                                        		   :ARG0-of (c51 / have-org-role-91
+                                        			  			 :ARG2 (c52 / presidente)))))
+               :ARG1 (c25 / visita
+                          :mod (c26 / estado)
+                          :destination (c27 / country
+                                            :name (c28 / name
+			                  						   :op1 ”China"))
+                          :duration (c30 / date-interval
+                                         :op1 date-entity
+                                                   :day 14
+                                                   :month 9
+                                         :op2 date-entity
+                                                   :day 17
+                                                   :month 9))))
+
+# ::id xinhua_es.11 ::annotator 106
+
+(c0 / anunciar-01
+    :manner (c2 / también)
+    :ARG1 (c3 / realizar-01
+              :ARG0 (c4 / person
+                        :name (c5 / name
+                                 :op1 "Casymier"
+                                 :op2 "Auye"
+                                 :op3 "Muba")
+                        :ARGO-of (c9 / have-org-role-91
+                                     :ARG2 (c15 / ministro
+                                                :mod (c16 / primer))
+                                     :ARG1 (c10 / country
+                                                :mod (c11 / name
+                                                          :op1 "República"
+                                                          :op2 "de"
+                                                          :op3 "Gabón")))
+                        :ARG1-of (c31 / invitar-01
+                                      :ARG0 (c32 / person
+                                                 :name (c33 / name
+                                                           :op1 "Peng"
+                                                           :op2 "Li")
+                                                 :ARG0-of (c36 / have-org-role-91
+                                                               :ARG2 (c37 / ministro
+                                                                          :mod (c38 / primer))
+                                                               :ARG1 (c39 / consejo
+                                                                          :poss (c40 / estado))))))
+              :ARG1 (c17 / visita
+                         :mod (c19 / formal)
+                         :mod (c20 / amistoso)
+                         :destination (c22 / country
+                                           :name (c23 / name
+			                 						  :op1 “China"))
+                         :duration (c24 / date-interval
+                                        :op1 date-entity
+                                                  :day 6
+                                                  :month 9
+                                        :op2 date-entity
+                                                  :day 11
+                                                  :month 9)))
+    :ARG0 (c1 / third-person-sing-sinnombre))
+
+# ::id xinhua_es.12 ::annotator 106
+
+(c3 / hacer-01
+    :ARG0 (c4 / person
+              :name (c5 / name
+                        :op1 “John”
+                        :op2 “Malsela”)
+              :ARGO-of (c9 / have-org-role-91
+                           :ARG2 (c15 / vicepresidente
+                                      :mod (c16 / primer))
+                           :ARG1 (c10 / country
+                                      :name (c11 / name
+                                                 :op1 "República"
+				          				         :op2 “Unida”
+                                                 :op3 "de"
+                                                 :op4 "Tanzania")))
+              :ARG1-of (c31 / invitar-01
+                            :ARG0 (c32 / person
+                                       :name (c33 / name
+                                                  :op1 "Peng"
+                                                  :op2 "Li")
+                                       :ARG0-of (c36 / have-org-role-91
+                                                     :ARG2 (c37 / ministro
+                                                                :mod (c38 / primer))
+                                                     :ARG1 (c39 / consejo
+                                                                :poss (c40 / estado))))))
+    :ARG1 (c17 / visita
+               :mod (c18 / official)
+               :destination (c22 / country
+                                 :name (c23 / name
+			                 				:op1 ”China"))
+               :duration (c24 / date-interval
+                              :op1 date-entity
+                                   :day 9
+                                   :month 9
+                              :op2 date-entity
+                                   :day 13
+                                   :month 9)))
+
+# ::id xinhua_es.13 ::annotator 106
+
+(c0 / fin)
+
+# ::id xinhua_es.14 ::annotator 106
+
+(c11 / publication
+     :name (c12 / name
+               :op1 "Agencia"
+               :op2 "de"
+               :op3 "noticias"
+               :op4 "Xinhua")
+     :location (c5 / city
+                   :name (c6 / name
+                            :op1 “Bishket”))
+     :time (c10 / date-entity
+                :day 23
+                :month 4)
+     :ARG1-of (c0 / escribir-01
+     			  :ARG0 (c20 / y
+     					     :op1 (c1 / person
+             						  :name (c3 / name
+                      							:op1 "Menjun"
+                      							:op2 "Jun"))
+     						 :op2 (c2 / person
+             						  :name (c4 / name
+                      							:op1 "Xiaoguang"
+                      							:op2 "Hu")))))
+
+# ::id xinhua_es.15 ::annotator 106
+
+(c0 / firmar-01
+    :ARG0 (c1 / principio
+              :poss (c2 / parte
+                        :mod (c3 / interesada)
+                        :poss (c4 / y
+                                  :op1 (c5 / country
+                                           :name (c6 / name
+			                  					     :op1 ”China"))
+                                  :op2 (c7 / country
+                                           :name (c8 / name
+			                						 :op1 ”Kirguistán")))))
+    :time (c9 / hoy)
+    :ARG1 (c10 / documento
+               :quant 6))
+
+# ::id xinhua_es.16 ::annotator 106
+
+(c0 / asistir-02
+    :ARG0 (c1 / y
+              :op1 (c2 / person
+                       :ARG0-of (c15 / have-org-role-91
+                       				 :ARG2 (c16 / ministro
+                       				 			:mod (c3 / primer)))
+                       :name (c4 / name
+                                :op1 "Peng"
+                                :op2 "Li"))
+              :op2 (c7 / person
+                       :ARG0-of (c12 / have-org-role-91
+                                     :ARG2 (c11 / presidente)
+                                     :ARG1 (c10 / country
+                                                :name (c9 / name
+			                      						 :op1 ”Kirguistán")))
+                       :name (c8 / name
+	                     		 :op1 ”Akayev")))
+    :ARG2 (c13 / ceremonia
+               :consist-of (c14 / firma)))
+
+# ::id xinhua_es.17 ::annotator 106
+
+(c0 / documento
+    :quant 6
+    :consist-of (c2 / y
+                    :op1 (c3 / acordar-02
+                             :ARG1 (c6 / otorgar-01
+                                       :ARG0 (c5 / country
+                                       			 :name (c4 / name
+                                       			 		   :op1 "China"))
+                                       :ARG1 (c7 / préstamo)
+                                       :ARG2 (c8 / gobierno
+                                                 :poss (c9 / country
+                                                           :name (c10 / name
+				                    								  :op1 ”Kirguistán")))))
+                    :op2 (c11 / acuerdo
+                              :purpose (c12 / formar-02
+                                            :ARG1 (c13 / comité
+                                                       :mod (c14 / y
+                                                                 :op1 (c15 / economía)
+                                                                 :op2 (c16 / comercio)
+                                                                 :ARG1-of (c17 / combinar-01))
+                                                       :location (c90 / entre
+                                                       		 		  :op1 (c18 / y
+                                                                        		:op1 (c19 / gobierno
+                                                                                 		  :mod (c21 / country
+                                                                                            		:name (c23 / name
+								        															 		   :op1 ”China")))
+                                                                       		    :op2 (c20 / gobierno
+                                                                                  		  :mod (c22 / country
+                                                                                            		:name (c24 / name
+								        															   		   :op1 ”Kirguistán"))))))))
+                    :op3 (c25 / nota
+                              :mod (c26 / intercambio)
+                              :topic (c27 / presentar-01
+                                          :ARG1 (c28 / material)
+                                          :ARG2 (c29 / country
+                                                     :name (c30 / name
+				               							        :op1 ”Kirguistán"))
+                                          :ARG0 (c31 / country
+                                                     :name (c32 / name
+					    									    :op1 ”China"))))
+                    :op4 (c33 / acuerdo
+                              :topic (c34 / cooperar-01
+                                          :mod (c35 / cultural)
+                                          :ARG0 (c36 / país
+                                                     :quant 2
+                                                     :consist-of (c38 / y
+                                                                      :op1 (c39 / country
+                                                                                :name (c41 / name
+							                                                               :op1 ”China"))
+                                                                      :op2 (c40 / country
+                                                                                :name (c42 / name
+							              												   :op1 ”Kirguistán"))))
+							              :ARG1 c36))
+                    :op5 (c43 / cata
+                              :purpose (c44 / ratificar-01)
+                              :topic (c45 / intercambiar-01
+                                          :ARG1 (c46 / tratado
+                                                     :mod (c47 / consular))
+                                          :ARG0 (c48 / país
+                                                     :quant 2)
+                                          :ARG2 c48))
+                    :op6 (c50 / acuerdo
+                              :topic (c51 / cooperar-01
+                              			  :ARG1 c52
+                                          :ARG0 (c52 / y
+                                                     :op1 (c53 / government-organization
+                                                               :name (c61 / name
+                                                                          :op1 "Consejo"
+                                                                          :op2 "de"
+                                                                          :op3 "promoción"
+                                                                          :op4 "del"
+                                                                          :op5 "comercio")
+                                                               :poss (c59 / country
+                                                                          :name (c60 / name
+						                                                             :op1 ”China")))
+                                                     :op2 (c62 / government-organization
+                                                               :name (c70 / name
+                                                                          :op1 "Cámara"
+                                                                          :op2 "de"
+                                                                          :op3 "industria"
+                                                                          :op4 "y"
+                                                                          :op5 "comercio")
+                                                               :poss (c68 / country
+                                                                          :name (c69 / name
+							                                                         :op1 ”Kirguistán"))))))))
+
+# ::id xinhua_es.18 ::annotator 106
+
+(c0 / responder-02
+    :time (c18 / después
+               :op1 (c19 / ceremonia
+                         :mod (c20 / firmar-01)))
+    :ARG0 (c1 / y
+              :op1 (c2 / person
+                       :ARG0-of (c5 / have-org-role-91
+                                    :ARG2 (c8 / presidente)
+                                    :ARG1 (c6 / country
+                                              :name (c7 / name
+				        							    :op1 ”Kirguistán")))
+                       :name (c25 / name
+                       			  :op1"Akayev"))
+              :op2 (c10 / person
+              			:ARG0-of (c26 / have-org-role-91
+              						  :ARG2 (c27 / minstro
+              						  			 :mod (c11 / primer)))
+                        :name (c12 / name
+                                  :op1 "Peng"
+                                  :op2 "Li")))
+    :manner (c15 / respectivamente)
+    :ARG2 (c16 / pregunta
+               :poss (c17 / periodista)))
+
+# ::id xinhua_es.19 ::annotator 106
+
+(c0 / elogiar-01
+    :ARG0 (c1 / person
+              :name (c2 / name
+	            :op1 “Akayev"))
+    :ARG1 (c3 / resultado)
+    :location (c4 / conferencia
+    			  :accompanier (c5 / person
+                   				   :mod (c6 / name
+                            			    :op1 "Peng"
+                            				:op2 "Li"))))
+
+# ::id xinhua_es.20 ::annotator 106
+
+(c0 / expresar-01
+    :ARG1 (c2 / promover-01
+              :ARG0 (c11 / visitar-01
+                         :ARG0 (c12 / person
+                         			ARG0-of (c20 / have-org-role-91
+                         						 :ARG2 (c21 / ministro
+                         						 			:mod (c13 / primer)))
+                                    :name (c14 / name
+                                              :op1 "Peng"
+                                              :op2 "Li")))
+              :ARG1 (c3 / y
+                        :op1 (c4 / paz)
+                        :op2 (c5 / seguridad)
+                        :op3 (c6 / estabilidad)
+                        :poss (c7 / world-region
+                                  :name (c8 / name
+                                           :op1 "Asia"
+                                           :op2 "central"))))
+    :ARG0 (c1 / third-person-sing-sinnombre))
+
+# ::id xinhua_es.21 ::annotator 106
+
+(c0 / sentir-01
+    :ARG2 (c2 / importante
+              :domain (c4 / documento
+                          :ARG1-of (c5 / firmar-01
+                                       :manner (c6 / recientemente)))
+              :degree (c3 / muy)
+              :purpose (c7 / reforzar-01
+                           :ARG0 c4
+                           :ARG1 (c8 / y
+                                     :op1 (c9 / relación
+                                              :mod (c10 / buena)
+                                              :poss (c11 / vecindario))
+                                     :op2 (c12 / cooperar-01
+                                               :mod (c13 / amistosa)
+                                               :ARG0 c14
+                                               :ARG1 (c14 / país
+                                                          :quant 2)))))
+    :ARG1 (c1 / third-person-sing-sinnombre))
+
+# ::id xinhua_es.22 ::annotator 106
+
+(c0 / decir-01
+    :ARG0 (c1 / person
+              :ARG0-of (c25 / have-org-role-91
+              			    :ARG2 (c26 / ministro
+              			   			   :mod (c2 / primer)))
+              :name (c21 / name
+                         :op1 "Peng"
+                         :op2 "Li"))
+    :ARG1 (c10 / y
+               :op1 (c5 / mejorar-01
+                        :ARG0 (c6 / visita
+                                  :domain (c7 / esta))
+                        :ARG1 (c8 / y
+                                  :op1 (c9 / amistad)
+                                  :op2 (c22 / cooperación
+                                            :mod (c23 / mutua))))
+               :op2 (c11 / sentar-01
+                         :ARG0 c6
+                         :ARG1 (c12 / base
+                                    :mod (c13 / buena)
+                                    :purpose (c14 / cooperar-01
+                                                  :mod (c15 / mayor)
+                                                  :ARG0 (c18 / y
+                                                             :op1 (c16 / country
+                                                                       :name (c19 / name
+						                										  :op1 “China"))
+                                                             :op2 (c17 / country
+                                                                       :name (c20 / name
+						                										  :op1 “Kirguistán")))
+						                		  :ARG1 c18)))))
+
+# ::id xinhua_es.23 ::annotator 106
+
+(c0 / expresar-01
+    :ARG1 (c2 / esperanza
+              :topic (c3 / y
+                         :op1 (c20 / y
+                                   :domain (c6 / world-region
+                                               :name (c7 / name
+                                                         :op1 "Asia"
+                                                         :op2 "central"))
+                                   :op1 (c4 / estable)
+                                   :op2 (c5 / desarrollada))
+              		     :op2 (c11 / mejorar-01
+                        		   :ARG1 (c13 / nivel
+                                   			  :poss (c14 / vida
+                                              			 :poss (c15 / persona)))
+                        		   :manner (c12 / continuamente))))
+    :ARG0 (c10 / third-person-sing-sinnombre))
+
+# ::id xinhua_es.24 ::annotator 106
+
+(c0 / esperar-02
+    :ARG0 (c1 / person
+              :name (c2 / name
+                       :op1 "Peng"
+                       :op2 "Li"))
+    :ARG1 (c5 / transmitir-01
+              :ARG0 (c6 / medio
+                        :mod (c7 / comunicación)
+                        :mod (c8 / country
+                                 :name (c9 / name
+		                   				   :op1 “Kirguistán")))
+              :ARG1 (c10 / saludo
+                         :poss (c11 / pueblo
+                                    :mod (c12 / country
+                                              :name (c13 / name
+			                   						     :op1 “China"))))
+              :ARG2 (c14 / pueblo
+                         :mod (c15 / country
+                                   :name (c16 / name
+			         						  :op1 “Kirguistán")))))
+
+# ::id xinhua_es.25 ::annotator 106
+
+(c0 / fin)
+
+# ::id xinhua_es.26 ::annotator 106
+
+(c11 / publication
+     :name (c12 / name
+               :op1 "Agencia"
+               :op2 "de"
+               :op3 "noticias"
+               :op4 "Xinhua")
+     :location (c5 / city
+                   :name (c6 / name
+                            :op1 "Tokio"))
+     :time (c10 / date-entity
+                :day 1
+                :month 8)
+     :ARG1-of (13 / escribir-01
+     			  :ARG0 (c0 / person
+                  			:example-of (c1 / periodista)
+                            :name (c4 / name
+                                      :op1 "Yiguo"
+                                      :op2 "Yu"))))
+
+# ::id xinhua_es.27 ::annotator 106
+
+(c0 / celebrar-01
+	:time (c30 / tarde
+			   :mod (c31 / esta))
+    :ARG0 (c1 / delegación
+              :mod (c2 / country
+                       :name (c3 / name
+		         				 :op1 “japón"))
+              :ARG0-of (c4 / participar-01
+                           :ARG1 (c5 / reunir-03
+                                     :ord (c16 / ordinal-entity
+                                               :value 6)
+                                     :ARG0 (c7 / deporte
+                                               :beneficiary (c8 / discapacitado))
+                                     :ARG1 c7
+                                     :location (c18 / world-region
+                                                    :name (c17 / name
+                                                              :op1 "Lejano"
+                                                              :op2 "Oriente"
+                                                              :op3 "y"
+                                                              :op4 "el"
+                                                              :op5 "Pacífico"
+                                                              :op6 "del"
+                                                              :op7 "Sur")))))
+    :ARG1 (c19 / ceremonia
+               :mod (c20 / gran)
+               :topic (c21 / juramento)
+               :location (c22 / city
+                              :name (c24 / name
+                                        :op1 "Tokio"))))
+
+# ::id xinhua_es.28 ::annotator 106
+
+(c0 / colgar-01
+    :ARG0 (c1 / bandera
+              :mod (c3 / country
+                       :name (c2 / name
+                       			 :op1 "Japon")))
+    :location (c4 / escenario
+                   :poss (c5 / presidente)))
+
+# ::id xinhua_es.29 ::annotator 106
+
+(c0 / sentar-01
+    :ARG0 (c9 / y
+              :op1 (c3 / deportista)
+              :op2 (c4 / entrenador)
+              :op3 (c5 / médico)
+              :op4 (c6 / enfermera)
+              :op5 (c7 / funcionario
+                       :poss (c8 / delegación)))
+    :manner (c1 / cuidadosamente)
+    :location (c2 / debajo
+    			  :op1 (c10 / escenario)))
+
+# ::id xinhua_es.30 ::annotator 106
+
+(c0 / llenar-01
+    :ARG0 (c1 / atmósfera
+              :consist-of (c2 / confianza)
+              :consist-of (c3 / entusiasmo
+                       :topic (c4 / progreso)))
+    :ARG1 (c5 / terreno
+              :poss (c6 / ceremonia)))
+
+# ::id xinhua_es.31 ::annotator 106
+
+(c0 / pronunciar-01
+    :ARG0 (c1 / person
+              :ARG0-of (c14 / have-org-role-91
+                            :ARG2 (c3 / viceministro)
+                            :ARG1 (c4 / government-organization
+                                      :name (c15 / name
+                                                :op1 "Ministerio"
+                                                :op2 "de"
+                                                :op3 "Bienestar")
+                                      :poss (c8 / country
+                                                :name (c9 / name
+                                                		  :op1 "Japon"))))
+              :name (c2 / name
+              			:op1 "Souyasen"))
+    :ARG1 (c10 / discurso
+               :mod (c11 / partir-01)
+               :ARG0-of (c12 / alentar-01))
+    :ARG2 (c13 / delegación))
+
+# ::id xinhua_es.32 ::annotator 106
+
+(c2 / decir-01
+    :ARG0 (c0 / person
+              :name (c1 / name
+              			:op1 "Souya"))
+    :ARG1 (c3 / y
+              :op1 (c4 / encuentro
+                       :domain (c7 / reunión
+                                   :mod (c8 / deportiva)
+                                   :poss (c9 / world-region
+                                             :name (c10 / name
+                                                       :op1 "Lejano"
+                                                       :op2 "Oriente")))
+                       :mod (c5 / deportivo)
+                       :mod (c6 / internacional)
+                       :ARG0-of (c13 / atraer-01
+                                     :ARG1 (c14 / atención
+                                                :poss (c15 / mundo))))
+              :op2 (c17 / escala
+                        :poss (c18 / encuentro
+                                   :mod (c20 / este)
+                                   :mod (c19 / deportivo))
+                        :ARG1-of (c23 / celebrar-01
+                                      :location (c24 / city
+                                                     :name (c25 / name
+                                                     			:op1 "Pekín")))
+                        :ARG0-of (c16 / have-degree-91
+                                      :ARG3 (c22 / más)
+                                      :ARG2 (c21 / grande)
+                                      :time (c26 / antes
+                                                 :op1 (c27 / ahora))))))
+
+# ::id xinhua_es.33 ::annotator 106
+
+(c1 / esperar-02
+    :ARG1 (c2 / demostrar-01
+              :ARG0 (c3 / atletas
+                        :mod (c4 / todos))
+              :manner (c5 / plenamente)
+              :ARG1 (c6 / y
+                        :op1 (c7 / fuerza)
+                        :op2 (c8 / habilidad)
+                        :ARG1-of (c9 / cultivar-01
+                                     :ARG0 c3
+                                     :frequency (c10 / rate-entity-91
+                                                     :ARG3 (c11 / temporal-quantity
+                                                                :quant 1
+                                                                :unit (c13 / dia)))))
+              :cause-of (c16 / deber-03
+                            :ARG1 (c20 / llevar_a_cabo-01
+                                       :ARG0 (c17 / person
+                                       			  :ARG0-of (c40 / competir-01)
+                                                  :ARG0-of (c21 / representar-01
+                                                                :ARG1 (c18 / country
+                                                                           :name (c19 / name
+                                                                           			  :op1 "Japón"))))
+                                       :ARG1 (c22 / competir-01
+                                                  :ARG1 (c23 / atleta
+                                                             :poss (c24 / país
+                                                                        :mod (c25 / vario))))
+                                       :manner (c26 / honestamente))))
+    :ARG0 (c0 / third-person-sing-sinnombre))
+
+# ::id xinhua_es.34 ::annotator 106
+
+(c0 / enfatizar-01
+    :ARG0 (c1 / person
+              :name (c2 / name
+              			:op1 "Souya"))
+    :ARG1 (c3 / deber-03
+              :ARG1 (c7 / aprovechar-01
+                        :ARG0 (c4 / delegación
+                        		  :mod (c5 / country
+                                 		   :name (c6 / name
+                                 		   			 :op1 "Japon")))
+                        :ARG1 (c8 / oportunidad
+                                  :mod (c9 / esta)
+                                  :topic (c10 / participar-01
+                                  			  :ARG0 c4
+                                              :ARG1 (c11 / reunión
+                                                         :mod (c12 / deportiva)
+                                                         :location (c13 / sur
+                                                                        :part-of (c14 / city
+                                                                                      :name (c15 / name
+                                                                                      			 :op1 "Pekín"))))
+                                              :purpose (c25 / y
+                                                            :op1 (c16 / profundizar-01
+                                                            		  :ARG0 c4
+                                                                      :ARG1 (c17 / amistad
+                                                                                 :accompanier (c18 / atleta
+                                                                                                   :poss (c19 / país
+                                                                                                              :mod (c20 / vario)))))
+                                                            :op2 (c21 / ampliar-01
+                                                            		  :ARG0 c4
+                                                                      :ARG1 (c22 / alcance
+                                                                                 :consist-of (c23 / amistad
+                                                                                            	  :mod (c24 / internacional))))))))))
+
+# ::id xinhua_es.35 ::annotator 106
+
+(c0 / entregar-01
+    :ARG0 (c1 / person
+              :name (c2 / name
+              		    :op1 "Souya"))
+    :ARG1 (c3 / bandera
+              :poss (c4 / delegación
+                        :mod (c5 / country
+                                 :name (c6 / name
+                                 		   :op1 "Japon"))))
+    :ARG2 (c13 / y
+               :op1 (c7 / jefe
+                        :poss (c8 / delegación))
+               :op2 (c18 / person
+                         :ARG0-of (c19 / have-org-role-91
+                                       :ARG2 (c9 / director)
+                                       :ARG1 (c10 / centro
+                                                  :mod (c11 / deportivo
+                                                            :ARG1-of (c12 / integrar-02))
+                                                  :beneficiary (c14 / minusválido)
+                                                  :location (c15 / city
+                                                                 :name (c16 / name
+                                                                 			:op1 "Tokio"))))
+                         :name (c17 / name
+                         			:op1 "Banminyan"))))
+
+# ::id xinhua_es.36 ::annotator 106
+
+(c0 / sentir-01
+    :ARG1 (c1 / periodista
+              :domain (c2 / este))
+    :time (c21 / a-partir-de
+    	 	   :op1 (c16 / ceremonia
+    			   		 :mod (c17 / esta)
+    			  		 :mod (c18 / cálida)
+    			  		 :mod (c19 / seria)
+    			  		 :ARG1-of (c20 / ordenar-01)))
+    :ARG2 (c3 / equipo
+              :domain (c6 / equipo
+                          :mod (c7 / deportivo)
+                          :mod (c8 / country
+                                   :name (c9 / name
+                                   			 :op1 "Japon"))
+                          :mod (c10 / discapacidad))
+              :ARG1-of (c12 / y
+                        	:op1 (c4 / entrenar-01
+                                 	 :manner (c5 / bien))
+                        	:op2 (c11 / disciplinar-01)
+                        	:op3 (c13 / poseer-01
+                            	  	  :ARG0 (c14 / espíritu
+                                       		 	 :mod (c15 / lucha))))))
+
+# ::id xinhua_es.37 ::annotator 106
+
+(c0 / volar-01
+    :ARG0 (c1 / delegación
+              :mod (c2 / country
+                       :name (c3 / name
+                       			 :op1 "Japon")))
+    :ARG4 (c7 / city
+              :name (c4 / name
+                        :op1 "Pekín"))
+    :time (c5 / date-entity
+              :day 2))
+
+# ::id xinhua_es.38 ::annotator 106
+
+(c0 / seguir-01
+    :time (c6 / después
+              :op1 (c7 / ceremonia
+                       :mod (c8 / clausurar-01)
+                       :poss (c9 / reunión
+                                 :mod (c10 / deportiva))))
+    :location (c1 / city
+                  :name (c2 / name
+                  			:op1 "Pekín"))
+    :duration (c4 / temporal-quantity
+                  :quant 2
+                  :unit (c3 / día))
+    :purpose (c14 / y
+                  :op1 (c12 / llevar_a_cabo-01
+                  			:ARG0 c11
+                            :ARG1 (c16 / actividad
+                                       :topic (c17 / interaccionar-01
+                                                   :ARG1 (c18 / parte
+                                                              :mod (c20 / country
+                                                                        :name (c19 / name
+                                                                                   :op1 "China"))
+                                                              :mod (c21 / relevante)))))
+                  :op2 (c13 / visitar-01
+                  			:ARG0 c11
+                            :ARG1 c23)
+                  :op3 (c15 / hacer-02
+                  			:ARG0 c11
+                            :ARG1 (c22 / turismo)
+                            :location (c23 / lugar))
+                  :op4 (c24 / volver-01
+                            :ARG4 (c26 / country
+                                       :name (c25 / name
+                                       			  :op1 "Japón"))
+                            :ARG1 c11
+                            :time (c27 / date-entity
+                                       :day 13)))
+    :ARG1 (c11 / third-person-plural-sinnombre))
+
+# ::id xinhua_es.39 ::annotator 106
+
+(c0 / fin)
+
+# ::id xinhua_es.40 ::annotator 106
+
+(c0 / deber-03
+    :ARG1 (c1 / cambiar-02
+              :location (c2 / publication
+                            :time (c8 / hoy)
+                            :name (c7 / name
+                                  :op1 "los"
+                                  :op2 "atletas"
+                                  :op3 "mongoles"
+                                  :op4 "con"
+                                  :op5 "discapacidad"
+                                  :op6 "se"
+                                  :op7 "preparan"
+                                  :op8 "para"
+                                  :op9 "la"
+                                  :op10 "reunión"
+                                  :op11 "del"
+                                  :op12 "Lejano"
+                                  :op13 "Oriente") )
+              :ARG1 (c9 / thing
+              			:name (c16 / name
+                        		   :op1 "presidente"
+                        		   :op2 "de"
+                        		   :op3 "la"
+                        		   :op4 "asociación"
+                        		   :op5 "deportiva"
+                        		   :op6 "Lahagewasu")
+                        :location (c3 / final
+                                      :poss (c4 / párrafo
+                                                :ord (c5 / ordinal-entity
+                                                         :value 3))))
+              :ARG2 (c17 / thing
+              			 :name (c18 / name
+              			 			:op1 "presidente"
+              			 			:op2 "de"
+              			 			:op3 "la"
+              			 			:op4 "asociación"
+              			 			:op5 "deportiva"
+              			 			:op6 "Lahagewasulen"))))                                           
+
+# ::id xinhua_es.41 ::annotator 106
+
+(c11 / publication
+     :name (c12 / name
+               :op1 "Agencia"
+               :op2 "de"
+               :op3 "noticias"
+               :op4 "Xinhua")
+     :time (c10 / date-entity
+                :day 31
+                :month 8))
+
+# ::id xinhua_es.42 ::annotator 106
+
+(c11 / publication
+     :name (c12 / name
+               :op1 "Agencia"
+               :op2 "de"
+               :op3 "noticias"
+               :op4 "Xinhua")
+     :location (c5 / city
+                   :name (c6 / name
+                            :op1 "Seúl"))
+     :time (c10 / date-entity
+                :day 31
+                :month 8)
+     :ARG1-of (c14 / escribir-01
+     			   :ARG0-of (c0 / person
+     			  				:ARG0-of (c13 / reportar-01)
+                  				:name (c4 / name
+                            			  :op1 “Shuifu”
+                            			  :op2 “Tang”))))
+
+# ::id xinhua_es.43 ::annotator 106
+
+(c0 / empezar-01
+    :ARG1 (c1 / event
+              :ord (c3 / ordinal-entity
+                       :value 1)
+              :name (c4 / name
+                       :op1 "Le"
+                       :op2 "Tian"
+                       :op2 "Cup")
+              :poss (c8 / y
+              			:op1 (c9 / country
+              					 :name (c10 / name
+              					 			:op1 "China"))
+              		    :op2 c20)
+              :mod (c11 / game
+              			:name (c12 / name
+              					   :op1 "Go"))
+              :example-of (c30 / competir-01))
+    :time (c13 / hoy)
+    :location (c14 / city
+                   :name (c15 / name
+                   			  :op1 "Fushan")
+                   :ARG1-of (c16 / have-degree-91
+                                 :ARG5 (c21 / ciudad
+                                            :location (c20 / country
+                                                           :name (c19 / name
+                                                           			  :op1 "Corea")))
+                                 :ARG3 (c18 / más
+                                            :ord (c23 / ordinal-entity
+                                                      :value 2))
+                                 :ARG2 (c17 / grande))))
+
+# ::id xinhua_es.44 ::annotator 106
+
+(c4 / derrotar-01
+    :time (c0 / ronda
+              :ord (c3 / ordinal-entity
+                          :value 1)
+              :poss (c2 / competir-01))
+    :ARG0 (c5 / equipo
+              :mod (c6 / country
+                       :name (c7 / name
+                       			 :op1 "China")))
+    :ARG1 (c8 / equipo
+              :mod (c9 / country
+                       :name (c10 / name
+                       			  :op1 "Corea"))
+              :ARG1-of (c11 / have-degree-91
+                            :ARG3 (c13 / más)
+                            :ARG2 (c12 / fuerte)))
+    :manner (c14 / score-entity
+                    :op1 4
+                    :op2 3))
+
+# ::id xinhua_es.45 ::annotator 106
+
+(c0 / tener-01
+    :ARG0 (c1 / lados
+              :mod (c2 / ambos))
+    :ARG1 (c3 / person
+    		  :ARG0-of (c6 / jugar-01
+    		  			   :ARG1 (c5 / game
+    		  			   			 :name (c12 / name
+    		  			   			 			:op1 "Go")))
+              :quant 7
+              :ARG0-of (c7 / participar-01
+                           :ARG1 (c9 / competir-01
+                           			 :ARG0 c3
+                                     :time (c8 / hoy)))))
+
+# ::id xinhua_es.46 ::annotator 106
+
+(c0 / ganar-01
+    :ARG0 (c1 / y
+              :op1 (c5 / person
+                       :name (c14 / name
+                                 :op1 "Weiping"
+                                 :op2 "Nie")
+                       :mod (c11 / nivel
+                                 :ord (c12 / ordinal-entity
+                                           :value 9)))
+              :op2 (c6 / person
+                       :name (c15 / name
+                                 :op1 "Xiaoguang"
+                                 :op2 "Liu")
+                       :mod (c18 / nivel
+                                 :ord (c19 / ordinal-entity
+                                           :value 9)))
+              :op3 (c7 / person
+                       :name (c23 / name
+                                 :op1 "Hao"
+                                 :op2 "Chang")
+                       :mod (c24 / nivel
+                                 :ord (c26 / ordinal-entity
+                                           :value 6)))
+              :op4 (c8 / person
+                       :name (c27 / name
+                                 :op1 "Dayuan"
+                                 :op2 "Cao")
+                       :mod (c30 / nivel
+                                 :ord (c31 / ordinal-entity
+                                           :value 9)))
+              :poss (c2 / equipo
+                        :mod (c4 / country
+                                 :name (c3 / name
+                                 		   :op1 "China"))))
+    :ARG2 (c33 / y
+               :op1 (c37 / person
+                         :name (c38 / name
+                                   :op1 "Guibing"
+                                   :op2 "Cui")
+                         :mod (c45 / nivel
+                                   :ord (c46 / ordinal-entity
+                                             :value 6)))
+               :op2 (c39 / person
+                         :name (c40 / name
+                                   :op1 "Xiuying"
+                                   :op2 "Zhang")
+                         :mod (c52 / nivel
+                                   :ord (c53 / ordinal-entity
+                                             :value 9)))
+               :op3 (c41 / person
+                         :name (c42 / name
+                                   :op1 "Fengzhu"
+                                   :op2 "Xu")
+                         :mod (c57 / nivel
+                                   :ord (c58 / ordinal-entity
+                                             :value 9)))
+               :op4 (c43 / person
+                         :name (c44 / name
+                                   :op1 "Xuange"
+                                   :op2 "Lin")
+                         :mod (c62 / nivel
+                                   :ord (c63 / ordinal-entity
+                                             :value 8)))
+               :poss (c34 / equipo
+                          :mod (c35 / country
+                                    :name (c36 / name
+                                    		   :op1 "Corea")))))
+
+# ::id xinhua_es.47 ::annotator 106
+
+(c14 / lograr-01
+     :ARG0 (c0 / y
+               :op1 (c1 / person
+                        :name (c10 / name
+                                  :op1 "Weiping"
+                                  :op2 "Nie"))
+               :op2 (c2 / person
+                        :name (c11 / name
+                                  :op1 "Xiaoguang"
+                                  :op2 "Liu"))
+               :op3 (c3 / person
+                        :name (c12 / name
+                                  :op1 "Hao"
+                                  :op2 "Chang")))
+     :ARG1 (c15 / victoria
+                :location (c16 / juego
+                             :mod (c17 / medio))))
+
+# ::id xinhua_es.48 ::annotator 106
+
+(c0 / lograr-01
+    :ARG0 (c1 / person
+              :name (c2 / name
+                       :op1 "Dayuan"
+                       :op2 "Cao"))
+    :ARG1 (c5 / victoria)
+    :manner (c6 / ventaja
+    			:domain (c7 / thing
+    						:name (c8 / name
+    								  :op1 "mu")
+    					    :quant 7)))
+
+# ::id xinhua_es.49 ::annotator 106
+
+(c0 / ganar-01
+    :ARG0 (c1 / y
+              :op1 (c5 / person
+                       :name (c14 / name
+                                 :op1 "Xunxuan"
+                                 :op2 "Cao")
+                       :mod (c11 / nivel
+                                 :ord (c12 / ordinal-entity
+                                           :value 9)))
+              :op2 (c6 / person
+                       :name (c15 / name
+                                 :op1 "Changhao"
+                                 :op2 "Li")
+                       :mod (c18 / nivel
+                                 :ord (c19 / ordinal-entity
+                                           :value 7)))
+              :op3 (c7 / person
+                       :name (c23 / name
+                                 :op1 "Changhe"
+                                 :op2 "Liu")
+                       :mod (c24 / nivel
+                                 :ord (c26 / ordinal-entity
+                                           :value 6)))
+              :poss (c2 / equipo
+                        :mod (c4 / country
+                                 :name (c74 / name
+                                 			:op1 “Corea”))))
+    :ARG2 (c33 / y
+               :op1 (c37 / person
+                         :name (c38 / name
+                                   :op1 “Jing”
+                                   :op2 “Liu”)
+                         :mod (c45 / nivel
+                                   :ord (c46 / ordinal-entity
+                                             :value 5)))
+               :op2 (c39 / person
+                         :name (c40 / name
+                                   :op1 "Jianhong"
+                                   :op2 “Wang”)
+                         :mod (c52 / nivel
+                                   :ord (c53 / ordinal-entity
+                                             :value 9)))
+               :op3 (c41 / person
+                         :mod (c42 / name
+                                   :op1 "Xiaocun"
+                                   :op2 “Ma”)
+                         :mod (c57 / nivel
+                                   :ord (c58 / ordinal-entity
+                                             :value 7)))
+               :poss (c34 / equipo
+                          :mod (c35 / country
+                                    :name (c36 / name
+                                    		   :op1 “China”)))))
+
+# ::id xinhua_es.50 ::annotator 106
+
+(c0 / lograr-01
+    :ARG0 (c1 / person
+              :name (c2 / name
+                       :op1 "Xunxuan"
+                       :op2 "Cao"))
+    :ARG1 (c5 / victoria
+              :location (c6 / juego
+                             :mod (c7 / medio))))
+
+# ::id xinhua_es.51 ::annotator 106
+
+(c0 / lograr-01
+	:ARG0 (c9 / y
+    		  :op1 (c1 / person
+             		   :name (c2 / name
+                      			 :op1 "Changhao"
+                      			 :op2 "Li"))
+    		  :op2 (c5 / person
+             		   :name (c6 / name
+                      			 :op1 "Changhe"
+                      			 :op2 "Liu")))
+	:ARG1 (c10 / victoria)
+    :manner (c12 / ventaja
+                 :domain (c13 / score-entity
+                              :unit (c17 / thing
+                              			 :name (c16 / name
+                              			 			:op1 "mu"))
+                              :op1 6.5
+                              :op2 7.5)))
+
+# ::id xinhua_es.52 ::annotator 106
+
+(c0 / presentar-01
+    :ARG0 (c1 / person
+              :name (c2 / name
+                       :op1 "Runan"
+                       :op2 "Wang")
+              :ARG0-of (c5 / have-org-role-91
+                           :ARG2 (c9 / líder)
+                           :ARG1 (c6 / delegación
+                                     :mod (c7 / country
+                                              :name (c8 / name
+                                              			:op1 "China")))))
+    :time-of (c21 / recibir-01
+    			  :ARG0 c1
+    			  :ARG1 (c22 / entrevista
+    			  			 :mod (c23 / telefónica))
+    			  :ARG2 (c24 / person
+    			  			 :ARG0-of (c25 / reportar-01)))
+    :manner (c20 / generalmente)
+    :ARG1 (c10 / fortaleza
+               :poss (c11 / equipo
+                          :mod (c12 / country
+                                    :name (c13 / name
+                                    		   :op1 "Corea")))
+               :ARG0-of (c14 / have-degree-91
+                             :ARG3 (c15 / mayor)
+                             :ARG4 (c16 / fortaleza
+                                        :poss (c17 / equipo
+                                                   :mod c7)))))
+
+# ::id xinhua_es.53 ::annotator 106
+
+(c7 / lograr-01
+    :ARG0 c1
+    :cause (c0 / jugar-01
+               :manner (c6 / sin-embargo)
+               :ARG0 (c1 / equipo
+                         :mod (c2 / country
+                                  :name (c3 / name
+                                  			:op1 "China")))
+               :manner (c4 / mejor)
+               :time (c5 / hoy))
+    :ARG1 (c8 / victoria))
+
+# ::id xinhua_es.54 ::annotator 106
+
+(c0 / sobresaliente
+    :domain (c3 / juego
+                :poss (c4 / person
+                		  :ARG0-of (c23 / competir-01)
+                          :poss (c6 / nosotros)
+                          :mod (c5 / joven)
+                          :name (c7 / name
+                                   :op1 "Hao"
+                                   :op2 "Chang")))
+    :degree (c1 / especialmente)
+    :time (c2 / hoy)
+    :time-of (c10 / derrotar-01
+    			  :ARG0 c4
+                  :ARG1 (c11 / person
+                             :name (c12 / name
+                                       :op1 "Fengzhu"
+                                       :op2 "Xu"
+                                       :poss (c15 / equipo
+                                                  :mod (c16 / country
+                                                            :name (c17 / name
+                                                            		   :op1 "Corea")))))
+                  :manner (c18 / juego
+                               :mod (c19 / medio))))
+
+# ::id xinhua_es.55 ::annotator 106
+
+(c0 / ganar-01
+    :ARG0 (c1 / person
+              :name (c2 / name
+                       :op1 "Fengzhu"
+                       :op2 "Xu"))
+    :ARG1 (c5 / campeonato
+              :mod (c6 / mucho))
+    :location (c7 / competición
+                  :mod (c8 / internacional)))
+
+# ::id xinhua_es.56 ::annotator 106
+
+(c0 / lograr-01
+    :ARG1 (c1 / victoria
+              :mod (c2 / completa)
+              :time (c3 / juego
+                        :quant 9)
+              :accompanier (c5 / person
+              				   :ARG0-of (c11 / jugar-01
+              				   				 :ARG1 (c12 / game
+              				   				 			:name (c6 / name
+              				   				 					  :op1 "Go")))))
+    :time (c8 / antes))
+
+# ::id xinhua_es.57 ::annotator 106
+
+(c16 / y
+     :op1 (c0 / desplazar-02
+             :ARG0 (c1 / equipo
+                        :ARG0-of (c32 / jugar-01
+                        		      :ARG1 (c2 / game
+                        		 				:name (c31 / name
+                        		 						   :op1 "Go")))
+                        :poss (c5 / y
+                                 :op1 (c8 / country
+                                          :name (c12 / name
+                                                    :op1 "China"))
+                                 :op2 (c9 / country
+                                          :name (c13 / name
+                                                    :op1 "Corea"))))
+              :ARG1 c1
+              :ARG4 (c7 / city
+                        :name (c14 / name
+                                  :op1 "Seúl"))
+              :time (c15 / date-entity
+                         :day 1
+                         :month 9))
+     :op2 (c17 / llevar_a_cabo-01
+               :ARG0 c1
+               :ARG1 (c18 / competir-01
+               			  :ord (c30 / ordinal-entity
+               			  			:value 2))
+               :location (c19 / hotel
+                              :name (c25 / name
+                                        :op1 "Le"
+                                        :op2 "Tian"))
+               :time (c22 / day
+                          :ord (c24 / ordinal-entity
+                                    :value 2))))
+
+# ::id xinhua_es.58 ::annotator 106
+
+(c0 / decir-01
+    :ARG0 (c1 / regla
+              :ARG1-of (c2 / discutir-01
+                           :ARG0 (c5 / parte
+                                     :quant 2))
+              :ARG1-of (c4 / acordar-02
+                           :ARG0 c5))
+    :condition (c7 / empatar-01
+                   :ARG1 (c8 / equipo)
+                   :manner (c9 / score-entity
+                                  :op1 7
+                                  :op2 7))
+    :ARG1 (c14 / determinar-01
+               :ARG1 (c34 / resultado
+                          :mod (c35 / final))
+               :ARG0 (c15 / resultado
+                          :poss (c16 / competir-01
+                                     :ARG0 (c17 / person
+                                                :name (c33 / name
+                                                          :op1 "Wiping"
+                                                          :op2 "Nie")
+                                                :poss (c20 / equipo
+                                                           :mod (c22 / country
+                                                                     :name (c23 / name
+                                                                               :op1 "China"))))
+                                     :ARG1 (c24 / person
+                                                :name (c27 / name
+                                                          :op1 "Xunxuan"
+                                                          :op2 "Cao")
+                                                :poss (c28 / equipo
+                                                           :mod (c29 / country
+                                                                     :name (c30 / name
+                                                                               :op1 "Corea"))))))))
+
+# ::id xinhua_es.59 ::annotator 106
+
+(c21 / y
+     :op1 (c15 / monetary-quantity
+               :domain (c17 / premio
+                            :medium (c18 / efectivo)
+                            :poss c11)
+               :time (c19 / vez
+                          :mod (c20 / esta))
+               :quant 100000
+               :unit c3)
+     :op2 (c0 / obtener-02
+              :ARG0 (c8 / equipo
+              			:ARG0-of (c10 / ganar-01
+                            		  :ARG1 (c11 / competición)))
+              :ARG1 (c2 / monetary-quantity
+                        :quant 70000
+                        :unit (c3 / dólar
+                                  :mod (c5 / country
+                                  		   :name (c6 / name
+                                           			 :op1 "Estados"
+                                           			 :op2 "Unidos")))))
+     :op3 (c1 / conseguir-01
+              :ARG0 (c30 / equipo
+              			 :ARG0-of (c14 / perder-02
+              			 			   :ARG1 c11))
+              :ARG1 (c12 / monetary-quantity
+                         :unit c3
+                         :quant 30000)))
+
+# ::id xinhua_es.60 ::annotator 106
+
+(c0 / fin)
+
+# ::id xinhua_es.61 ::annotator 106
+
+(c11 / publication
+     :name (c12 / name
+               :op1 "Agencia"
+               :op2 "de"
+               :op3 "noticias"
+               :op4 "Xinhua")
+     :location (c5 / city
+                   :name (c6 / name
+                            :op1 “Roma”))
+     :time (c10 / date-entity
+                :day 1
+                :month 9)
+     :ARG1-of (c14 / escribir-01
+     			   :ARG0 (c0 / y
+                 			 :op1 (c1 / person
+                          			  :mod (c2 / name
+                                   			   :op1 "Aiguo"
+                                   			   :op2 "Yang"))
+                 			 :op2 (c6 / person
+                          			  :mod (c7 / name
+                                   			   :op1 "Changrui"
+                                   			   :op2 "Huang")))))
+
+# ::id xinhua_es.62 ::annotator 106
+
+(c0 / celebrar-01
+    :ARG1 (c5 / preliminar
+              :mod (c6 / trampolín
+                       :mod (c14 / distance-quantity
+                                 :quant 1
+                                 :unit (c15 / metro)))
+              :subevent-of (c10 / campeonato
+                                :ord (c13 / ordinal-entity
+                                          :value 7)
+                                :mod (c11 / mundial)
+                                :mod (c17 / natación)))
+    :ARG0 c5
+    :location (c2 / aquí)
+    :time (c3 / mañana
+              :domain (c4 / esta)))
+
+# ::id xinhua_es.63 ::annotator 106
+
+(c0 / calificar-01
+    :ARG1 (c2 / y
+              :op1 (c1 / person
+                       :name(c7 / name
+                                :op1 "Lan"
+                                :op2 "Wei"))
+              :op2 (c3 / person
+                       :mod c4
+                       :mod (c10 / name
+                                 :op1 "Sheng"
+                                 :op2 "Chen"))
+              :source (c4 / country
+                       	  :mod (c5 / name
+                                   :op1 "China"))
+              :ARG0-of (c15 / competir-01))
+    :purpose (c14 / semifinales))
+
+# ::id xinhua_es.64 ::annotator 106
+
+(c0 / ocupar-01
+    :time (c1 / preliminares)
+    :ARG0 (c10 / person
+               :name (c11 / name
+                         :op1 "Wei"
+                         :op2 "Lang")
+               :ARG1-of (c19 / cumplir-02
+                             :time (c20 / año
+                                        :mod (c21 / este))
+                             :ARG2 (c22 / temporal-quantity
+                                        :quant 26
+                                        :unit (c23 / año)))
+               :source (c15 / city
+                            :name (c16 / name
+                                      :op1 "Guangdong")))
+    :manner (c17 / habilidad
+                 :mod (c18 / sobresaliente))
+    :ARG1 (c2 / puesto
+              :ord (c3 / ordinal-entity
+                       :value 1))
+    :instrument (c5 / puntuación
+                   :mod (c6 / total)
+                   :mod (c7 / score-entity
+                            :quant 355,55
+                            :unit (c8 / punto))))
+
+# ::id xinhua_es.65 ::annotator 106
+
+(c18 / estar-01
+     :ARG1 (c0 / person
+               :name (c3 / name
+                        :op1 "Sheng"
+                        :op2 "Chen")
+               :age 19
+               :source (c7 / city
+                           :name (c8 / name
+                                    :op1 "Hubei"))
+               :ARG1-of (c25 / tener-01
+     		       			 :ARG2 (c10 / puntuación
+                     				    :mod (c11 / score-entity
+                               					  :quant 342,60
+                               					  :unit (c12 / punto))
+                     					:ARG1-of (c20 / have-degree-91
+                     			   					  :ARG2 (c21 / inferior)
+                     			   					  :ARG4 (c22 / puntuación
+                     			   			  					 :poss (c23 / person
+                     			   			  			 					:name (c24 / name
+                     			   			  			 							   :op1 "Wei"
+                     			   			  			 							   :op2 "Lan")))))))
+     :manner (c17 / temporalmente)
+     :ARG2 (c14 / posición
+                :ord (c16 / ordinal-entity
+                          :value 6)))
+
+# ::id xinhua_es.66 ::annotator 106
+
+(c0 / estar-01
+    :manner (c1 / temporalmente)
+    :ARG2 (c3 / lugar
+              :ord (c4 / ordinal-entity
+                       :value 2))
+    :ARG1 (c6 / person
+              :ARG0-of (c2 / competir-01)
+              :source (c7 / country
+                       :name (c8 / name
+                                :op1 "Alemánia"))
+              :name (c10 / name
+                        :op1 "Bao"
+                        :op2 "Lizuo")
+              :ARG1-of (c25 / tener-01
+							:ARG2 (c13 / puntuación
+                    				   :mod (c14 / total)
+                    				   :mod (c16 / score-entity
+                              					 :quant 355,02)
+                    				   :ARG1-of (c22 / have-degree-91
+                                  					 :manner (c21 / ligeramente)
+                                  					 :ARG3 (c24 / inferior)
+                                  					 :ARG4 (c23 / puntuación
+                                             					:poss (c17 / person
+                                                        				   :name (c18 / name
+                                                                  					 :op1 "Wei"
+                                                                  					 :op2 "Lan"))))))))
+
+# ::id xinhua_es.67 ::annotator 106
+
+(c18 / tener-01
+     :ARG1 (c0 / person
+               :name (c3 / name
+                        :op1 “Si”
+                        :op2 "Aiwan")
+               :ARG0-of (c21 / competir-01)
+               :source (c7 / country
+                           :name (c8 / name
+                                    :op1 "Zimbabue"))
+               :ARG1-of (c20 / estar-01
+               				 :manner (c17 / temporalmente)
+               				 :ARG2 (c14 / posición
+               				 			:ord (c16 / ordinal-entity
+               				 					  :value 3))))
+     :ARG2 (c10 / puntuación
+                     :mod (c11 / score-entity
+                               :quant 354,39
+                               :unit (c12 / punto))))
+
+# ::id xinhua_es.68 ::annotator 106
+
+(c7 / decir-01
+    :time (c0 / después
+              :op1 (c1 / competir-01))
+    :ARG0 (c2 / persona
+    		  :ARG0-of (entrenar-01)
+              :poss (c3 / equipo
+                        :mod (c4 / country
+                                 :name (c5 / name
+                                          :name "China"))))
+    :ARG2 (c8 / reportero
+              :poss (c11 / agencia
+                         :poss (c10 / nosotros)))
+    :ARG1 (c12 / nervioso
+               :domain (c15 / person
+                            :name (c16 / name
+                                      :op1 "Shen"
+                                      :op2 "Chen"))
+               :degree (c13 / poco)
+               :time (c14 / hoy)))
+
+# ::id xinhua_es.69 ::annotator 106
+
+(c0 / decir-01
+    :manner (c1 / también)
+    :ARG1 (c3 / acostumbrar-01
+              :ARG1 (c6 / atletas
+                        :poss (c7 / nosotros))
+              :polarity -
+              :degree (c5 / muy)
+              :ARG2 (c8 / competir-01
+                        :ARG0 c6
+                        :location (c9 / luz
+                                        :mod (c11 / fuerte)
+                                        :poss (c10 / sol))))
+    :ARG0 (c2 / third-person-sing-sinnombre))
+
+# ::id xinhua_es.70 ::annotator 106
+
+(c0 / entrenar-01
+    :location (c4 / casa)
+    :manner (c2 / principalmente)
+    :location (c3 / interiores)
+    :ARG0 (c1 / third-person-plural-sinnombre))
+
+# ::id xinhua_es.71 ::annotator 106
+
+(c0 / parecer-01
+    :ARG1 (c1 / necesitar-01
+              :time (c2 / todavía)
+              :ARG0 (c6 / first-person-plural-sinnombre)
+              :ARG1 (c3 / entrenar-01
+              			:ARG0 c6
+                        :location (c4 / aire
+                                      :mod (c5 / libre)))))
+
+# ::id xinhua_es.72 ::annotator 106
+
+(c0 / sentir-01
+    :ARG2 (c2 / have-degree-91
+              :ARG3 (c9 / más)
+              :ARG1 (c3 / persona
+              			:ARG0-of (c10 / competir-01)
+                        :source (c4 / país
+                                  :poss (c5 / nosotros))
+                        :ARG0-of (c6 / participar-01
+                                     :ARG1 (c7 / competición
+                                               :mod (c8 / esta)))))
+    :ARG1 (c1 / third-person-sing-sinnombre))
+
+
+# ::id xinhua_es.73 ::annotator 106
+
+(c0 / carecer-01
+    :time (c5 / todavía)
+    :ARG2 (c2 / experiencia
+              :consist-of (c3 / competir-01
+                        :location (c4 / internacional)))
+    :ARG1 (c1 / third-person-plural-sinnombre))
+
+# ::id xinhua_es.74 ::annotator 106
+
+(c0 / llevar_a_cabo-01
+    :ARG1 (c2 / competir-01
+              :mod (c3 / preliminar)
+              :topic (c10 / salto
+                          :mod (c7 / distance-quantity
+                                   :quant 10
+                                   :unit (c9 / metro))
+              			  :beneficiary (c4 / mujer)))
+    :time (c5 / tarde
+              :mod (c6 / esta)))
+
+# ::id xinhua_es.75 ::annotator 106
+
+(c0 / participar-01
+    :ARG1 (c1 / competición
+              :domain (c2 / esta))
+    :ARG0 (c20 / y
+     		   :op1 (c3 / person
+              			:name (c4 / name
+                       			  :op1 "Mingxia"
+                       			  :op2 "Fu")
+              			:ARG0-of (c7 / ganar-01
+                           			 :ARG1 (c8 / campeonato
+                                     		   :subevent-of (c11 / y
+                                                       			 :op1 (c12 / game
+                                                                 		   :name (c15 / name
+                                                                           			  :op1 "Campeonato"
+                                                                           			  :op2 "Mundial"))
+                                                       			 :op2 (c16 / game
+                                                                 		   :name (c19 / name
+                                                                           			  :op1 "Juegos"
+                                                                           			  :op2 "Olímpicos"))))
+                           			 :beneficiary (c9 / país
+                                            		  :poss (c10 / nosotros))))
+     		   :op2 (c21 / person
+               			 :source (c25 / city
+                            		  :name (c26 / name
+                                      			 :op1 "Hebei"))
+               			 :name (c22 / name
+                         			:op1 "Bin"
+                         			:op2 "Chi")
+               			 :ARG0-of (c32 / competir-01)
+              		     :ARG0-of (c28 / ganar-01
+                             		   :ARG1 (c29 / campeonato
+                                        		  :subevent-of (c30 / game
+                                                          		    :mod (c31 / name
+                                                                    		  :op1 "Copa"
+                                                                    		  :op2 "del"
+                                                                    		  :op3 "Mundo")))))))
+
+# ::id xinhua_es.76 ::annotator 106
+
+(c0 / fin)
+
+# ::id xinhua_es.77 ::annotator 106
+
+(c11 / publication
+     :name (c12 / name
+               :op1 "Agencia"
+               :op2 "de"
+               :op3 "noticias"
+               :op4 "Xinhua")
+     :location (c5 / city
+                   :mod (c6 / name
+                            :op1 “Roma”))
+     :time (c10 / date-entity
+                :day 1
+                :month 9)
+     :ARG1-of (c14 / escribir-01
+     			   :ARG0 (c0 / y
+                 			 :op1 (c1 / person
+                          		 	  :name (c2 / name
+                                   		  		:op1 "Changrui"
+                                   		  		:op2 "Huang"))
+                 		 	 :op2 (c6 / person
+                          		  	  :name (c7 / name
+                                   		   	    :op1 "Aiguo"
+                                   		   	    :op2 "Yang"))
+                 			 :example-of (c13 / periodista))))
+
+# ::id xinhua_es.78 ::annotator 106
+
+(c0 / y
+    :op1 (c1 / ideal
+             :domain (c6 / rendimiento
+                         :poss (c7 / y
+                                   :op1 (c8 / person
+                                            :name (c14 / name
+                                                      :op1 "Mingxia"
+                                                      :op2 "Fu"))
+                                   :op2 (c17 / person
+                                             :name (c18 / name
+                                                       :op1 "Bin"
+                                                       :op2 "Chi"))
+                                   :ARG0-of (c40 / competir-01)
+                                   :source (c9 / equipo
+                                             	:mod (c10 / country
+                                                       :name (c11 / name
+                                                                 op1 "China"))
+                                              :topic (c13 / saltar-01)))
+                         :time (c21 / ronda
+                                    :ord (c24 / ordinal-entity
+                                              :value 1)
+                                    :quant 6
+                                    :topic (c25 / plataforma
+                                                :mod (c26 / distance-quantity
+                                                          :quant 10
+                                                          :unit (c28 / metro)))
+                                    :subevent-of (c30 / campeonato
+                                                      :ord (c33 / ordinal-entity
+                                                                :value 7)
+                                                      :mod (c31 / mundial)
+                                                      :topic (c32 / nadar-01)
+                                                      :ARG1-of (c35 / celebrar-01
+                                                                    :time (c36 / hoy))))))
+    :op2 (c2 / poder-04
+             :ARG1-of (c41 / ver-01
+             		 	   :ARG1 (c3 / esperar-01
+                        		    :ARG1 (c4 / entrar-01
+                           			  		  :ARG0 c7
+                                      		  :ARG1 (c5 / eliminatoria))))))
+
+# ::id xinhua_es.79 ::annotator 106
+
+(c0 / ocupar-01
+    :time-of (c22 / llegar-01
+                  :ARG0 (c23 / periodista)
+                  :mod (c32 / este))
+    :time (c17 / rondas
+               :quant 6
+               :ord (c20 / ordinal-entity
+                         :value 1)
+               :poss (c18 / competición))
+    :ARG0 (c10 / y
+               :op1 (c2 / person
+                        :name (c3 / name
+                                 :op1 "Mingxia"
+                                 :op2 "Fu"))
+               :op2 (c6 / person
+                        :name (c7 / name
+                                 :op1 "Bin"
+                                 :op2 "Chi"))
+               :ARG1-of (c31 / tener-01
+               				 :ARG2 (c24 / puntuacion
+                    					:mod (c25 / total)
+                    					:mod (c26 / score-entity
+                                          		  :op1 339,12
+                                          		  :op2 290,19))
+                    		 :mod (c30 / respectivamente)))
+    :manner (c1 / temporalmente)
+    :ARG1 (c12 / posición
+               :ord (c11 / y
+                         :op1 (c13 / ordinal-entity
+                                   :value 1)
+                         :op2 (c15 / ordinal-entity
+                                   :value 3))))
+
+# ::id xinhua_es.80 ::annotator 106
+
+(c3 / poder-04
+    :condition (c0 / cambiar-02
+    			   :ARG0 (c10 / second-person-sing-sinnombre)
+                   :polarity -
+                   :ARG1 (c1 / cosa))
+    :ARG1 (c4 / ver-01
+              :ARG1 (c7 / esperar-02
+                        :ARG0 (c8 / third-person-plural-sinnombre)
+                        :ARG1 (c6 / entrar-01
+                                   :ARG2 (c5 / eliminatoria)))))
+
+# ::id xinhua_es.81 ::annotator 106
+
+(c0 / ocupar-01
+    :ARG1 (c4 / posición
+              :ord (c5 / ordinal-entity
+                       :value 2))
+    :ARG0 (c7 / person
+              :name (c2 / name
+                       :op1 "Richard")
+              :mod (c8 / country
+                       :name (c9 / name
+                                :op1 "Estados"
+                                :op2 "Unidos"))
+              :ARG0-of (c10 / competir-01)))
+
+# ::id xinhua_es.82 ::annotator 106
+
+(c0 / puntuación
+    :poss (c1 / third-person-sing-sinnombre)
+    :mod (c2 / score-entity
+             :quant 303,00
+             :unit (c4 / punto)))
+
+# ::id xinhua_es.83 ::annotator 106
+
+(c0 / conseguir-01
+    :time (c11 / competir-01
+                   :mod (c12 / preliminar)
+                   :ARG2 (c13 / saltar-04
+                               :ARG0 (c14 / masculino)
+                               :ARG3 (c15 / plataforma
+                                               :quant (c16 / distance-quantity
+                                                         :quant 1
+                                                         :unit (c18 / metro)))))
+    :time (c19 / mañana
+               :domain (c20 / esta))
+    :ARG0 (c1 / y
+              :poss (c21 / nosotros)
+              :op1 (c2 / person
+                       :mod (c3 / name
+                                :op1 "Lan"
+                                :op2 "Wei"))
+              :op2 (c6 / person
+                       :mod (c7 / name
+                                :op1 "Sheng"
+                                :op2 "Chen"))
+              :ARG0-of (c23 / competir-01))
+    :ARG1 (c10 / puesto
+               :poss c1))
+
+# ::id xinhua_es.84 ::annotator 106
+
+(c69 / y
+     :domain (c70 / resultado
+                  :poss (c71 / competir-01
+                             :mod (c72 / preliminar)
+                             :mod (c73 / femenina)
+                             :ARG2 (c76 / game
+                                          :name (c78 / name
+                                                     :op1 “water”
+                                                     :op2 “polo”))))
+     :op1 (c0 / derrotar-01
+              :ARG0 (c1 / equipo
+                        :mod (c3 / country
+                                 :name (c4 / name
+                                          :op1 "Hungría")))
+              :ARG1 (c5 / equipo
+                        :mod (c6 / country
+                                 :name (c7 / name
+                                          :op1 "Canada")))
+              :manner (c9 / score-entity
+                       :op1 13
+                       :op2 7))
+     :op2 (c11 / ganar-01
+               :ARG0 (c12 / equipo
+                          :mod (c13 / country
+                                    :name (c14 / name
+                                              :op1 "Francia")))
+               :ARG2 (c16 / equipo
+                          :mod (c17 / country
+                                    :name (c18 / name
+                                              :op1 "Brasil")))
+               :manner (c20 / score-entity
+                         :op1 10
+                         :op2 9))
+     :op3 (c22 / derrotar-01
+               :ARG0 (c23 / equipo
+                          :mod (c24 / country
+                                    :name (c25 / name
+                                              :op1 "Australia")))
+               :ARG1 (c27 / equipo
+                          :mod (c28 / country
+                                    :name (c29 / name
+                                              :op1 "Alemania")))
+               :manner (c31 / score-entity
+                         :op1 10
+                         :op2 8))
+     :op4 (c33 / ganar-01
+               :ARG0 (c34 / equipo
+                          :mod (c35 / country
+                                    :name (c36 / name
+                                              :op1 "Rusia”)))
+               :ARG2 (c38 / equipo
+                          :mod (c39 / country
+                                    :name (c40 / name
+                                              :op1 "Países"
+                                              :op2 "Bajos”)))
+               :manner (c43 / score-entity
+                         :op1 7
+                         :op2 6))
+     :op5 (c45 / ganar-01
+               :ARG0 (c46 / equipo
+                          :mod (c47 / country
+                                    :name (c48 / name
+                                              :op1 "Estados"
+                                              :op2 "Unidos")))
+               :ARG2 (c51 / equipo
+                          :mod (c52 / country
+                                    :name (c53 / name
+                                               :op1 "Kazajstán")))
+               :manner (c55 / score-entity
+                         :op1 10
+                         :op2 5))
+     :op6 (c57 / ganar-01
+               :ARG0 (c58 / equipo
+                          :mod (c59 / country
+                                    :name (c60 / name
+                                               :op1 "Italia")))
+               :ARG2 (c62 / equipo
+                          :mod (c63 / country
+                                    :name (c64 / name
+                                               :op1 "Nueva"
+                                               :op2 "Zealand")))
+               :manner (c67 / score-entity
+                         :op1 12
+                         :op2 2)))
+
+# ::id xinhua_es.85 ::annotator 106
+
+(c0 / participar-01
+    :ARG0 (c1 / equipo
+              :quant 12)
+    :ARG1 (c3 / competir-01
+    	      :ARG0 c1))
+
+# ::id xinhua_es.86 ::annotator 106
+
+(c0 / fin)
+

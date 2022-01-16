@@ -1,0 +1,1020 @@
+DFA_41-100_106
+
+# ::id DFA_es.41 ::annotator 106
+
+(c0 / saber-01
+    :ARG0 (c1 / first-person-sing-sinnombre)
+    :ARG1 (c2 / tomar-01
+              :ARG1 (c3 / tiempo)
+              :ARG0 (c4 / acostumbrar-01
+                        :ARG0 c1
+                        :ARG1 c1)
+              :cause (c12 / ser-01
+                          :ARG2 (c14 / y
+                                     :op1 (c6 / introvertida
+                                              :degree (c13 / muy))
+                                     :op2 (c9 / ansiosa
+                                              :degree (c7 / especialmente))
+                                     :op3 (c10 / demás
+                                               :mod (c11 / todo)))
+                          :time (c15 / siempre)
+                          :ARG1 c1)))
+
+# ::id DFA_es.42 ::annotator 106
+
+(c1 / salir-01
+    :time (c5 / noche
+              :ord (c6 / ordinal-entity
+                       :value 1)
+              :time-of (c8 / estar-01
+                 		   :ARG2 (c9 / allí)
+                 		   :ARG1 c3))
+    :ARG1 (c2 / y
+              :op2 (c4 / compañero
+                       :poss c3)
+              :op1 (c3 / yo))
+    :ARG1-of (c10 / have-degree-91
+                  :ARG5 (c14 / lo
+                             :ARG1-of (c13 / hacer-02
+                                           :ARG0 c3
+                                           :ARG1-of (c15 / necesitar-01
+                                                         :ARG0 c3)))
+                  :ARG3 (c12 / más)
+                  :ARG2 (c11 / difícil)))
+
+# ::id DFA_es.43 ::annotator 106
+
+(c0 / ir-02
+    :ARG4 (c2 / facility
+              :name (c3 / name
+                        :op1 "SU")
+              :example-of (c8 / barra))
+    :manner (c5 / cuenta
+                  :poss (c6 / yo))
+    :manner (c7 / sobrio)
+    :ARG0 (c1 / first-person-sing-sinnombre))
+
+# ::id DFA_es.44 ::annotator 106
+
+(c0 / estar-01
+    :manner (c3 / de-todos-modos)
+    :ARG2 (c2 / aquí)
+    :ARG1 (c1 / hecho))
+
+# ::id DFA_es.45 ::annotator 106
+
+(c0 / y
+    :op1 (c1 / disfrutar-01
+             :polarity -
+             :ARG1 (c3 / universidad)
+             :time (c4 / después
+                       :op1 (c5 / estar-01
+                                :ARG2 (c6 / aquí)
+                                :duration (c7 / temporal-quantity
+                                              :quant 5
+                                              :unit (c9 / mes))
+                                :ARG1 c2))
+             :ARG0 (c2 / first-person-sing-sinnombre))
+    :op2 (c11 / desilusionar-01
+              :ARG0 (c12 / curso)
+              :ARG1 c2)
+    :op3 (c14 / disfrutar-01
+              :polarity -
+              :ARG1 (c15 / proyecto
+                         :ARG1-of (c16 / establecer-01))
+              :ARG0 c2)
+    :op4 (c18 / gustar-01
+              :polarity -
+              :ARG1 (c19 / entregar-01
+                         :ARG1 (c20 / curso))
+              :ARG2 c2))
+
+# ::id DFA_es.46 ::annotator 106
+
+(c0 / pintar-01
+    :ARG0 (c1 / universidad)
+    :ARG1 (c4 / have-degree-91
+       		  :ARG1 (c2 / lo)
+              :ARG2 (c3 / mucho)
+              :ARG3 (c7 / más)
+              :ARG4 (c6 / parecer-01
+                        :ARG1 c2)))
+
+# ::id DFA_es.47 ::annotator 106
+
+(c0 / tener-01
+    :ARG1 (c1 / comienzo
+              :mod (c2 / mal))
+    :time (c3 / trimestre
+              :ord (c5 / ordinal-entity
+                       :value 1))
+    :ARG0 c8
+    :cause (c7 / acumular-01
+               :cause (c23 / y
+                           :cause (c10 / aumentar-01
+                                       :ARG0 (c14 / retrasar-01
+                                                  :ARG1 (c15 / financiación
+                                                             :beneficiary (c17 / estudiante))
+                                                  :prep-by se)
+                                       :ARG1 (c11 / nivel
+                                                  :poss c8
+                                                  :consist-of (c12 / estrés)))
+                           :op1 (c18 / preocupado
+                                     :domain c8)
+                           :op2 (c19 / poder-04
+                                     :ARG1 (c20 / seguir-03
+                                                 :ARG0 c8
+                                                 :ARG1 (c21 / trabajo
+                                                            :poss 8))
+                                     :polarity -))
+               :ARG1 (c9 / todo)
+               :beneficiary (c8 / yo)))
+
+# ::id AFA_es.48 ::annotator 106
+
+(c15 / funcionar-01
+	 :polarity -
+     :ARG1 (c0 / ver-01
+               :ARG0 c13
+               :cause (c10 / asignar-01
+                           :ARG2 (c13 / yo)
+                           :ARG1 (c12 / consejero)
+                           :ARG0 (c11 / universidad))
+               :ARG1 c12
+               :duration (c1 / o
+                             :op1 (c2 / temporal-quantity
+                                      :unit (c3 / semana)
+                                      :quant 5)
+                             :op2 (c5 / temporal-quantity
+                                      :unit (c6 / semana)
+                                      :quant 6))
+               :location (c8 / sesion
+                            :mod (c9 / bloque)))
+     :condition (c14 / honesto
+                     :domain c13)
+     :cause (c16 / abrir-01
+     			 :ARG0 c13
+                 :ARG1 c13
+                 :ARG2 c12
+                 :polarity -))
+
+# ::id DFA_es.49 ::annotator 106
+
+(c0 / a-medias
+    :manner (c1 / solo)
+    :instrument (c2 / entusiasmo
+    			    :polarity -))
+
+
+# ::id DFA_es.50 ::annotator 106
+
+(c0 / y
+    :op1 (c1 / llegar-02
+             :time (c5 / ahora)
+             :ARG0 (c2 / carga
+                       :consist-of (c3 / trabajo))
+             :ARG1 (c4 / cuello
+             		   :poss c8))
+    :op2 (c6 / tener-01
+             :ARG1 (c9 / fecha
+                       :mod (c10 / límite)
+                       :ARG1-of (c11 / acercar-01))
+             :ARG0 (c8 / first-person-sing-sinnombre))
+    :op3 (c13 / deprimido
+              :domain c8)
+    :op4 (c14 / miserable
+              :cause (c16 / ansiedad)
+              :time (c15 / siempre)
+              :domain c8))
+
+
+# ::id DFA_es.51 ::annotator 106
+
+(c0 / y
+    :op1 (c1 / tener-01
+             :polarity -
+             :ARG2 (c3 / consejero)
+             :cause (c5 / poder-04
+                        :manner (c6 / solo)
+                        :ARG1 (c7 / tener-01
+                                  :ARG2 c3
+                                  :duration (c8 / sesion
+                                                :mod (c9 / cuanta))))
+             :ARG1 (c2 / first-person-sing-sinnombre))
+    :op2 (c10 / dudar-01
+              :ARG1 (c11 / poder-04
+                         :ARG1 (c12 / ayudar-01
+                                    :ARG0 c3
+                                    :time (c13 / vez
+                                               :mod (c14 / esta))
+                                    :ARG1 c2))
+              :condition (c15 / hacer-02
+                               :ARG0 c3
+                               :ARG1 c12
+                               :time (c16 / vez
+                                          :mod (c17 / alguna)))
+              :ARG0 c2))
+
+# ::id DFA_es.52 ::annotator 106
+
+(c16 / y
+     :op1 (c0 / faltar-01
+              :ARG2 (c2 / yo)
+              :ARG1 (c1 / motivación))
+     :op2 (c3 / sentir-01
+              :ARG1 c2
+              :polarity -
+              :ARG2 (c4 / cómodo)
+              :accompanier (c5 / profesor))
+     :op3 (c12 / contrast-01
+               :op1 (c8 / sentir-01
+                        :ARG0 c2
+                        :ARG1 (c9 / querer-01
+                                  :ARG0 c2
+                                  :ARG1 (c10 / rendir-02
+                                             :ARG0 c2)))
+               :op2 (c11 / poder-04
+                         :polarity -
+                         :ARG1 (c13 / hacer-02
+                                    :ARG0 c2
+                                    :ARG1 c10)
+                         :cause (c15 / y
+                                     :op1 (c17 / terminar-02
+                                               :ARG0 c2
+                                               :location (c18 / trabajo
+                                                             :mod (c19 / futuro
+                                                             		   :polarity -)))
+                                     :op2 (c20 / aspirar-01
+                                               :ARG0 c2
+                                               :ARG1 (c21 / ser-01
+                                                          :ARG1 c2
+                                                          :ARG2 (c22 / alguien)))))))
+
+# ::id DFA_es.53 ::annotator 106
+
+(c0 / y
+    :op1 (c1 / preferir-01
+             :ARG1 (c11 / y
+                        :op1 (c9 / morir-01
+                                 :ARG01 c2)
+                        :op2 (c12 / vivir-04
+                                  :ARG1 (c13 / vida
+                                             :ARG1-of (c14 / querer-01
+                                                           :ARG0 c2))
+                                   :ARG0 c2)
+                        :ARG1-of (c21 / have-degree-91
+                                 	  :ARG3 (c22 / más)
+                                 	  :ARG4 (c6 / educar-01
+                                 			    :polarity -
+                                 			   	:ARG1 c2)))
+             :ARG0 (c2 / first-person-sing-sinnombre))
+    :op2 (c15 / empeorar-01
+              :ARG0 (c16 / dejar-05
+                         :ARG1 (c17 / universidad)
+                         :ARG0 c2)
+              :ARG1 (c18 / cosa)))
+
+# ::id DFA_es.54 ::annotator 106
+
+(c12 / necesitar-01
+     :cause (c15 / quedar-01
+                 :cause (c11 / y
+                             :op1 (c0 / age-01
+                                      :ARG2 (c2 / temporal-quantity
+                                                :quant 21
+                                                :unit (c4 / año))
+                                      :ARG1 (c1 / first-person-sing-sinnombre))
+                             :op2 (c5 / age-01
+                                      :ARG2 (c6 / temporal-quantity
+                                                :quant 22
+                                                :unit (c8 / año))
+                                      :time (c9 / año
+                                                :mod (c10 / este))
+                                      :ARG1 c1))
+                 :polarity -
+                 :ARG1 (c16 / tiempo
+                            :mod (c17 / mucho))
+                 :purpose (c19 / fallar-01)
+                 :ARG2 c1)
+     :ARG1 (c13 / hacer-02
+                :ARG1 (c14 / algo)
+                :ARG0 c1)
+     :ARG0 c1)
+
+# ::id DFA_es.55 ::annotator 106
+
+(c5 / y
+    :op1 (c0 / fallar-02
+             :location (c2 / universidad)
+             :time (c3 / vez
+                       :mod (c4 / más))
+             :ARG0 (c1 / first-person-sing-sinnombre))
+    :op2 (c6 / hacer-02
+             :ARG1 (c7 / curso
+                       :mod (c8 / otro))
+             :purpose (c9 / poder-04
+                          :ARG1 (c10 / llegar-02
+                          			 :ARG0 c1))
+             :ARG0 c1)
+    :op3 (c13 / y
+              :op1 (c11 / querer-01
+                        :polarity -
+                        :ARG1 (c16 / pasar-02
+                                   :ARG2 (c17 / sistema)
+                                   :time (c18 / y
+                                              :op1 (c19 / vez)
+                                              :op2 (c20 / vez
+                                                        :mod (c21 / otra)))
+                                   :ARG0 c1)
+                        :ARG0 c1)
+              :op2 (c14 / fallar-02
+                        :manner (c15 / sistemáticamente)
+                        :ARG0 c1)))
+
+# ::id DFA_es.56 ::annotator 106
+
+(c0 / poder-04
+    :ARG1 (c2 / dar-01
+              :ARG0 (c1 / alguien)
+              :ARG1 (c3 / consejo
+                        :mod (c4 / algún))
+              :ARG2 (c5 / me))
+    :polarity (c6 / amr-unknown))
+
+# ::id DFA_es.57 ::annotator 106
+
+(c0 / poder-04
+    :ARG1 (c1 / ir-02
+    		  :ARG0 c4
+    		  :purpose (c5 / y
+                 		   :op1 (c2 / ver-01
+                          			:ARG1 (c3 / médico
+                                    		  :poss (c4 / tú)))
+                 		   :op2 (c6 / ver-01
+                          			:ARG1 (c18 / truth-value
+                          					   :polarity-of (c11 / haber-01
+                                     		   					:ARG1 (c9 / manera
+                                               			 			      :mod (c10 / alguna)
+                                     		   							  :manner-of (c12 / ampliar-01
+                                                		  							      :ARG1 (c13 / plazo)
+                                                		  				  				  :purpose (c14 / tratar-01
+                                                              		    			    		        :ARG1 (c15 / aliviar-01
+                                                                         		   				   				   :ARG1 (c16 / presión
+                                                                                    		    			  				  :mod (c17 / poco))))))))))))
+
+# ::id AFA_es.58 ::annotator 106
+
+(c0 / y
+    :op1 (c1 / y
+             :op1 (c2 / enviar-01
+                      :ARG0 c7
+                      :ARG2 (c6 / tutor
+                                :poss (c7 / tú))
+                      :ARG1 (c4 / correo
+                                :mod (c5 / electrónico)
+                                :example (c9 / publicación
+                                             :mod (c10 / esta)))
+                      :mode imperative)
+             :op2 (c11 / preocupar-01
+                       :ARG1 c7
+                       :polarity -
+                       :cause (c14 / ver-01
+                                   :ARG0 c6
+                                   :time (c16 / antes)
+                                   :ARG1 (c17 / y
+                                              :op1 c9
+                                              :op2 (c18 / cosa
+                                                        :mod (c19 / incómodo
+                                                                  :degree (c20 / más
+                                                                               :degree (c21 / mucho)))))
+                                   :ARG1-of (c22 / saber-01
+                                                 :cause (c24 / trabajar-01
+                                                             :location (c25 / departamento
+                                                                           :poss (c26 / administración))
+                                                             :ARG0 c23)
+                                                 :ARG0 (c23 / first-person-sing-sinnombre)))
+                       :mode imperative))
+    :op2 (c27 / considerar-01
+              :cause c2
+              :ARG0 c6
+              :ARG1 (c28 / atenuar-01
+                         :ARG1 (c29 / circunstancia)
+                         :ARG0 c6)))
+
+# ::id DFA_es.59 ::annotator 106
+
+(c0 / dividir-01
+    :ARG0 c2
+    :ARG1 (c1 / trabajo
+              :poss (c2 / tú))
+    :manner (c3 / trozo
+                :ARG1-of (c4 / manejar-01
+                			 :ARG1-of (c5 / poder-04)))
+    :mode imperative)
+
+# ::id DFA_es.60 ::annotator 106
+
+(c10 / y
+     :op1 (c0 / concentrar-03
+              :ARG1 (c1 / trabajo
+                        :mod (c2 / poco)
+                        :quant 1)
+              :time (c4 / ahora)
+              :ARG0 (c11 / second-person-sing-sinnombre)
+              :mode imperative)
+     :op2 (c16 / hacer-02
+               :manner (c15 / obviamente)
+               :ARG1 (c5 / tarea
+                         :mod (c6 / urgente
+                                  :degree (c7 / más)))
+               :manner (c9 / ordinal-entity
+                           :value 1)
+               :ARG0 c11
+               :mode imperative))
+
+# ::id DFA_es.61 ::annotator 106
+
+(c5 / y
+    :op1 (c0 / desconectar-01
+             :polarity -
+             :ARG0 (c2 / tú)
+             :ARG1 c2
+             :ARG2 (c3 / compañeros
+                       :mod (c4 / clase))
+             :mode imperative)
+    :op2 (c7 / hecho
+             :mod (c8 / bien)
+             :purpose (c10 / probar-01
+                          :ARG1 (c11 / cosa)
+                          :source (c12 / principio))
+             :mode expressive)
+    :op3 (c13 / seguir-06
+              :ARG0 c2
+              :time (c14 / ahora)
+              :ARG1 (c15 / ello)
+              :mode imperative
+              :mode expressive))
+
+# ::id DFA_es.62 ::annotator 106
+
+(c0 / recomendar-01
+    :manner (c5 / también)
+    :ARG1 (c1 / ir-02
+    		  :ARG0 (c7 / second-person-sing-sinnombre)
+              :purpose (c2 / ver-01
+              			   :ARG0 c7
+                           :ARG1 (c3 / médico
+                                     :poss c7)))
+    :ARG2 c7
+    :ARG0 c4)
+
+# ::id DFA_es.63 ::annotator 106
+
+(c0 / poder-04
+    :condition (c5 / persona
+                   :time (c7 / siempre)
+                   :mod (c6 / ansiosa)
+                   :domain (c4 / second-person-sing-sinnombre))
+    :ARG1 (c1 / beneficiar-01
+              :ARG0 (c2 / hablar-01
+                        :beneficiary (c3 / alguien))
+              :ARG1 c4)
+    :cause (c12 / normal
+                :domain c2
+                :cause (c8 / ir-02
+                           :ARG0 (c9 / amigo)
+                           :ARG4 (c10 / terapia)
+                           :cause (c11 / ansiedad))
+                :degree (c13 / bastante)))
+
+# ::id DFA_es.64 ::annotator 106
+
+(c0 / y
+    :op1 (c6 / tratar-01
+               :ARG1 (c7 / extender-02
+                         :ARG1 (c8 / plazo
+                                   :poss (c9 / tú))
+                         :ARG0 c9)
+               :ARG0 c9
+               :mode imperative)
+    :op2 (c10 / permitir-01
+    		  :condition (c4 / ser-01
+                   			 :ARG1 c9
+                   			 ARG2 (c5 / honesto))
+    		  :manner (c3 / seguramente)
+    		  :ARG0 (c1 / universidad)
+    		  :ARG1 c7))
+
+# ::id DFA_es.65 ::annotator 106
+
+(c0 / difícil
+    :domain (c1 / y
+                :op1 (c4 / mantener-02
+                         :manner (c5 / fuerte)
+                         :ARG1 (c6 / se-impersonal))
+                :op2 (c2 / seguir-03
+                         :ARG1 (c3 / vida)
+                         :ARG0 c6)))
+
+# ::id DFA_es.66 ::annotator 106
+
+(c2 / y
+    :op1 (c3 / divorciar-01
+             :ARG0 (c0 / madre
+                       :poss (c1 / yo))
+             :ARG1 c0
+             :cause (c8 / tener-01
+                        :ARG0 c0
+                        :ARG1 (c9 / momento
+                                  :mod (c10 / horrible))
+                        :accompanier (c11 / padrastro
+                                        :poss c1)))
+    :op2 (c4 / perder-01
+             :ARG0 c0
+             :cause (c6 / libertad
+                        :poss c0
+                        :mod (c7 / nueva))
+             :ARG1 (c5 / cabeza
+                       :poss c0)))
+
+# ::id DFA_es.67 ::annotator 106
+
+(c0 / y
+    :op1 (c1 / epiléptica)
+    :op2 (c2 / maníacodepresiva)
+    :domain (c3 / third-person-sing-sinnombre
+                :ARG1-of (c7 / tener-01
+                			 :ARG2 (c4 / problema
+                               		   :mod (c5 / gran)
+                               		   :topic (c6 / ira)))))
+
+# ::id AFA_es.68 ::annotator 106
+
+(c0 / horrible
+    :manner (c3 / también)
+    :beneficiary (c1 / yo)
+    :manner (c2 / constantemente)
+    :domain (c4 / third-person-sing-sinnombre))
+
+# ::id DFA_es.69 ::annotator 106
+
+(c0 / poder-04
+    :polarity -
+    :ARG1 (c2 / lidiar-01
+              :accompanier (c4 / y
+                        	   :op1 (c5 / arrebato
+                                 	    :poss (c9 / third-person-sing-sinnombre))
+                        	   :op2 (c6 / comentario
+                                 		:poss c9
+                                 		:mod (c7 / desagradable)
+                                 		:mod (c8 / odioso)))
+              :ARG0 (c3 / first-person-sing-sinnombre)
+    		  :condition (c10 / estar-01
+                    		  :ARG2 (c11 / casa)
+                    		  :ARG1 c3)))
+
+# ::id DFA_es.70 ::annotator 106
+
+(c0 / y
+    :op1 (c1 / age-01
+             :ARG2 (c3 / temporal-quantity
+                       :quant 18
+                       :unit (c5 / año))
+             :ARG1 (c2 / first-person-sing-sinnombre))
+    :op2 (c6 / estudiar-01
+             :location (c7 / escuela
+                           :mod (c8 / privada)
+                           :mod (c9 / presión
+                                    :mod (c10 / alta)))
+             :manner (c11 / beca
+                             :mod (c12 / percentage-entity
+                                       :value 95))
+             :ARG0 c2)
+    :op3 (c14 / estar-01
+              :ARG2 (c15 / punto
+                         :mod (c16 / ruptura))
+              :ARG1 c2))
+
+# ::id DFA_es.71 ::annotator 106
+
+(c0 / poder-04
+    :polarity -
+    :ARG1 (c3 / dejar-05
+              :ARG1 (c4 / hacer-02
+                        :ARG1 (c5 / trabajo)
+                        :ARG0 (c2 / first-person-sing-sinnombre)
+                        :location (c6 / casa))
+              :ARG0 c2)
+    :cause (c7 / gritar-02
+               :ARG0 (c8 / third-person-sing-sinnombre)
+               :ARG2 c2))
+
+# ::id DFA_es.72 ::annotator 106
+
+(c0 / enfadar-01
+    :ARG1 (c2 / profesor
+              :poss c1)
+    :ARG0 (c1 / yo))
+
+# ::id DFA_es.73 ::annotator 106
+
+(c0 / contrast-01
+    :ARG1 (c4 / momento
+    		  :time-of (c15 / y
+    						:op1 (c2 / encantadora
+ 			 						 :domain (c14 / third-person-sing-sinnombre))
+    						:op2 (c3 / recuperar-02
+    		 						 :ARG1 (c5 / madre
+    		 		   						   :poss c6)
+    		 		   				 :example-of c14)))
+    :ARG2 (c8 / momento
+              :ARG0-of (c9 / seguir-03
+    					   :time-of (c10 / convertir-01
+              							 :ARG2 (c11 / ser-humano
+                         						    :mod (c12 / rencoroso
+                                    						  :degree (c13 / más)))
+              							 :ARG1 c14))))
+
+# ::id DFA_es.74 ::annotator 106
+
+(c0 / y
+    :op1 (c2 / aprobar-01
+             :polarity -
+             :ARG1 (c4 / exámen
+                       :quant 2)
+             :manner (c6 / score-on-scale-91
+             				 :ARG1 "A")
+             :ARG0 (c1 / first-person-sing-sinnombre))
+    :op2 (c7 / aceptar-01
+             :ARG1 (c8 / derrota)
+             :manner (c13 / ya)
+             :ARG0 c1)
+    :op3 (c9 / fracaso
+             :domain (c11 / año
+                        :mod (c12 / este)
+                        :time-of (c10 / vida
+                        			  :poss c1))))
+
+# ::id DFA_es.75 ::annotator 106
+
+(c0 / multi-sentence
+    :snt1 (c19 / y
+               :op1 (c40 / truth-value
+               	 		 :polarity-of (c13 / poder-04
+                         				   :ARG1 (c14 / volver-01
+                                    				  :ARG3 (c15 / esto)
+                                    				  :ARG1 c12)))
+               :op2 (c20 / saber-01
+                         :ARG0 (c21 / amr-unknown)
+                         :ARG1 c40))
+    :snt2 (c5 / contrast-01
+              :ARG1 (c4 / tener-01
+                        :ARG2 (c8 / oferta
+                                  :mod (c9 / universidad)
+                                  :ARG0-of (c10 / sorprender-01))
+                        :ARG1 (c12 / first-person-sing-sinnombre))
+              :ARG2 (c6 / poder-04
+                        :polarity -
+                        :ARG1 (c7 / aceptar-01
+                                  :ARG1 c8
+                                  :ARG0 c12)))
+    :snt3 (c1 / conseguir-01
+              :polarity -
+              :ARG1 (c2 / nota)
+              :ARG0 c12))
+
+# ::id DFA_es.76 ::annotator 106
+
+(c9 / y
+	:op1 (c4 / poder-04
+			 :manner (c8 / ojalá)
+    		 :ARG1 (c6 / borrar-01
+              		   :source (c7 / vida
+                          		   :poss c5)
+              		   :ARG1 (c1 / la)
+             		   :ARG0 (c5 / first-person-sing-sinnombre)))
+    :op2 (c10 / have-degree-91
+    		  :ARG1 (c3 / cosa)
+    		  :ARG2 (c0 / mejor)
+    		  :ARG3 (c2 / mucho)
+    		  :condition c6))
+
+# ::id DFA_es.77 ::annotator 106
+
+(c0 / creer-01
+    :time (c5 / luego)
+    :ARG1 (c2 / ser-01
+              :manner (c4 / solo)
+              :ARG2 (c3 / egoísta)
+              :ARG1 c1)
+    :ARG2-of (c6 / contrast-01)
+    :ARG0 (c1 / first-person-sing-sinnombre))
+
+# ::id AFA_es.78 ::annotator 106
+
+(c7 / contrast-01
+	:ARG2 (c0 / deber-03
+    		  :manner (c6 / seguramente)
+    		  :polarity -
+    		  :ARG1 (c1 / ser-01
+              			:ARG1 (c3 / vida
+                        		  :poss (c4 / yo))
+              			:ARG2 (c5 / así))))
+
+# ::id DFA_es.79 ::annotator 106
+
+(c0 / deber-03
+    :ARG1 (c1 / ser-01
+              :ARG2 (c2 / mejor
+                        :degree (c3 / mucho))
+              :ARG1 (c4 / third-person-sing-sinnombre)))
+
+# ::id DFA_es.80 ::annotator 106
+
+(c0 / sentir-02
+    :ARG2 (c1 / tener-01
+              :polarity -
+              :ARG2 (c3 / control
+                        :topic (c4 / espiral
+                                   :domain (c5 / esta)
+                                   :destination (c6 / abajo)))
+              :ARG1 c7)
+    :ARG1 (c7 / first-person-sing-sinnombre))
+
+# ::id DFA_es.81 ::annotator 106
+
+(c3 / y
+    :op2 (c0 / saber-01
+             :polarity -
+             :ARG1 (c6 / cosa
+             		   :ARG1-of (c2 / hacer-02
+                        			:ARG0 c5))
+             :ARG0 (c5 / first-person-sing-sinnombre)))
+
+# ::id DFA_es.82 ::annotator 106
+
+(c0 / agradecer-01
+    :purpose (c2 / leer-01
+              :ARG0 c1)
+    :ARG2 (c1 / second-person-sing-sinnombre))
+
+# ::id DFA_es.83 ::annotator 106
+
+(c0 / agradable
+    :domain (c1 / poder-04
+                :ARG1 (c2 / contar-01
+                          :ARG1 (c3 / lo))))
+
+# ::id DFA_es.84 ::annotator 106
+
+(c0 / poder-04
+    :polarity -
+    :ARG1 (c1 / sancionar-01
+              :cause (c3 / eso)
+              :ARG1 (c2 / la)
+              :ARG0 (c5 / second-person-sing-sinnombre)))
+
+# ::id DFA_es.85 ::annotator 106
+
+(c0 / tener-01
+    :ARG2 (c6 / o
+              :op1 (c2 / historia
+                       :mod (c3 / enfermedad
+                                :mod (c4 / mental)))
+              :op2 (c5 / diagnóstico))
+    :ARG1 (c1 / third-person-sing-sinnombre)
+    :polarity (c7 / amr-unknown))
+
+# ::id DFA_es.86 ::annotator 106
+
+(c0 / aceptar-01
+    :cause (c3 / saber-01
+               :ARG1 (c9 / truth-value
+               			:polarity-of (c6 / obtener-01
+                         				 :ARG1 (c7 / notas
+                                   				   :mod (c8 / buenas))
+                         				 :ARG0 c4))
+               :ARG0 c4)
+    :ARG1 (c1 / universidad)
+    :condition (c2 / poder-04
+                   :ARG1 c0)
+    :mode imperative
+    :ARG0 (c4 / second-person-sing-sinnombre))
+
+# ::id DFA_es.87 ::annotator 106
+
+(c0 / dar-01
+    :ARG0 (c1 / vida)
+    :ARG2 (c7 / second-person-sing-sinnombre)
+    :ARG1 (c2 / thing
+              :name (c3 / name
+                        :op1 "****"))
+    :time (c5 / tiempo
+              :mod (c6 / todo)))
+
+# ::id AFA_es.88 ::annotator 106
+
+(c0 / alguien
+    :condition (c3 / alguien
+                   :ARG0-of (c6 / have-rel-role-91
+                   				:ARG1 (c4 / familia
+                   						  :poss (c5 / tú))
+                   				:ARG2 (c6 / miembro)
+                                :polarity -))
+    :mod (c1 / extraño))
+
+# ::id DFA_es.89 ::annotator 106
+
+(c20 / y
+     :op1 (c0 / requerir-01
+              :ARG1 (c1 / lidiar-01
+                        :manner (c2 / abuso
+                                  :mod (c3 / verbal)
+                                  :poss (c4 / padre
+                                            :poss (c5 / yo)))
+                        :ARG0 c5
+                        :duration (c6 / temporal-quantity
+                                      :quant 8
+                                      :unit (c8 / año
+                                                :mod (c9 / largo)))
+                        :time (c10 / antes
+                                   :op1 (c11 / llegar-01
+                                             :ARG0 c5
+                                             :ARG1 (c12 / universidad))))
+              :ARG0 c5)
+     :op2 (c13 / razón
+               :manner (c19 / honestamente)
+               :mod (c14 / única)
+               :cause-of (c17 / estar-01
+                           :ARG1 c5
+                           :ARG2 c12)
+               :cause (c16 / salida
+                           :domain c17
+                           :mod (c15 / única))))
+
+# ::id DFA_es.90 ::annotator 106
+
+(c0 / trabajar-01
+    :manner (c1 / duro)
+    :condition (c3 / querer-01
+                   :manner (c4 / realmente)
+                   :ARG1 (c6 / salir-01
+                             :ARG1 c5)
+                   :ARG0 c5)
+    :mode imperative
+    :ARG0 (c5 / second-person-sing-sinnombre))
+
+# ::id DFA_es.91 ::annotator 106
+
+(c0 / parecer-01
+    :manner (c1 / realmente)
+    :ARG1 (c2 / necesitar-01
+              :ARG1 (c3 / apoyo
+                        :source (c4 / lado
+                                    :mod (c5 / otro))
+                        :beneficiary c8)
+              :condition (c6 / poder-04
+                             :polarity -
+                             :ARG1 (c7 / dar-01
+                                       :ARG1 c3
+                                       :ARG0 (c9 / ella)
+                                       :ARG2 (c8 / tú)))
+              :ARG0 c8))
+
+# ::id DFA_es.92 ::annotator 106
+
+(c0 / poder-04
+    :ARG1 (c2 / llamar-04
+              :ARG1 (c6 / o
+                        :op1 (c3 / organization
+                                 :name (c4 / name
+                                          :op1 "Childline"))
+                        :op2 (c7 / algo
+                                 :mod (c8 / similar)))
+              :ARG0 (c1 / second-person-sing-sinnombre))
+    :polarity (c9 / amr-unknown))
+
+# ::id DFA_es.93 ::annotator 106
+
+(c0 / poder-04
+    :ARG1 (c14 / y
+               :op1 (c1 / ir-02
+                        :ARG4 (c2 / biblioteca)
+                        :frequency (c11 / rate-entity-91
+                                        :ARG4 (c12 / date-entity
+                                                   :weekday (c13 / sábado)))
+                        :ARG0 (c5 / second-person-sing-sinnombre))
+               :op2 (c4 / estudiar-01
+                        :duration (c7 / temporal-quantity
+                                      :quant 8
+                                      :unit (c8 / hora
+                                                :mod (c9 / buena)))
+                        :location (c10 / allí)
+                        :ARG0 c5)))
+
+# ::id DFA_es.94 ::annotator 106
+
+(c0 / existir-01
+    :ARG1 (c1 / casa
+              :mod (c2 / alguna)
+              :poss (c3 / amigo)
+              :ARG4-of (c4 / ir-02
+                           :ARG1-of (c5 / poder-04)
+                           :purpose (c6 / formar-02
+                                        :ARG1 (c7 / grupo
+                                                  :purpose (c8 / estudiar-01
+                                                  			   :ARG0 c10)))
+                           :ARG0 (c10 / second-person-sing-sinnombre)))
+    :polarity (c9 / amr-unknown))
+
+# ::id DFA_es.95 ::annotator 106
+
+(c0 / querer-01
+    :ARG1 (c1 / sancionar-01
+              :cause (c2 / y
+                         :op1 (c9 / fastidiar-01
+                                  :ARG0 c6
+                                  :ARG1 c4)
+                         :op2 (c10 / culpar-01
+                                   :ARG2 (c7 / problema
+                                             :domain (c8 / todo)
+                                             :poss c4)
+                                   :ARG0 c4
+                                   :ARG1 c6))
+              :ARG0 (c5 / third-person-plural-sinnombre)
+              :ARG1 (c6 / third-person-sing-sinnombre))
+    :polarity (c3 / amr-unknown)
+    :ARG0 (c4 / second-person-sing-sinnombre))
+
+# ::id DFA_es.96 ::annotator 106
+
+(c0 / saber-01
+    :ARG1 (c4 / lo
+              :ARG2-of (c1 / sentir-01
+                           :ARG1 (c3 / second-person-sing-sinnombre)))
+    :ARG0 (c2 / first-person-sing-sinnombre))
+
+# ::id DFA_es.97 ::annotator 106
+
+(c0 / escupir-01
+    :ARG1 (c1 / madre
+              :poss (c2 / yo))
+    :mod (c4 / también)
+    :source (c3 / infierno))
+
+# ::id AFA_es.98 ::annotator 106
+
+(c0 / recomendar-01
+    :ARG1 (c3 / fumar-02
+              :ARG0 (c2 / second-person-sing-sinnombre))
+    :ARG0 (c1 / first-person-sing-sinnombre)
+    :ARG2 c2)
+
+# ::id DFA_es.99 ::annotator 106
+
+(c8 / multi-sentence
+    :snt1 (c0 / empezar-02
+             :ARG1 (c2 / y
+                       :op1 (c3 / crecer-01
+                                :ARG1 c1)
+                       :op2 (c4 / dejar-01
+                       			:ARG1 c1
+                                :ARG2 (c5 / negar-01
+                                		  :ARG0 c1)))
+             :ARG0 (c1 / second-person-sing-sinnombre)
+             :mode imperative)
+    :snt2 (c7 / ser-01
+             :ARG1 (c6 / broma)
+             :mode expressive))
+
+# ::id DFA_es.100 ::annotator 106
+
+(c14 / y
+     :op1 (c0 / creer-01
+              :time (c20 / antes
+                         :duration (c17 / o
+                                        :op1 (c18 / temporal-quantity
+                                                  :quant 1
+                                                  :unit (c22 / año))
+                                        :op2 (c19 / temporal-quantity
+                                                  :quant 2
+                                                  :unit (c23 / año)))
+                         :op1 (c21 / ahora))
+              :ARG1 (c1 / convertir-01
+                        :ARG1 (c10 / persona
+                                   :mod (c11 / débil
+                                             :degree (c12 / más
+                                                       :degree (c13 / mucho))))
+                        :ARG0 c4)
+              :ARG0 c4)
+     :op2 (c2 / abatir-01
+              :manner (c16 / manera
+                           :mod (c15 / alguna))
+              :ARG0 c4
+              :ARG1 (c3 / personalidad
+                        :poss (c4 / yo))
+              :purpose (c5 / tratar-01
+                           :ARG1 (c6 / hacer-09
+                                     :ARG1 (c7 / amigo
+                                               :mod (c8 / alguno))
+                                     :location (c9 / universidad)))))

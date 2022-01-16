@@ -1,0 +1,2153 @@
+bolt_1-100_41
+
+# ::id bolt_es.1 ::annotator 41
+
+(c10 / multi-sentence
+     :snt1 (c2 / respaldar-01
+               :ARG0 (c7 / second-person-sing-sinnombre)
+               :manner (c1 / firme)
+               :mod-polite +
+               :ARG1 (c0 / iniciar-01
+                         :ARG0 (c3 / hilo))
+               :mode imperative)
+     :snt2 (c8 / escribir-01
+               :ARG0 (c11 / first-person-sing-sinnombre)
+               :ARG1 (c4 / poema
+                         :purpose (c5 / responder-01))))
+
+# ::id bolt_es.2 ::annotator 41
+
+(c0 / comprometer-01
+    :mode imperative
+    :mod-polite +
+    :ARG2 (c2 / luchar-01
+    		  :ARG0 c13
+              :duration (c15 / hasta
+              			    :op1 (c10 / morir-01
+                               		  :ARG1 c13))
+              :manner (c11 / defender-01
+                         :ARG0 c13
+                         :ARG1 (c8 / y
+                                   :op1 (c3 / island
+                                            :name (c4 / name
+                                                      :op1 "Diayu"))
+                                   :op2 (c7 / isla
+                                            :ARG0-of (c9 / relacionar-02
+                                                         :ARG1 c3)))))
+    :ARG0 (c13 / second-person-sing-sinnombre))
+
+# ::id bolt_es.3 ::annotator 41
+
+(c4 / multi-sentence
+    :snt1 (c0 / chocar-01
+              :ARG1 (c3 / flota)
+              :ARG2 (c1 / barco
+                        :mod (c2 / pesca)))
+    :snt2 (c11 / provocar-01
+               :ARG0 (c5 / fantasma
+                         :mod (c6 / pequeño)
+                         :mod (c7 / malvado)
+                         :mod (c8 / country
+                                  :name (c9 / name
+                                            :op1 "Japón")))
+               :ARG1 (c22 / y
+                          :op1 (c12 / problema)
+                          :op2 (c13 / disturbio)))
+    :snt3 (c20 / mostrar-02
+               :ARG0 (c19 / third-person-sing-sinnombre)
+               :ARG1 (c18 / aspecto
+                          :poss c19
+                          :mod (c23 / lobuno))
+               :instrument (c24 / y
+                                :op1 (c25 / corazón
+                                          :poss (c15 / ladrón))
+                                :op2 (c16 / forma
+                                          :mod (c17 / arrogante)))
+               :manner (c21 / de-nuevo)))
+
+# ::id bolt_es.4 ::annotator 41
+
+(c23 / multi-sentence
+     :snt1 (c1 / regresar-01
+               :time (c0 / nunca)
+               :ARG0 (c4 / first-person-plural-sinnombre)
+               :ARG4 (c3 / época
+                         :mod (c2 / esa)
+                         :time-of (c6 / apariencia
+                                      :poss c4
+                                      :ARG0-of (c5 / humillar-01
+                                      			   :ARG1 c4)
+                                      :time-of (c8 / firmar-01
+                                                   :ARG0 c4
+                                                   :ARG1 (c7 / tratado))))
+               :mode imperative)
+     :snt2 (c12 / fuerte
+                :domain (c9 / country
+                            :name (c10 / name
+                                       :op1 "China"))
+                :mode imperative)
+     :snt3 (c17 / enterrar-01
+                :ARG0 c4
+                :ARG1 (c18 / enemigo
+                           :ARG1-of (c19 / aproximar-01))
+                :mode imperative
+                :instrument (c25 / y
+                                 :op1 (c13 / espada
+                                           :mod (c14 / afilada))
+                                 :op2 (c15 / cuchillo
+                                           :mod (c16 / brillante)))))
+
+# ::id bolt_es.5 ::annotator 41
+
+(c0 / date-entity
+    :year 2010
+    :month 9
+    :day 11)
+
+# ::id bolt_es.6 ::annotator 41
+
+(c0 / multi-sentence
+    :snt1 (c1 / acordar-02
+              :ARG0 (c3 / first-person-sing-sinnombre)
+              :ARG1 (c6 / aumento
+                        :domain (c33 / third-person-sing-sinnombre)
+                        :mod (c8 / resueltamente))
+              :ARG2 (c2 / analizar-01
+                        :ARG1 (c4 / iniciador
+                                  :mod (c5 / hilo))))
+    :snt2 (c12 / gustar-01
+               :ARG1 (c34 / ser-01
+                          :ARG1 c3
+                          :ARG2 (c13 / person
+                                     :name (c14 / name
+                                                :op1 "Hua"
+                                                :op2 "Mulan"))
+                          :purpose (c7 / y
+                                       :op1 (c17 / proteger-01
+                                                 :ARG1 (c18 / hogar
+                                                            :poss (c36 / first-person-plural-sinnombre)))
+                                       :op2 (c19 / defender-01
+                                                 :ARG1 (c20 / patria
+                                                            :poss c36)))
+                          :purpose (c21 / difundir-01
+                                        :ARG1 (c22 / pretigio
+                                                   :mod (c23 / country
+                                                             :name (c24 / name
+                                                                        :op1 "China")
+                                                             :poss c36)))
+                          :purpose (c27 / comprometer-01
+                                        :ARG2 (c28 / luchar-01
+                                                   :duration (c79 / hasta
+                                                   			      :op1 (c29 / morir-01
+                                                                    		:ARG1 c36))
+                                                   :ARG1 (c30 / defender-01
+                                                              :ARG0 c36
+                                                              :ARG1 (c31 / dignidad
+                                                                         :poss c36
+                                                                         :mod (c32 / nacional))))
+                                        :ARG0 c36))
+               :condition (c11 / llegar-01
+                               :ARG1 (c9 / guerra)
+                               :mod (c10 / realmente))))
+
+# ::id bolt_es.7 ::annotator 41
+
+(c5 / nacer-01
+    :ARG1 (c29 / first-person-sing-sinnnombre)
+    :manner (c10 / ojalá)
+    :time (c1 / tiempo
+              :mod (c3 / aquel)
+              :mod (c4 / apasionante)
+              :time-of (c31 / revuelta
+                            :poss (c30 / person
+                                       :name (c7 / name
+                                                 :op1 "Mao"
+                                                 :op2 "Zedong"))
+                            :subevent (c12 / event
+                                           :name (c13 / name
+                                                      :op1 "Larga"
+                                                      :op2 "Marcha")))
+              :manner (c34 / y
+                            :op1 (c18 / y
+                                      :op1 (c33 / perder-01
+                                      			:ARG0 c29
+                                                :ARG1 (c17 / cabeza))
+                                      :op2 (c19 / derramar-02
+                                                :ARG1 (c37 / sangre
+                                                		   :source c29)))
+                            :op2 (c20 / extinguir-01
+                                      :extent (c21 / completo)
+                                      :ARG1 (c23 / enemigo
+                                                 :mod (c22 / todo)
+                                                 :ARG0-of (c24 / perjudicar-01
+                                                               :ARG1 (c38 / country
+                                                                          :name (c39 / name
+                                                                                     :op1 "China")))))
+                            :op3 (c25 / extender-02
+                                      :ARG1 (c26 / prestigio
+                                                 :poss (c28 / dragón
+                                                            :poss (c27 / first-person-plural-sinnombre)))))))
+
+# ::id bolt_es.8 ::annotator 41
+
+(c6 / tolerar-01
+    :ARG0 (c7 / first-person-plural-sinnombre)
+    :ARG1 (c3 / country
+              :name (c4 / name
+                        :op1 "Japón"))
+    :duration (c0 / temporal-quantity
+                  :quant amr-unknown
+                  :unit (c1 / tiempo)))
+
+# ::id bolt_es.9 ::annotator 41
+
+(c0 / conciudadano)
+
+# ::id bolt_es.10 ::annotator 41
+
+(c0 / multi-sentence
+    :snt1 (c1 / hola
+    		  :mode expressive
+              :beneficiary (c3 / todo))
+    :snt2 (c9 / contrastar-01
+              :ARG1 (c5 / conocer-01
+                        :ARG0 (c4 / first-person-plural-sinnombre
+                        		  :mod (c70 / todo))
+                        :ARG1 (c36 / incidente
+                                   :time (c37 / date-entity
+                                              :month 9
+                                              :day 18)))
+              :ARG2 (c15 / tener-01
+                         :time (c10 / ahora)
+                         :ARG1 (c12 / country
+                                    :name (c13 / name
+                                               :op1 "Japón"))
+                         :manner (c11 / nueva)
+                         :ARG2 (c16 / plan
+                                    :mod (c17 / premeditado)
+                                    :purpose (c31 / o
+                                                  :op1 36
+                                                            :mod (c40 / otro)
+                                                            :location (c35 / mar)
+                                                  :op2 (c33 / event
+                                                            :name (c24 / name
+                                                                       :op1 "Puente"
+                                                                       :op2 "Lugou")
+                                                            :mod (c34 / otro)
+                                                            :location c35))))))
+
+# ::id bolt_es.11 ::annotator 41
+
+(c15 / y
+     :op1 (c14 / desafiar-01
+               :ARG0 (c1 / country
+                         :name (c2 / name
+                                   :op1 "Japón"))
+               :ARG1 (c5 / fuerte
+                         :mod (c6 / condena)
+                         :poss (c7 / mundo
+                                   :mod (c8 / entero)))
+               :manner (c4 / sorprender-01))
+     :op2 (c16 / invadir-01
+               :ARG0 c1
+               :ARG1 (c10 / territorio
+                          :mod (c11 / sagrado)
+                          :poss (c12 / country
+                                     :poss (c13 / first-person-plural-sinnombre))
+                          :domain (c17 / island
+                                       :name (c18 / name
+                                                  :op1 "Diaoyu")))
+               :manner (c9 / abierto)))
+
+# ::id bolt_es.12 ::annotator 41
+
+(c15 / y
+     :op1 (c13 / saber-01
+               :ARG0 (c14 / first-person-plural-sinnombre
+                          :mod (c0 / todo))
+               :ARG1 (c6 / pertenecer-01
+                         :ARG1 (c1 / island
+                                   :name (c2 / name
+                                             :op1 "Diaoyu"))
+                         :ARG2 (c7 / country
+                                   :name (c8 / name
+                                             :op1 "China"))
+                         :time (c5 / siempre)))
+     :op2 (c16 / volver-02
+               :ARG1 (c12 / lo
+                          :ARG1-of (c19 / pertenecer-01
+                                        :ARG2 c14
+                                        :manner (c18 / original)))
+               :ARG2 (c17 / controvertido)
+               :cause (c10 / razón
+                           :mod (c11 / histórica))))
+
+# ::id bolt_es.13 ::annotator 41
+
+(c19 / multi-sentence
+     :snt1 (c0 / decir-01
+               :ARG0 (c20 / first-person-sing-sinnombre)
+               :ARG1 (c25 / y
+                          :op1 (c26 / cosa
+                                    :poss (c2 / first-person-plural-sinnombre)
+                                    :domain (c27 / cosa
+                                                 :poss c2))
+                          :op2 (c24 / necesitar-01
+                                    :ARG1 (c4 / negociar-01)
+                                    :cause (c23 / amr-unknown)))
+               :ARG3 (c1 / conciudadano
+                         :poss c20))
+     :snt2 (c30 / y
+                :op1 (c31 / ir-02
+                          :ARG0 (c5 / country
+                                    :name (c6 / name
+                                              :op1 "Japón"))
+                          :ARG4 (c10 / lejos
+                                     :mod (c9 / más)
+                                     :mod (c8 / aún)))
+                :op2 (c11 / querer-01
+                          :ARG0 c5
+                          :ARG1 (c12 / crear-01
+                                     :ARG1 (c13 / hecho
+                                                :mod (c14 / ocupación))
+                                     :ARG0 c5)))
+     :snt3 (c15 / poder-04
+                :ARG1 (c16 / permitir-01
+                           :ARG0 c2
+                           :ARG1 (c17 / algo
+                                      :mod (c18 / así)))
+                :polarity (c33 / amr-unknown))
+     :snt4 (c34 / manera
+                :mod (c35 / ninguna)
+                :manner-of c16))
+
+# ::id bolt_es.14 ::annotator 41
+
+(c0 / decir-01
+    :ARG0 (c2 / first-person-sing-sinnombre)
+    :ARG1 (c13 / traer-01
+               :ARG0 (c3 / militarismo
+                         :poss (c4 / country
+                                   :name (c5 / name
+                                             :op1 "Japón")))
+               :ARG1 (c8 / desastre
+                         :mod (c9 / grande))
+               :ARG4 (c7 / pueblo
+                         :mod (c10 / continent
+                                   :name (c11 / name
+                                              :op1 "Asia"))))
+    :ARG3 (c1 / conciudadano
+              :poss c2))
+
+# ::id bolt_es.15 ::annotator 41
+
+(c9 / sufrir-01
+    :ARG1 (c0 / country
+              :name (c1 / name
+                        :op1 "China")
+              :mod (c11 / especial))
+    :ARG2 (c10 / estrago
+               :mod (c3 / country
+                           :name (c4 / name
+                                  	 :op1 "Japón")))
+    :duration (c6 / temporal-quantity
+                  :unit (c7 / década)))
+
+# ::id bolt_es.16 ::annotator 41
+
+(c53 / multi-sentence
+     :snt1 (c4 / llevar-a-cabo-01
+               :ARG0 (c57 / organization
+                          :mod (c55 / militar)
+                          :name (c56 / name
+                                     :op1 "Unidad"
+                                     :op2 "japonesa"
+                                     :op3 "731")
+                          :ARG1-of (c61 / tener-01
+                                        :ARG2 (c20 / método
+                                                   :mod (c22 / brutal
+                                                             :mod (c21 / extremo)))))
+               :ARG1 (c58 / experimentar-03
+                          :ARG0 c57
+                          :mod (c5 / cruel)
+                          :ARG2 (c8 / cuerpo
+                                    :mod (c9 / humano)
+                          			:example (c10 / person
+                                        		  :ARG0-of (c11 / vivir-05)
+                                        		  :mod (c59 / y
+                                                  			:op1 (c60 / country
+                                                            		  :name (c13 / name
+                                                                       			 :op1 "China"))
+                                                  			:op2 (c15 / country
+                                                            		  :name (c16 / name
+                                                                       		     :op1 "Corea"))
+                                                  			:op3 (c18 / country
+                                                            		  :mod (c19 / otro))))))
+               :location (c0 / noreste))
+     :snt2 (c63 / añadir-01
+                :ARG0 (c26 / event
+                           :name (c62 / name
+                                      :op1 "masacre"
+                                      :op2 "de"
+                                      :op3 "Nanjing"))
+                :ARG1 (c29 / capa
+                           :consist-of (c30 / sangre))
+                :ARG2 (c31 / capital
+                           :mod (c32 / antigua)
+                           :ARG1-of (c64 / desvanecer
+                                         :time (c33 / nunca))))
+     :snt3 (c67 / y
+                :op1 (c68 / desnudar-01
+                          :ARG0 (c35 / batalla
+                                     :mod (c36 / grande)
+                                     :location (c65 / y
+                                                    :op1 (c37 / city
+                                                              :name (c38 / name
+                                                                         :op1 "Hengyang"))
+                                                    :op2 (c40 / city
+                                                              :name (c27 / name
+                                                                         :op1 "Changs"))))
+                          :ARG1 (c44 / hueso
+                                     :poss (c45 / person
+                                                :ARG1-of (c46 / morir-01)))
+                          :extent (c69 / kilómetro
+                                       :quant (c73 / más-de
+                                                   :op1 1000)))
+                :op2 (c51 / matar-01
+                          :ARG0 c35
+                          :ARG1 (c50 / lo
+                                     :mod (c52 / todo)))))
+
+# ::id bolt_es.17 ::annotator 41
+
+(c0 / decir-01
+    :ARG0 (c2 / first-person-sing-sinnombre)
+    :ARG1 (c50 / haber-01
+			   :ARG1 (c11 / caso
+               			  :mod demasiado
+               			  :ARG1-of (c13 / citar-01)
+               			  :ARG1-of (c15 / registrar-01
+                             			:mod (c14 / difícil)
+                             			:instrument (c17 / agotar-01
+                             							 :polarity -
+                                            			 :ARG1 (c20 / tira
+                                                       				:mod (c19 / toda)
+                                                       				:consist-of (c18 / bambú))))
+               			  :part-of (c3 / atroce
+                        		   :mod (c4 / crímine)
+                        		   :ARG1-of (c21 / cometer-01
+                                      			 :ARG0 (c5 / country
+                                                		   :name (c6 / name
+                                                          			 :op1 "Japón"))
+                                      			 :location (c8 / country
+                                                    		   :name (c9 / name
+                                                              			 :op1 "China"))))))
+    :ARG3 (c1 / conciudadano
+              :poss c2))
+
+# ::id bolt_es.18 ::annotator 41
+
+(c17 / parecer-02
+     :ARG2 (c19 / y
+                :op1 (c15 / vagar-01
+                          :ARG0 (c7 / alma
+                                    :quant 10000000
+                                    :ARG1-of (c1 / morir-01)
+                                    :ARG0-of (c4 / perder-01
+                                                 :ARG1 (c16 / vida)))
+                          :path (c12 / océano
+                                     :name (c11 / name
+                                                :op1 "océano"
+                                                :op2 "Pacífico")))
+                :op2 (c3 / encontrar-01
+                         :ARG0 c7
+                         :ARG1 (c2 / descansar-01)
+                         :ARG2 (c20 / difícil))))
+
+# ::id bolt_es.19 ::annotator 41
+
+(c27 / y
+     :op1 (c31 / deber-03
+               :mod (c6 / todavía)
+               :ARG1 (c7 / recordar-02
+                         :ARG0 (c2 / persona
+                                   :mod (c1 / toda)
+                                   :ARG1-of (c3 / experimentar-01
+                                                :ARG2 (c30 / época)))
+                         :manner (c8 / vívido)
+                         :ARG1 c30))
+     :op2 (c0 / y
+              :op1 (c14 / llorar-01
+                        :ARG0 (c11 / generación
+                                   :poss (c10 / first-person-plural-sinnombre)
+                                   :ARG1-of (c32 / have-degree-91
+                                                 :ARG2 (c33 / jóven)
+                                                 :ARG3 (c12 / más))
+                                   :mod (c9 / incluso)))
+              :op2 (c16 / recorrer-01
+                        :ARG0 (c34 / lágrima)
+                        :ARG1 (c35 / mejilla
+                                   :poss c11))
+              :op3 (c19 / hervir-01
+                        :ARG1 (c36 / sangre
+                                   :poss c10)
+                        :ARG1-of (c38 / causar-01
+                                      :ARG0 (c20 / indignación))
+                        :time (c39 / y
+                                   :op1 (c40 / pasar-03
+                                             :ARG1 c10
+                                             :ARG4 (c24 / página
+                                                        :mod (c4 / esta)
+                                                        :part-of (c25 / historia)))
+                                   :op2 (c26 / leer-01
+                                             :ARG0 c10)))))
+
+# ::id bolt_es.20 ::annotator 41
+
+(c21 / decir-01
+     :ARG1 (c4 / querer-01
+               :ARG0 (c1 / country
+                         :name (c2 / name
+                                   :op1 "Japón"))
+               :ARG1 (c5 / revertir-01
+                         :ARG0 c1
+                         :ARG1 (c6 / veredicto
+                                   :topic (c7 / histora
+                                              :mod (c8 / agresión
+                                                       :poss c1))))
+               :time (c0 / ahora))
+     :ARG3 (c23 / y
+                :op1 (c9 / conciudadano)
+                :op2 (c10 / compañero
+                          :mod (c14 / country
+                                    :name (c15 / name
+                                               :op1 "China"))
+                          :location (c11 / continent
+                                         :name (c12 / name
+                                                    :op1 "Asia")))
+                :ARG1-of (c17 / despertar-01
+                          	  :mode imperative
+                          	  :mod-polite +))
+
+# ::id bolt_es.21 ::annotator 41
+
+(c19 / y
+     :op1 (c7 / deber-03
+              :ARG1 (c8 / enfrentar-01
+                        :ARG0 (c15 / first-person-plural-sinnombre)
+                        :ARG1 (c18 / lo))
+              :concession (c0 / doloroso
+                              :domain (c1 / mirar-02
+                                          :direction (c2 / atrás)
+                                          :ARG1 (c3 / año
+                                                    :mod (c5 / eso)
+                                                    :quant 100
+                                                    :consist-of (c6 / vergüenza)))))
+     :op2 (c20 / y
+               :op1 (c14 / creer-02
+                         :ARG0 c15
+                         :ARG1 (c17 / historia)
+                         :mode imperative)
+               :op2 (c16 / elergir-01
+                         :ARG0 c15
+                         :ARG1 c17
+                         :mode imperative)
+               :concession (c13 / resolver-01
+                                :ARG1 (c10 / problema
+                                           :mod (c11 / histórico))
+                                :polarity -)))
+
+# ::id bolt_es.22 ::annotator 41
+
+(c3 / multi-sentence
+    :snt1 (c1 / tener-01
+              :ARG1 (c29 / first-person-plural-sinnombre)
+              :ARG2 (c2 / miedo)
+              :polarity -
+              :cause (c0 / responsibilidad))
+    :snt2 (c6 / contrastar-01
+              :ARG1 (c5 / pequeño
+                        :domain (c33 / territorio))
+              :ARG2 (c7 / relacionar-01
+                        :ARG1 c33
+                        :ARG2 (c8 / tema
+                                  :mod (c9 / dignidad))))
+    :snt3 (c36 / importar-01
+                         :polarity -
+                         :ARG1 (c34 / manera
+                                    :manner-of (c14 / cambiar-01
+                                                    :ARG1 (c13 / y
+                                                               :op1 (c11 / viento)
+                                                               :op2 (c12 / nube))))
+                         :cause (c38 / garantizar-01
+                                     :ARG0 (c37 / y
+                                                :op1 (c15 / interese
+                                                          :poss (c16 / country))
+                                                :op2 (c18 / unidad
+                                                          :mod (c19 / nacional)))
+                                     :ARG1 (c21 / honor)))
+    :snt4 (c23 / poder-04
+               :polarity -
+               :ARG1 (c27 / dejar-03
+                          :ARG0 c29
+                          :ARG1 (c31 / separar-01
+                                     :ARG1 (c28 / tierra
+                                                :poss c29
+                                                :mod (c30 / natal))))
+               :concession (c26 / llenar-01
+                                :ARG1 (c41 / third-person-sing-sinnombre)
+                                :ARG2 (c40 / herida))))
+
+# ::id bolt_es.23 ::annotator 41
+
+(c0 / decir-01
+    :ARG0 (c15 / first-person-sing-sinnombre)
+    :ARG1 (c10 / significar-01
+               :ARG1 (c7 / advenimiento
+                         :time (c9 / date-entity
+                                  :century 21))
+               :ARG2 (c11 / momento
+                          :time-of (c12 / acosar-01
+                                        :ARG0 (c13 / dificultad)
+                                        :location (c14 / dentro
+                                                       :part-of c23)
+                                        :ARG1 (c23 / first-person-plural-sinnombre))
+                          :duration-of (c24 / y
+                                            :op1 (c17 / presionar-01
+                                                      :ARG0 (c16 / third-person-plural-sinnombre)
+                                                      :ARG1 c23
+                                                      :source (c18 / fuera))
+                                            :op2 (c19 / enfrentar-01
+                                                      :ARG0 c23
+                                                      :ARG1 (c20 / desfío
+                                                                 mod (c21 / mucho)))))
+               :beneficiary (c3 / nación
+                                :mod (c4 / country
+                                         :name (c5 / name
+                                                   :op1 "china"))))
+    :ARG3 (c2 / conciudadano
+              :poss c15))
+
+# ::id bolt_es.24 ::annotator 41
+
+(c29 / multi-sentence
+     :snt1 (c31 / y
+                :op1 (c0 / rodear-01
+                         :ARG0 (c5 / entorno
+                                   :example (c30 / y
+                                              :op1 (c1 / problema
+                                                       :mod (c2 / country
+                                                                :name (c3 / name
+                                                                          :op1 "Taiwán")))
+                                              :op2 (c6 / problema
+                                                       :mod (c9 / country-region
+                                                                :name (c8 / name
+                                                                          :op1 "Tíbet")))
+                                              :op3 (c10 / problema
+                                                        :mod (c11 / sea
+                                                                  :name (c17 / name
+                                                                             :op1 "mar"
+                                                                             :op2 "del"
+                                                                             :op3 "Sur"
+                                                                             :op4 "de"
+                                                                             :op5 "China")))))
+                         :ARG1 (c28 / first-person-plural-sinnombre))
+                :op2 (c18 / fuerza
+                          :mod (c19 / agresiva)
+                          :source (c20 / country
+                                         :name (c21 / name
+                                                    :op1 "China"))))
+     :snt2 (c25 / deber-03
+                :ARG1 (c26 / ir-02
+                           :ARG0 c28
+                           :ARG4 (c24 / amr-unknown))))
+
+# ::id bolt_es.25 ::annotator 41
+
+(c21 / multi-sentence
+     :snt1 (c3 / decir-01
+               :ARG0 (c2 / first-person-sing-sinnombre)
+               :ARG1 (c22 / hacer-02
+                          :ARG0 (c14 / first-person-plural-sinnombre)
+                          :ARG1 (c4 / amr-unknown))
+               :ARG3 (c1 / conciudadano))
+     :snt2 (c6 / echar-05
+               :mode imperative
+               :mod-polite +
+               :ARG0 (c24 / second-person-sing-sinnombre)
+               :ARG2 (c7 / mapa
+                         :mod (c8 / mundo)
+                         :mod (c10 / cerco
+                                         :mod (c9 / ese)
+                                         :mod (c11 / forma
+                                                      :mod (c12 / medialuna))
+                                         :ARG0-of (c13 / reprimir-01
+                                                       :ARG1 (c15 / respirar-01
+                                                                  :ARG0 c14)
+                                                       :manner (c25 / y
+                                                                    :op1 (c16 / estrangular-01
+                                                                              :ARG0 c10
+									      									  :ARG1 (c17 / desarrollar-01
+																					:ARG0 c14))
+								    								:op2 (c18 / codiciar-01
+									     									  :ARG0 c10
+									      									  :ARG1 (c19 / territorio
+									                									 :poss c14
+																						 :mod (c20 / nacional)))))))))
+
+# ::id bolt_es.26 ::annotator 41
+
+(c8 / y
+    :op1 (c5 / contrastar-01
+             :ARG1 (c3 / querer-01
+                       :polarity -
+                       :ARG0 (c0 / first-person-plural-sinnombre)
+                       :ARG1 (c2 / hacer-18
+                                 :ARG0 (c1 / enemigo)))
+             :ARG2 (c7 / temer-01
+                       :time (c6 / nunca)
+                       :ARG0 c0
+                       :ARG1 c1))
+    :op2 (c13 / contrastar-01
+              :ARG1 (c11 / querer-01
+                         :ARG0 c0
+                         :polarity -
+                         :ARG1 (c12 / guerra))
+              :ARG2 (c15 / temer-01
+                         :polarity -
+                         :ARG0 c0
+                         :ARG1 c12)))
+
+# ::id bolt_es.27 ::annotator 41
+
+(c0 / deber-03
+    :ARG1 (c5 / y
+              :op1 (c14 / organizar-01
+                        :manner (c2 / urgente)
+                        :ARG0 (c13 / first-person-plural-sinnombre)
+                        :ARG1 (c4 / arma))
+              :op2 (c6 / fortalecer-01
+                       :ARG0 c13
+                       :ARG1 (c7 / fuerza
+                                 :mod (c8 / militar)
+                                 :mod (c12 / toda)
+                                 :location (c15 / y
+                                                :op1 (c9 / tierra)
+                                                :op2 (c10 / mar)
+                                                :op3 (c11 / aire))))))
+
+# ::id bolt_es.28 ::annotator 41
+
+(c9 / contrast-01
+    :ARG1 (c8 / florecer-01
+              :duration (c16 / temporal-quantity
+                             :quant 1000
+                             :unit (c17 / año))
+              :time (c6 / vez
+                        :mod (c7 / varia))
+              :ARG1 (c19 / nación
+                         :mod (c3 / country
+                                  :name (c4 / name
+                                            :op1 "China"))))
+    :ARG2 (c12 / tener-01
+               :ARG1 c19
+               :time (c10 / antes)
+               :time (c11 / nunca)
+               :ARG2 (c13 / ambición
+                          :purpose (c14 / expandir-01
+                                        :ARG1 (c15 / territorio
+                                                   :poss c19)))))
+
+# ::id bolt_es.29 ::annotator 41
+
+(c19 / y
+     :op1 (c0 / imponer-01
+              :polarity -
+              :ARG1 (c3 / lo
+                        :ARG1-of (c5 / querer-01
+                                     :polarity -
+                                     :beneficiary (c6 / nosotros
+                                                      :mod (c7 / mismo))
+                                     :ARG0 c6))
+              :ARG2 (c1 / demás))
+     :op2 (c10 / filosofía
+               :domain (c8 / lo
+                           :ARG1-of (c9 / seguir-05
+                                        :ARG0 c6))
+               :mod (c11 / estratégica)
+               :topic (c12 / seguridad
+                           :mod (c13 / extranjera))
+               :ARG0-of (c14 / aplicar-01
+                             :ARG1 (c18 / y
+                                        :op1 (c15 / benevolencia)
+                                        :op2 (c16 / virtud)))))
+
+# ::id bolt_es.30 ::annotator 41
+
+(c4 / parecer-02
+    :ARG1 (c5 / y
+              :op1 (c0 / tolerancia
+                       :poss (c2 / país))
+              :op2 (c1 / liberalidad
+                       :poss c2))
+    :ARG2 (c16 / y
+               :op1 (c17 / tolerancia
+                         :poss (c19 / individuo))
+               :op2 (c18 / liberalidad
+                         :poss c19))
+    :example (c11 / contrastar-01
+                  :ARG1 (c7 / evitar-01
+                            :ARG0 (c6 / first-person-plural-sinnombre)
+                            :ARG1 (c10 / herir-01
+                                       :ARG0 c6
+                                       :ARG1 (c8 / demás)))
+                  :ARG2 (c12 / deber-03
+                             :ARG1 (c13 / insistir-01
+                                        :ARG0 c6
+                                        :ARG1 c10
+                                        :purpose (c15 / lastimar-01
+                                                      :polarity -
+                                                      :ARG0 c8
+                                                      :ARG1 c6)))))
+
+# ::id bolt_es.31 ::annotator 41
+
+(c2 / y
+    :op1 (c1 / miedo
+             :domain (c9 / tolerancia
+                         :polarity -
+                         :mod (c3 / cierto)))
+    :op2 (c10 / tener-que-ver-01
+              :ARG1 (c4 / sinceridad)
+              :ARG2 (c6 / cobardía)
+              :polarity -))
+
+# ::id bolt_es.32 ::annotator 41
+
+(c6 / eximir-01
+    :ARG0 (c1 / country
+              :name (c3 / name
+                        :op1 "China"))
+    :ARG1 (c0 / country
+              :name (c2 / name
+                        :op1 "Japón"))
+    :ARG2 (c7 / reparación
+              :mod (c8 / guerra)
+              :purpose (c9 / war
+                           :name (c10 / name
+                                      :op1 "Segunda"
+                                      :op2 "Guerra"
+                                      :op3 "Mundial")))
+    :purpose (c15 / paz
+                  :mod (c16 / benevolente)))
+
+# ::id bolt_es.33 ::annotator 41
+
+(c2 / decir-01
+    :ARG0 (c0 / first-person-sing-sinnombre)
+    :ARG1 (c3 / historia
+              :ARG1-of (c4 / condensar-01)
+              :topic (c5 / nación
+                         :ARG0-of (c6 / luchar-01
+                                      :ARG1 (c7 / mejora
+                                                :mod (c8 / propia)
+                                                :mod (c9 / continua))))
+              :domain (c16 / building
+                           :name (c17 / name
+                                      :op1 "Monumento"
+                                      :op2 "a"
+                                      :op3 "los"
+                                      :op4 "Héroes"
+                                      :op5 "del"
+                                      :op6 "Pueblo")))
+    :ARG3 (c1 / conciudadano))
+
+# ::id bolt_es.34 ::annotator 41
+
+(c3 / representar-02
+    :ARG1 (c0 / postura
+              :mod (c1 / solemne)
+              :mod (c8 / magnífica))
+    :ARG2 (c4 / expectativa
+              :mod (c6 / sagrada)
+              :mod (c5 / paz)))
+
+# ::id bolt_es.35 ::annotator 41
+
+(c18 / y
+     :op1 (c3 / agitar-01
+              :ARG1 (c1 / secuencia
+                        :mod (c17 / pensamiento
+                                  :poss (c0 / memoria
+                                  			:poss c20)))
+              :time (c4 / de-vez-en-cuando))
+     :op2 (c14 / surgir-01
+               :ARG1 (c5 / escena
+                         :mod (c6 / mucha)
+                         :mod (c7 / heroica)
+                         :mod (c8 / conmovedora)
+                         :mod (c9 / trágica)
+                         :mod (c19 / y
+                                   :op1 (c10 / lanza
+                                             :mod (c11 / brillante))
+                                   :op2 (c12 / caballo
+                                             :mod (c13 / acorazada))))
+               :location (c15 / mente
+                              :poss (c20 / first-person-sing-sinnombre))))
+
+# ::id bolt_es.36 ::annotator 41
+
+(c46 / pasar-08
+     :ARG1 (c1 / pensamiento
+               :poss (c0 / first-person-sing-sinnombre))
+     :ARG2 (c4 / página
+               :mod (c3 / esa)
+               :mod (c5 / amarilla)
+               :mod (c6 / historia))
+     :example (c52 / ver-01
+                        :ARG0 c0
+                        :ARG1 (c53 / person
+                                   :name (c9 / name
+                                             :op1 "emperador"
+                                             :op2 "Kangxi")
+                                   :domain (c12 / gobernante
+                                                :mod (c13 / famoso)
+                                                :poss (c14 / generación))
+                                   :ARG0-of (c15 / contemplar-01
+                                                 :mod (c49 / solo)
+                                                 :ARG1 (c50 / manera
+                                                            :manner-of (c16 / lograr-01
+                                                                            :ARG1 (c17 / unificar-01
+																					   :ARG0 c53
+										        									   :ARG1 (c18 / territorio))
+									    		 							:ARG0 c53))
+						 						:location (c19 / sala
+						            						   :poss c53
+							    							   :mod (c20 / audiencia))
+						 						 :time (c58 / antes
+							    							:op1 (c59 / ahora)
+							    							:quant (c61 / temporal-quantity
+								            							:quant 100
+									       							 	:unit (c60 / año))))))
+     :example (c28 / ver-01
+                        :ARG0 c0
+                        :ARG1 (c54 / person
+                                   :name (c55 / name
+                                              :op1 "Abraham"
+                                              :op2 "Lincoln")
+                                   :ARG0-of (c31 / have-org-role-91
+                                                 :ARG1 (c32 / country
+                                                            :name (c33 / name
+                                                                       :op1 "Estados"
+                                                                       :op2 "Unidos"))
+                                                 :ARG2 (c29 / presidente
+                                                            :mod (c30 / antiguo)))
+                                   :ARG0-of (c36 / vagar-01
+                                                 :location (c38 / oscuridad
+                                                                :poss (c40 / salón
+                                                                           :mod (c39 / gran)))
+                                                 :mod (c37 / solo))
+                                   :ARG0-of (c41 / pensar-02
+                                                 :ARG1 (c42 / integridad
+                                                            :poss (c43 / regional-group
+                                                                       :name (c44 / name
+                                                                                  :op1 "Unión")))))))
+
+# ::id bolt_es.37 ::annotator 41
+
+(c7 / multi-sentence
+    :snt1 (c4 / peligroso
+              :mod (c5 / cierto)
+              :domain (c39 / olvidar-02
+                           :ARG1 (c6 / guerra))
+              :concession (c60 / haber-01
+							   :ARG1 (c61 / paz
+                            		  	  :location (c1 / mundo
+                                           	 		    :mod (c2 / todo)))))
+    :snt2 (c40 / decir-01
+               :ARG0 (c8 / first-person-sing-sinnombre)
+               :ARG1 (c14 / contrastar-01
+                          :ARG1 (c10 / querer-01
+                                     :ARG0 (c41 / first-person-plural-sinnombre)
+                                     :ARG1 (c42 / y
+                                                :op1 (c12 / desarrollo)
+                                                :op2 (c13 / paz)))
+                          :ARG2 (c43 / recomendar-01
+                                     :time (c15 / nunca)
+                                     :ARG1 (c16 / ejercer-01
+                                                :ARG0 c41
+                                                :ARG1 (c17 / indulgencia)
+                                                :manner (c18 / ciego))))
+               :ARG3 (c9 / conciudadano
+                         :poss c8))
+    :snt3 (c44 / y
+               :op1 (c26 / agravar-01
+                         :ARG0 (c19 / treaty
+                                    :name (c20 / name
+                                               :op1 "Protocolo"
+                                               :op2 "Boxer")
+                                    :mod (c47 / y
+                                              :op1 (c45 / traición)
+                                              :op2 (c46 / humillación)
+                                              :mod (c25 / nacional)))
+                         :ARG1 (c48 / y
+                                    :op1 (c27 / pobreza)
+                                    :op2 (c28 / atraso)
+                                    :poss (c30 / country
+                                               :name (c31 / name
+                                                          :op1 "China")))
+                         :time (c33 / época
+                                    :mod (c34 / moderna)))
+               :op2 (c37 / conducir-01
+                         :ARG1 (c35 / quedar-05
+                                    :location (c36 / atrás))
+                         :ARG2 (c38 / intimidar-01
+                                    :ARG1 (c49 / cosa
+                                               :ARG1-of c35)))))
+
+# ::id bolt_es.38 ::annotator 41
+
+(c2 / venir-02
+    :ARG1 (c4 / paz)
+    :ARG3 (c3 / amr-unknown)
+    :instrument (c6 / fuerza
+    				 :polarity -))
+
+# ::id bolt_es.39 ::annotator 41
+
+(c0 / deber-03
+    :ARG1 (c23 / y
+               :op1 (c1 / enfocar-01
+                        :ARG0 (c24 / first-person-plural-sinnombre)
+                        :ARG2 (c2 / educar-01
+                                  :ARG1 (c3 / defensa
+                                            :mod (c4 / nacional)))
+                        :purpose (c5 / construir-01
+                                     :ARG1 (c6 / building
+                                               :name (c7 / name
+                                                         :op1 "Gran"
+                                                         :op2 "Muralla"))
+                                     :location (c10 / corazón
+                                                    :poss (c12 / persona
+                                                               :quant 1300000000))))
+               :op2 (c13 / establecer-01
+                         :ARG0 c24
+                         :ARG1 (c14 / gama
+                                    :mod (c15 / completa)
+                                    :mod (c16 / sistema
+                                              :mod (c17 / defensa
+                                                        :mod (c18 / nacional))
+                                              :ARG1-of (c19 / tener-01
+                                                            :ARG2 (c20 / capacidad
+                                                                       :purpose (c26 / y
+                                                                                 :op1 (c25 / atacar-01)
+                                                                                 :op2 (c22 / defender-01)))))))))
+
+# ::id bolt_es.40 ::annotator 41
+
+(c50 / multi-sentence
+     :snt1 (c3 / deber-03
+               :ARG1 (c52 / y
+                          :op1 (c4 / fortalecer-01
+                                   :ARG0 (c53 / first-person-plural-sinnombre)
+                                   :ARG1 (c5 / fuerza
+                                             :ARG1-of (c7 / involucrar-01
+                                                          :ARG2 (c8 / ataque
+                                                                    :mod (c54 / alcance
+                                                                              :mod (c10 / largo)))
+                                                          :ARG1-of (c55 / poder-04))))
+                          :op2 (c11 / mejorar-01
+                                    :ARG0 c53
+                                    :ARG1 (c12 / capacidad
+                                               :mod (c13 / combate
+                                                         :location (c14 / industria
+                                                         				:mod (c16 / aerospacial)
+                                                         				:mod (c15 / toda)
+                                                         				:mod (c56 / y 
+                                                                        			   :op1 (c17 / profundidad
+                                                                                  				 :mod (c18 / gran))
+                                                                        			   :op2 (c19 / distancia
+                                                                                  			     :mod (c20 / grande))))))))
+               :cause (c2 / atacar-01
+                          :domain (c0 / defensa
+                                      :mod (c1 / mejor))))
+     :snt2 (c57 / y
+                :op1 (c30 / aumentar-01
+                          :ARG1 (c58 / y
+                                     :op1 (c36 / invertir-02
+                                               :ARG1 (c34 / industria
+                                                          :mod (c35 / defensa)))
+                                     :op2 (c37 / construir-01
+                                               :ARG1 c34)))
+                :op2 (c38 / acelerar-01
+                          :ARG1 (c59 / y
+                                     :op1 (c39 / modernizar-01
+                                               :ARG1 (c41 / equipamento
+                                                          :mod (c42 / militar)))
+                                     :op2 (c40 / internacionalizar-01
+                                               :ARG1 c41)))
+                :op3 (c43 / restablecer-01
+                          :ARG1 (c44 / división
+                                     :mod (c45 / élite)
+                                     :mod (c47 / tecnología
+                                               :mod (c46 / alta))
+                                     :mod (c48 / calidad
+                                               :mod (c49 / alta))))
+                :location (c74 / bajo
+                			   :op1 (c23 / premisa
+                                		 :mod (c24 / evitar-01
+                                          		   :ARG1 (c26 / influenciar-01
+                                                     		  :ARG1 (c27 / desarrollo
+                                                                		 :mod (c28 / económico)
+                                                                		 :mod (c29 / nacional))))))))
+
+# ::id bolt_es.41 ::annotator 41
+
+(c10 / y
+     :op1 (c9 / sonar-02
+              :ARG1 (c0 / cuerno
+                        :mod (c1 / batalla))
+              :time (c2 / a-punto-de))
+	 :op2 (c11 / y
+     		   :op1 (c6 / equipada
+              		    :mod (c5 / completo))
+     		   :op2 (c7 / lista
+              		    :purpose (c8 / empezar-01))
+     		   :domain (c3 / gente)
+     		   :time (c4 / ya)))
+
+# ::id bolt_es.42 ::annotator 41
+
+(c6 / y
+    :op1 (c4 / lograr-01
+             :ARG0 (c3 / first-person-plural-sinnombre)
+             :polarity -
+             :manner (c2 / apoyar-01
+                           	  :ARG0 (c1 / gente)
+                           	  :polarity -))
+    :op2 (c5 / poderoso
+             :domain c3
+             :manner c2))
+
+# ::id bolt_es.43 ::annotator 41
+
+(c10 / multi-sentence
+     :snt1 (c13 / decir-01
+                :ARG0 (c1 / first-person-sing-sinnombre)
+                :ARG1 (c12 / ahora
+                           :time-of (c2 / decir-01
+                                        :ARG0 (c7 / first-person-plural-sinnombre)
+                                        :ARG1 (c3 / no)
+                                        :ARG3 (c5 / demás)))
+                :ARG3 (c0 / conciudadano
+                          :poss c1))
+     :snt2 (c6 / causar-01
+               :ARG1 (c9 / deber-03
+                         :ARG1 (c8 / lograr-01
+                                   :ARG0 c7))))
+
+# ::id bolt_es.44 ::annotator 41
+
+(c27 / y
+     :op1 (c0 / establecer-01
+              :ARG1 (c1 / fondo
+                        :ARG1-of (c2 / garantizar-01)))
+     :op2 (c5 / mejorar-01
+              :ARG1 (c20 / y
+                         :op1 (c3 / entorno
+                                  :mod (c4 / trabajo))
+                         :op2 (c6 / mecanismo)))
+     :op3 (c8 / reclutar-01
+              :mod (c7 / nuevo)
+              :location (c9 / country
+                            :name (c10 / name
+                                       :op1 "China"))
+              :ARG1 (c16 / profesional
+                         :mod (c31 / market-sector
+                                   :name (c32 / name
+                                              :op1 "TI"))
+                         :quant (c30 / cientos-de-miles)
+                         :ARG0-of (c25 / emigrar-01)
+                         :ARG1-of (c26 / encontrar-04
+                                       :location (c28 / y
+                                                      :op1 (c21 / country
+                                                                :name (c22 / name
+                                                                           :op1 "Estados"
+                                                                           :op2 "Unidos"))
+                                                      :op2 (c18 / mundo
+                                                                :mod (c19 / todo)))))))
+
+# ::id bolt_es.45 ::annotator 41
+
+(c3 / crear-01
+    :ARG1 (c0 / grupo
+              :mod (c1 / alguno)
+              :mod (c2 / batalla)
+              :consist-of (c4 / portaaviones
+                                :ARG1-of (c7 / tener-01
+                                             :ARG2 (c5 / propulsión
+                                                       :mod (c6 / núcleo))))))
+
+# ::id bolt_es.46 ::annotator 41
+
+(c0 / fabricar-01
+    :ARG1 (c2 / avión
+              :quant 5000
+              :mod (c3 / combate)
+              :mod (c4 / avanzado)
+              :mod (c5 / tipo
+                       :mod (c6 / vario))))
+
+# ::id bolt_es.47 ::annotator 41
+
+(c0 / acelerar-01
+    :ARG1 (c19 / y
+               :op1 (c1 / investigar-01
+                        :ARG1 (c3 / misil
+                                  :mod (c4 / balístico)
+                                  :mod (c5 / intercontinental)
+                                  :mod (c6 / velocidad
+                                           :mod (c7 / alta))
+                                  :ARG0-of (c9 / romper-01
+                                               :ARG1-of (c8 / poder-04)
+                                               :ARG1 (c10 / sistema
+                                                          :mod (c11 / defensa)
+                                                          :mod (c12 / antimisil)))
+                                  :ARG1-of (c20 / tener-01
+                                                :ARG2 (c13 / alcance
+                                                           :ARG1-of (c22 / have-degree-91
+                                                                         :ARG3 (c23 / superior)
+                                                                         :ARG4 (c14 / milla
+                                                                                    :mod (c15 / náutica)
+                                                                                    :quant 10000))))))
+               :op2 (c2 / desplegar-01
+                        :ARG1 c3)))
+
+# ::id bolt_es.48 ::annotator 41
+
+(c7 / y
+    :op1 (c2 / reanudar-01
+             :ARG1 (c0 / experimento
+                       :mod (c1 / núcleo)))
+    :op2 (c3 / establecer-01
+             :ARG1 (c4 / fuerza
+                       :mod (c5 / militar)
+                       :location (c6 / espacio))))
+
+# ::id bolt_es.49 ::annotator 41
+
+(c23 / y
+     :op1 (c3 / retener-01
+              :ARG1 (c1 / bomba
+                        :quant 1000
+                        :mod (c2 / núcleo)
+                        :ARG1-of (c19 / equivaler-01
+                                      :ARG2 (c6 / thing
+                                                :name (c7 / name
+                                                          :op1 "TNT")
+                                                :quant 10000000
+                                                            :unit (c21 / tonelada)))))
+     :op2 (c24 / retener-01
+               :ARG1 (c10 / ojiva
+                          :mod (c11 / núcleo)
+                          :ARG2-of (c26 / incluir-91
+                                        :ARG1 (c25 / misil
+                                                   :mod (c14 / todo)
+                                                   :mod (c15 / alcance
+                                                             :mod (c16 / y
+                                                             		   :op1 (c17 / corto)
+                                                             		   :op2 (c18 / medio))))))
+               :time (c9 / necesitar-01
+                         :ARG1-of c10)))
+
+# ::id bolt_es.50 ::annotator 41
+
+(c4 / retener-01
+    :ARG1 (c0 / submarino
+              :mod (c1 / núcleo)
+              :mod (c2 / estratégico)
+              :quant 30
+              :ARG1-of (c5 / tener-01
+                           :ARG2 (c6 / capacidad
+                                     :mod (c7 / infligir-01
+                                              :ARG1 (c9 / ataque
+                                                        :mod (c10 / núcleo)
+                                                        :quant 3
+                                                        :ARG0-of (c11 / devastar-01
+                                                                      :ARG1 (c12 / enemigo))))))))
+
+# ::id bolt_es.51 ::annotator 41
+
+(c0 / abandonar-01
+    :ARG1 (c1 / comprometer-01
+              :ARG2 (c5 / usar-01
+                        :polarity -
+                        :ARG1 (c4 / arma
+                                  :mod (c3 / núcleo))
+                        :time (c6 / ordinal-entity
+                        		  :value 1))))
+
+# ::id bolt_es.52 ::annotator 41
+
+(c1 / conservar-01
+    :ARG1 (c0 / derecho
+              :topic (c9 / atacar-01
+                         :ARG0-of (c3 / prevenir-01)
+                         :time (c4 / amenazar-01
+                                   :ARG1 (c5 / seguridad
+                                             :mod (c8 / nación))))))
+
+# ::id bolt_es.53 ::annotator 41
+
+(c0 / decir-01
+    :ARG0 (c1 / first-person-sing-sinnombre)
+    :ARG1 (c40 / multi-sentence
+               :snt1 (c15 / poder-04
+                          :ARG1 (c16 / esforzar-01
+                                     :ARG0 (c11 / nosotros)
+                                     :ARG1 (c41 / fuerte
+                                                :domain c11))
+                          :condition (c14 / tener-01
+                                          :mod (c3 / solo)
+                                          :ARG1 c11
+                                          :ARG2 (c35 / y
+                                                     :op1 (c43 / confianza
+                                                               :topic c11)
+                                                     :op2 (c12 / sentimiento
+                                                               :mod (c13 / superar-02)))))
+               :snt2 (c18 / unificar-01
+                          :ARG0 (c19 / person
+                                     :name (c5 / name
+                                               :op1 "Qin"
+                                               :op2 "Shi"
+                                               :op3 "Huang"))
+                          :ARG1 (c4 / country
+                                    :name (c21 / name
+                                               :op1 "China")))
+               :snt3 (c28 / recuperar-02
+                          :ARG0 (c20 / person
+                                     :name (c22 / name
+                                                :op1 "Zheng"
+                                                :op2 "Chenggong"))
+                          :ARG1 (c25 / country
+                                     :name (c26 / name
+                                                :op1 "Taiwán")))
+               :snt4 (c30 / deber-03
+                          :cause (c29 / responsabilidad
+                                      :poss c11)
+                          :ARG1 (c32 / llevar-a-cabo-01
+                                     :ARG0 c11
+                                     :ARG1 (c42 / y
+                                                :op1 (c33 / visión
+                                                          :mod (c34 / futuro))
+                                                :op2 (c36 / perspicacia)
+                                                :op3 (c38 / voluntad
+                                                          :mod (c37 / firme))
+                                                :poss (c39 / predecesor
+                                                           :poss c11)))))
+    :ARG3 (c45 / conciudadano
+               :poss c1))
+
+# ::id bolt_es.54 ::annotator 41
+
+(c11 / multi-sentence
+     :snt1 (c21 / y
+                :op1 (c8 / agitar-01
+                         :ARG1 (c1 / trozo
+                                   :consist-of (c2 / tierra)
+                                   :mod (c3 / ese)
+                                   :ARG1-of (c4 / temblar-01
+                                                :location (c22 / relative-position
+                                                               :op1 (c23 / abrazar-01
+                                                                         :ARG0 (c7 / patria))
+                                                               :quant (c5 / lejos)))))
+                :op2 (c10 / gemir-01
+                          :ARG0 c1)
+                :op3 (c24 / llamar-04
+                          :ARG0 c1)
+                :time (c0 / ahora))
+     :snt2 (c12 / decir-01
+                :ARG0 (c13 / first-person-sing-sinnombre)
+                :ARG1 (c26 / llevar-12
+                           :mode imperative
+                           :ARG0 (c27 / first-person-plural-sinnombre)
+                           :ARG1 (c19 / deseo
+                                      :ARG1-of (c20 / completar-01
+                                                    :polarity -)
+                                      :poss (c17 / general
+                                                 :mod (c18 / anterior)))
+                           :ARG4 (c15 / adelante)
+                           :manner (c29 / avanzar-02
+                                        :manner (c16 / valiente)))
+                :ARG3 (c14 / conciudadano)))
+
+# ::id bolt_es.55 ::annotator 41
+
+(c0 / multi-sentence
+    :snt1 (c7 / cocer-01
+              :ARG1 (c36 / y
+                         :op1 (c37 / pesadez)
+                         :op2 (c4 / ira)
+                         :location (c50 / corazón
+                                        :poss (c5 / first-person-sing-sinnombre))
+              :location (c38 / preocupación
+                             :cause (c9 / nación))
+              :time (c3 / leer-03
+              			:ARG0 c5
+                        :ARG1 (c1 / historia))))
+    :snt2 (c48 / y
+               :op1 (c49 / dispuesto
+                         :domain c5
+                         :purpose (c23 / servir-01
+                                       :manner (c24 / voluntario)
+                                       :ARG0 c5
+                                       :ARG2 (c25 / país
+                                                  :poss (c26 / first-person-plural-sinnombre)))
+                         :concession (c40 / y
+                                          :op1 (c39 / nacer-01
+                                          			:ARG1 c5
+                                                    :purpose (c10 / vestido
+                                                                  :consist-of (c11 / tela)))
+                                          :op2 (c43 / una
+                                                    :ARG1-of (c44 / incluir-91
+                                                                  :ARG2 (c45 / persona
+                                                                             :mod (c13 / común)))
+                                                    :domain c5))
+                         :purpose (c17 / prosperidad
+                                       :poss (c16 / patria))
+                         :purpose (c21 / espléndida
+                                       :domain c16
+                                       :time (c18 / vez
+                                                  :ARG1-of (c46 / have-quant-91
+                                                                :ARG3 (c47 / más)))))
+               :op2 (c28 / arrepentirse-01
+                         :ARG0 c5
+                         :polarity -
+                         :concession (c29 / aunque
+                                          :op1 (c30 / morir-01
+                                                    :ARG1 c5))))
+    :snt3 (c33 / adecuar-01
+               :ARG1 (c51 / corazón
+                          :poss c5)
+               :purpose (c34 / mostrar-02
+                             :ARG0 c51
+                             :ARG1 (c35 / lo)
+                             :ARG2 (c32 / cielo))))
+
+# ::id bolt_es.56 ::annotator 41
+
+(c3 / componer-01
+    :ARG0 (c9 / first-person-sing-sinnombre)
+    :ARG1 (c1 / poemo
+              :mod (c2 / clásico))
+    :purpose (c10 / dar-01
+                  :ARG1 (c4 / voz)
+                  :ARG2 (c6 / inspiración
+                            :poss (c7 / corazón
+                                      :poss c9)))
+    :location (c0 / aquí))
+
+# ::id bolt_es.57 ::annotator 41
+
+(c3 / pintar-01
+    :ARG1 (c0 / labio)
+    :manner (c1 / rojo
+                :mod (c2 / profundo))
+    :mode imperative)
+
+# ::id bolt_es.58 ::annotator 41
+
+(c4 / proteger-01
+    :ARG1 (c1 / island
+              :name (c2 / name
+                        :op1 "Diayu"))
+    :mode imperative)
+
+# ::id bolt_es.59 ::annotator 41
+
+(c5 / perder-01
+    :ARG0 (c1 / first-person-plural-sinnombre)
+    :ARG1 (c2 / island
+              :poss c1
+              :name (c6 / name
+                        :op1 "Ryukyu"))
+    :manner (c0 / amargo))
+
+# ::id bolt_es.60 ::annotator 41
+
+(c0 / poder-04
+    :ARG1 (c10 / permitir-02
+               :ARG0 (c11 / first-person-plural-sinnombre)
+               :ARG1 (c8 / caer-01
+                         :ARG1 (c2 / island
+                                   :name (c6 / name
+                                             :op1 "Diaoyu"))
+                         :ARG2 (c4 / país
+                                   :mod (c3 / otro))))
+    :manner (c1 / amr-unknown))
+
+# ::id bolt_es.61 ::annotator 41
+
+(c0 / año
+    :quant 100
+    :consist-of (c3 / vicisitud))
+
+# ::id bolt_es.62 ::annotator 41
+
+(c5 / perseguir-01
+    :ARG0 (c2 / y
+              :op1 (c0 / humo)
+              :op2 (c1 / nube))
+    :ARG1 (c3 / ola
+              :ARG0-of (c4 / volar-01)))
+
+# ::id bolt_es.63 ::annotator 41
+
+(c6 / seguir-02
+    :ARG1 (c0 / hermano
+              :ARG1-of (c7 / have-degree-91
+                           :ARG2 (c4 / joven)
+                           :ARG3 (c3 / más)))
+    :location (c2 / juventud
+              :mod (c5 / tierna)))
+
+# ::id bolt_es.64 ::annotator 41
+
+(c5 / y
+    :op1 (c0 / vagar-01
+             :direction (c1 / dirección
+                            :mod (c2 / toda)))
+    :op2 (c4 / llevar-08
+             :ARG1 (c3 / sello)))
+
+# ::id bolt_es.65 ::annotator 41
+
+(c1 / mirar-02
+    :ARG1 (c0 / bandera))
+
+# ::id bolt_es.66 ::annotator 41
+
+(c5 / y
+    :op1 (c6 / marcar-03
+             :mode imperative
+             :ARG1 (c9 / arma
+                       :poss (c0 / first-person-plural-sinnombre)))
+    :op2 (c4 / cruzar-02
+             :ARG4 (c2 / este)
+             :mode imperative))
+
+# ::id bolt_es.67 ::annotator 41
+
+(c5 / dejar-03
+    :mode imperative
+    :ARG1 (c7 / beber-01
+              :ARG0 (c6 / caballo)
+              :ARG1 (c0 / ocean
+                        :name (c1 / name
+                                  :op1 "Pacífico"))))
+
+# ::id bolt_es.68 ::annotator 41
+
+(c0 / date-entity
+    :year 2002
+    :month 6
+    :day 26)
+
+# ::id bolt_es.69 ::annotator 41
+
+(c0 / decir-01
+    :ARG0 (c3 / artículo
+              :mod (c2 / otro))
+    :ARG1 (c1 / multi-sentence
+              :snt1 (c6 / libro
+                        :beneficiary (c4 / compatriota
+                                         :mod (c7 / country
+                                                  :name (c8 / name
+                                                            :op1 "Taiwán")))
+                        :domain (c11 / book
+                                     :name (c12 / name
+                                                :op1 "Tengo"
+                                                :op2 "un"
+                                                :op3 "sueño")))
+              :snt2 (c16 / necesitar-01
+                         :ARG1 (c17 / construir-01
+                                    :ARG1 (c26 / o
+                                               :op1 (c18 / museo
+                                                         :mod (c19 / conmemorativo))
+                                               :op2 (c20 / templo)
+                                               :beneficiary (c21 / héroe
+                                                                 :mod (c22 / nacional)
+                                                                 :mod (c24 / country
+                                                                           :name (c27 / name
+                                                                                      :op1 "China"))))))
+              :snt3 (c32 / tolerar-01
+                         :ARG0 (c29 / first-person-plural-sinnombre)
+                         :ARG1 (c28 / lo)
+                         :duration (c30 / temporal-quantity
+                                        :quant (c31 / amr-unknown)))
+              :snt4 (c37 / contrastar-01
+                         :ARG1 (c39 / esperar-01
+                                    :ARG0 c24
+                                    :ARG1 (c33 / game
+                                               :name (c34 / name
+                                                          :op1 "Juegos"
+                                                          :op2 "Olímpicos")))
+                         :ARG2 (c40 / rogar-01
+                                    :ARG0 c24
+                                    :ARG1 c33
+                                    :time (c38 / nunca)))
+              :snt5 (c44 / haber-01
+                         :ARG1 (c42 / historia
+                                    :mod (c47 / más)
+                                    :consist-of (c41 / dificultad))
+                         :condition (c43 / olvidar-02
+                                         :ARG0 (c48 / first-person-plural-sinnombre)
+                                         :ARG1 (c46 / dificultad
+                                                    :poss (c45 / historia))))
+              :snt6 (c50 / nationality
+                         :name (c51 / name
+                                    :op1 "chino")
+                         :domain (c49 / first-person-sing-sinnombre))
+              :snt7 (c61 / y
+                         :op1 (c53 / haber-01
+                                   :manner (c57 / solo)
+                                   :ARG1 (c56 / nación
+                                              :mod c24
+                                              :quant 1))
+                         :op2 (c60 / haber-01
+                                   :ARG1 (c58 / cultura
+                                              :mod c24
+                                              :quant 1)
+                                   :manner (c62 / solo)))
+              :snt8 (c66 / poder-04
+                         :ARG1 (c67 / declinar-01
+                                    :ARG0 (c65 / estado))
+                         :cause (c63 / desarrollar-02
+                                     :ARG1 (c64 / deporte)))
+              :snt9 (c77 / amr-choice
+                         :op1 (c78 / y
+                                   :op1 (c68 / país
+                                             :mod (c69 / rico))
+                                   :op2 (c70 / gente
+                                             :mod (c71 / fuerte)))
+                         :op2 (c79 / y
+                                   :op1 (c73 / funcionario
+                                             :mod (c74 / rico))
+                                   :op2 (c75 / gente
+                                             :mod (c76 / pobre))))
+              :snt10 (c85 / decir-01
+                          :ARG1 (c89 / cerrar-01
+                                     :ARG0 c83
+                                     :ARG1 (c88 / boca
+                                                :poss c83
+                                                :mod (c87 / asquerosa))
+                                     :mode imperative)
+                          :ARG3 (c83 / person
+                                     :name (c84 / name
+                                     			:op1 "Ren"
+                                    		 	:op2 "Zhiqiang")
+                                     :mod (c80 / regunante)))
+              :snt11 (c96 / y
+              			  :mode imperative
+                          :op1 (c91 / precio
+                                    :mod (c93 / odioso)
+                                    :mod (c92 / vivienda))
+                          :op2 (c94 / gente
+                                    :mod (c95 / lamentable)))
+              :snt12 (c107 / decir-01
+                           :ARG1 (c101 / tener-01
+                                       :polarity -
+                                       :ARG1 c97
+                                       :ARG2 (c108 / derecho
+                                                   :topic (c105 / hacer-02
+                                                                :ARG1 (c103 / comentario
+                                                                            :mod (c104 / irresonsable))
+                                                                :beneficiary c24)))
+                           :ARG3 (c97 / company
+                                      :name (c98 / name
+                                                 :op1 "Google")))
+              :snt13 (c110 / tolerar-01
+                           :ARG0 (c116 / first-person-plural-sinnombre)
+                           :ARG1 (c111 / country
+                                       :name (c112 / name
+                                                   :op1 "Estados"
+                                                   :op2 "Unidos"))
+                           :duration (c109 / temporal-quantity
+                                           :quant (c115 / amr-unknown)))
+              :snt14 (c134 / merecer-01
+                           :ARG0 (c118 / country
+                                       :name (c119 / name
+                                                   :op1 "Japón"))
+                           :ARG1 (c121 / bombardeo)
+                           :ARG1-of (c131 / oponer-01
+                                          :ARG0 (c133 / presentar-01
+                                                      :ARG0 (c123 / person
+                                                      			  :name (c200 / name
+                                                                  			  :op1 "Ban"
+                                                                  			  :op2 "Ki"
+                                                                  			  :op3 "Moon"))
+                                                      :ARG1 (c132 / ramo)
+                                                      :location (c128 / city
+                                                                      :name (c124 / name
+                                                                                  :op1 "Hiroshima")))
+                                          :manner (c120 / firmemente)))
+              :snt15 (c136 / fuerte
+                           :domain (c139 / y
+                                         :op1 (c137 / hermano)
+                                         :op2 (c138 / hermana))
+                           :mode imperative)
+              :snt16 (c149 / necesitar-01
+                           :ARG0 (c151 / first-person-plural-sinnombre)
+                           :ARG1 (c150 / amr-choice
+                                       :op1 (c140 / estrella
+                                                  :mod (c146 / entretenimiento
+                                                             :mod (c141 / nivel
+                                                                        :mod (c142 / bajo))))
+                                       :mod (c143 / talento
+                                                  :topic (c144 / innovación
+                                                               :mod (c145 / tecnológica)))))
+              :snt17 (c164 / decir-01
+                           :ARG1 (c161 / dejar-05
+                                       :ARG0 c155
+                                       :ARG1 (c158 / niño)
+                                       :mode imperative)
+                           :ARG3 (c155 / person
+                                       :name (c156 / name
+                                                   :op1 "Li"
+                                                   :op2 "Yinhe")
+                                       :ARG0-of (c163 / escribir-01
+                                                      :ARG1 (c152 / basura
+                                                                  :mod (c153 / contemporánea)))
+                                       :mod (c160 / desvergonzada)))))
+
+# ::id bolt_es.70 ::annotator 41
+
+(c5 / luchar-01
+    :ARG0 (c7 / first-person-plural-sinnombre)
+    :ARG1 (c0 / country
+              :name (c1 / name
+                        :op1 "Japón")
+              :mod (c6 / pequeño))
+    :polarity -
+    :cause (c3 / amr-unknown))
+
+# ::id bolt_es.71 ::annotator 41
+
+(c1 / lo
+    :ARG1-of (c2 / tolerar-01
+                 :ARG0 (c4 / nationality
+                           :name (c5 / name
+                                     :op1 "chino"))
+                 :time (c0 / todavía))
+    :domain (c3 / amr-unknown))
+
+# ::id bolt_es.72 ::annotator 41
+
+(c2 / montar-05
+    :ARG0 (c3 / third-person-plural-sinnombre)
+    :ARG1 (c0 / cabeza
+              :poss (c1 / first-person-plural-sinnombre)
+              :ARG1-of (c4 / incluir-01)))
+
+# ::id bolt_es.73 ::annotator 41
+
+(c7 / seguir-01
+    :ARG1 (c6 / third-person-sing-sinnombre)
+    :ARG2 (c4 / esto
+              :ARG1-of (c8 / hacer-02
+                           :ARG0 (c1 / nationality
+                                     :name (c2 / name
+                                               :op1 "chino")
+                           			 :mod (c5 / agallas)))
+              :domain c6)
+    :polarity (c0 / amr-unknown))
+
+# ::id bolt_es.74 ::annotator 41
+
+(c5 / deber-03
+    :ARG1 (c7 / decir-01
+              :ARG0 (c11 / first-person-plural-sinnombre)
+              :ARG1 (c6 / poder-04
+                        :polarity -
+                        :ARG1 (c10 / intimidar-01
+                                   :ARG0 (c9 / otros)
+                                   :ARG1 (c2 / nationality
+                                             :name (c3 / name
+                                                       :op1 "chinos"))
+                                   :manner (c8 / voluntad)))
+              :ARG3 (c1 / mundo
+                        :mod (c0 / todo))))
+
+# ::id bolt_es.75 ::annotator 41
+
+(c11 / multi-sentence
+     :snt1 (c12 / hora
+                :time-of (c1 / mostrar-02
+                             :ARG1 (c0 / fuerza
+                                       :poss (c2 / first-person-plural-sinnombre))))
+     :snt2 (c13 / calmada
+                :domain (c3 / country
+                            :name (c4 / name
+                                      :op1 "China"))
+                :duration (c6 / tiempo
+                              :mod (c7 / mucho))))
+
+# ::id bolt_es.76 ::annotator 41
+
+(c6 / multi-sentence
+    :snt1 (c5 / despreocupada
+              :mod (c10 / actualmente)
+              :domain (c0 / vida
+                          :poss (c1 / ciudadano
+                                    :poss (c2 / first-person-plural-sinnombre)))
+              :degree (c12 / muy))
+    :snt2 (c8 / extravagante
+              :degree (c13 / demasiado)
+              :domain (c7 / funcionario)))
+
+# ::id bolt_es.77 ::annotator 41
+
+(c0 / multi-sentence
+    :snt1 (c6 / tener-01
+              :ARG1 (c19 / first-person-plural-sinnombre)
+              :ARG2 (c5 / cohesión)
+              :polarity -
+              :time (c4 / ahora)
+              :time (c8 / ya))
+    :snt2 (c9 / necesitar-01
+              :ARG0 (c1 / country
+                        :name (c2 / name
+                                  :op1 "China"))
+              :ARG1 (c11 / comenzar-02
+                         :ARG0 c1
+                         :ARG1 (c10 / guerra)))
+    :snt3 (c13 / bofetada
+               :mod (c12 / dura)
+               :beneficiary (c14 / país
+                                 :ARG0-of (c18 / seguir-05
+                                               :ARG1 (c17 / retaguardia
+                                                          :poss (c20 / country
+                                                                     :name (c21 / name
+                                                                                :op1 "Estados"
+                                                                                :op2 "Unidos")))))))
+
+# ::id bolt_es.78 ::annotator 41
+
+(c15 / multi-sentence
+     :snt1 (c8 / hacer-10
+               :ARG0 (c9 / first-person-plural-sinnombre)
+               :ARG1 (c5 / saber-01
+                         :ARG0 (c6 / third-person-plural-sinnombre)
+                         :ARG1 (c0 / panacea
+                                   :domain (c38 / country
+                                                :op1 (c4 / name
+                                                         :op1 "Estados"
+                                                         :op2 "Unidos"))
+                                   :polarity -))
+               :mode imperative)
+     :snt2 (c10 / poder-04
+                :condition (c13 / ganar-01
+                                :ARG0 c9)
+                :ARG1 (c39 / y
+                           :op1 (c40 / aumentar-01
+                                     :ARG1 (c11 / influenciar-01
+                                                :ARG0 (c29 / country
+                                                           :name (c30 / name
+                                                                      :op1 "China"))))
+                           :op2 (c18 / mejorar-01
+                                     :ARG1 (c16 / cohesión
+                                                :mod (c17 / ciudadanía)))))
+     :snt3 (c19 / poder-04
+                :ARG1 (c41 / y
+                           :op1 (c21 / limpiar-01
+                                     :ARG0 c9
+                                     :ARG1 (c23 / burócrata
+                                                :mod (c24 / eso)
+                                                :mod (c22 / incompetente)))
+                           :op2 (c27 / sacar-01
+                                     :ARG0 c9
+                                     :ARG1 (c42 / basura)))
+                :condition (c20 / perder-01
+                                :ARG0 c9))
+     :snt4 (c14 / y
+                :op1 (c34 / dejar-03
+                          :ARG0 c9
+                          :imperative
+                          :ARG1 (c44 / y
+                                     :op1 (c43 / tener-01
+                                               :ARG1 c29
+                                               :ARG2 (c31 / sangre
+                                                          :mod (c32 / nueva)))
+                                     :op2 (c35 / actualizar-01
+                                               :ARG1 c29)))
+                :op2 (c37 / levantar-08
+                          :ARG0 c29
+                          :mode imperative)))
+
+# ::id bolt_es.79 ::annotator 41
+
+(c4 / ir-02
+    :mode imperative
+    :ARG0 (c6 / country
+              :name (c2 / name
+                        :op1 "China")))
+
+# ::id bolt_es.80 ::annotator 41
+
+(c18 / multi-sentence
+     :snt1 (c7 / sugerir-01
+               :ARG0 (c8 / first-person-sing-sinnombre)
+               :ARG1 (c16 / y
+                          :op1 (c9 / fortalecer-01
+                                   :ARG0 (c4 / country
+                                             :name (c5 / name
+                                                       :op1 "China"))
+                                   :ARG1 (c10 / guardia
+                                              :location (c0 / island
+                                                            :name (c1 / name
+                                                                      :op1 "Diaoyu"))))
+                          :op2 (c11 / diario
+                                    :domain c10)
+                          :op3 (c19 / proteger-01
+                                    :ARG0 c10
+                                    :ARG1 (c17 / y
+                                               :op1 (c12 / pescador)
+                                               :op2 (c13 / soberanía)
+                                               :poss (c15 / país
+                                                          :poss (c38 / first-person-plural-sinnombre))))))
+     :snt2 (c28 / luchar-01
+                :ARG0 c38
+                :medium (c29 / guerra
+                             :mod (c30 / autodefensa)
+                             :mod (c31 / escala
+                                       :mod (c32 / pequeña)))
+                :manner (c33 / importar-01
+                             :polarity -
+                             :ARG1 (c34 / coste))
+                :condition (c23 / atreverse-01
+                                :ARG0 (c21 / country
+                                           :name (c22 / name
+                                                      :op1 "Japón"))
+                                :ARG1 (c27 / invadir-01
+                                           :ARG0 c21
+                                           :ARG1 (c24 / territorio
+                                                      :poss c38)
+                                           :instrument (c25 / fuerza
+                                                            :mod (c26 / militar)))))
+     :snt3 (c35 / poder-04
+                :ARG1 (c36 / perder-01
+                           :ARG0 c4)
+                :polarity -))
+
+# ::id bolt_es.81 ::annotator 41
+
+(c2 / contrastar-01
+    :ARG1 (c4 / necesitar-01
+              :ARG0 (c11 / first-person-plural-sinnombre)
+              :ARG1 (c5 / espectáculo
+                        :location (c0 / vida)))
+    :ARG2 (c12 / mostrar-02
+               :ARG1 (c6 / second-person-sing-sinnombre
+                         :location (c9 / abrazar-01
+                                       :ARG0 (c10 / alguien)))
+               :purpose-of c5
+               :manner (c14 / realidad)))
+
+# ::id bolt_es.82 ::annotator 41
+
+(c2 / pasar-08
+    :ARG1 (c0 / first-person-sing-sinnombre)
+    :mod (c1 / solo))
+
+# ::id bolt_es.83 ::annotator 41
+
+(c3 / así
+    :domain (c0 / sociedad
+                :mod (c1 / toda))
+    :manner (c5 / mencionar-01
+                :polarity -
+                :ARG1 (c4 / estrella)))
+
+# ::id bolt_es.84 ::annotator 41
+
+(c0 / maldita
+    :domain (c3 / third-person-sing-sinnombre)
+    :cause (c1 / sexy
+               :polarity -
+               :domain (c4 / third-person-sing-sinnombre)))
+
+# ::id bolt_es.85 ::annotator 41
+
+(c0 / inaceptable
+    :mod (c2 / totalmente)
+    :domain (c3 / third-person-sing-sinnombre))
+
+# ::id bolt_es.86 ::annotator 41
+
+(c12 / multi-sentence
+     :snt1 (c1 / animador
+               :mod (c0 / barato)
+               :mod (c11 / solo)
+               :mod (c20 / de-acuerdo))
+     :snt2 (c13 / tener-01
+                :ARG1 (c2 / reputación
+                          :poss (c7 / third-person-sing-sinnombre)
+                          :location (c4 / country
+                                        :name (c5 / name
+                                                  :op1 "China")
+                                        :mod (c3 / feudal)))
+                :ARG2 (c10 / algo
+                           :mod (c8 / sentido))))
+
+# ::id bolt_es.87 ::annotator 41
+
+(c4 / parecer-01
+    :ARG1 (c0 / gloriosa
+    		  :domain (c1 / vida
+             			  :poss (c2 / third-person-sing-sinnombre))))
+
+# ::id bolt_es.88 ::annotator 41
+
+(c0 / grupo
+    :consist-of (c1 / persona)
+    :consist-of (c3 / profesional
+                    :quant 9))
+
+# ::id bolt_es.89 ::annotator 41
+
+(c1 / dura
+    :domain (c0 / vida))
+
+# ::id bolt_es.90 ::annotator 41
+
+(c0 / conmocionado)
+
+# ::id bolt_es.91 ::annotator 41
+
+(c9 / y
+    :op1 (c2 / normal
+             :domain (c1 / eso))
+    :op2 (c7 / y
+             :op1 (c4 / injusto
+                      :domain (c3 / artista))
+             :op2 (c5 / desalmada
+                      :domain (c6 / puta))
+             :domain (c8 / caso)
+             :time (c0 / siempre)))
+
+# ::id bolt_es.92 ::annotator 41
+
+(c4 / querer-01
+    :ARG0 (c5 / third-person-plural-sinnombre)
+    :ARG1 (c0 / y
+              :op1 (c3 / dinero)
+              :op2 (c1 / cara
+                       :polarity -)))
+
+# ::id bolt_es.93 ::annotator 41
+
+(c22 / saber-01
+     :ARG0 c23
+     :ARG1 (c21 / y
+                :op1 (c30 / tener-01
+                          :ARG2 (c10 / opción
+                                     :mod (c11 / otra)
+                                     :example (c12 / beber-01
+                                                      :accompanier c1))
+                          :polarity -
+                          :ARG1 (c31 / actriz))
+                :op2 (c15 / obligar-01
+                          :ARG0 c1
+                          :ARG1 c31
+                          :ARG2 (c29 / o
+                                     :op1 (c32 / salir-01)
+                                     :op2 (c17 / incriminar-01
+                                               :ARG1 c31
+                                               :mod (c16 / incluso)))))
+     :condition (c0 / echar-05
+                :ARG0 (c23 / second-person-sing-sinnombre)
+                :ARG2 (c1 / lobo
+                          :ARG0-of (c20 / llevar-08
+                          			    :ARG1 (c2 / gafas))
+                          :location (c25 / cerca
+                                         :op1 (c5 / person
+                                                  :name (c6 / name
+                                                            :op1 "Sra."
+                                                            :op2 "Fan"))))
+                :mode imperative
+                :mod-polite +))
+
+# ::id bolt_es.94 ::annotator 41
+
+(c0 / sollozar-01)
+
+# ::id bolt_es.95 ::annotator 41
+
+(c5 / multi-sentence
+    :snt1 (c1 / bien
+              :domain (c6 / third-person-sing-sinnombre)
+              :duration (c0 / haber-01
+                            :ARG1 (c2 / algo
+                                      :ARG1-of (c3 / comer-01))))
+    :snt2 (c4 / encanto))
+
+# ::id bolt_es.96 ::annotator 41
+
+(c9 / multi-sentence
+    :snt1 (c1 / fácil
+              :domain (c0 / nadie))
+    :snt2 (c10 / y
+               :op1 (c11 / parecer-02
+                         :ARG1 (c3 / espectáculo
+                         		   :mod (c2 / vida)))
+               :op2 (c8 / deber-03
+                        :ARG1 (c12 / echar-05
+                        		   :ARG0 (c20 / third-person-sing-sinnombre)
+                                   :ARG2 (c5 / guión)
+                                   :purpose (c14 / saber-01
+                                                 :ARG1 (c6 / manera
+                                                           :manner-of (c7 / actuar-02)))))))
+
+# ::id bolt_es.97 ::annotator 41
+
+(c0 / thing
+    :name (c1 / name
+              :op1 "SB")
+    :domain (c3 / todo))
+
+# ::id bolt_es.98 ::annotator 41
+
+(c6 / multi-sentence
+    :snt1 (c9 / haber-01
+              :ARG1 (c1 / calificador
+                        :mod (c0 / máximo)
+                        :location (c2 / examen
+                                 :mod (c3 / imperial)
+                                 :topic (c5 / aspecto
+                                            :quant 360
+                                            :mod (c20 / vida)))))
+    :snt2 (c10 / haber-01
+               :ARG1 (c21 / y
+                          :op1 (c7 / esfuerzo)
+                          :op2 (c8 / empeño)
+                          :ARG0-of (c24 / causar-01
+                                        :ARG1 (c23 / calificador
+                                                   :mod c2
+                                                   :mod (c12 / mejor)))))
+    :snt3 (c14 / humillante
+               :domain (c13 / esto)
+               :beneficiary (c15 / palabra
+                                 :mod (c19 / food-dish
+                                 		   :name (c30 / name
+                                            		  :op1 "fideos"
+                                            		  :op2 "de"
+                                            		  :op3 "soja")))))
+
+# ::id bolt_es.99 ::annotator 41
+
+(c1 / jaja
+	:mode expressive)
+
+# ::id bolt_es.100 ::annotator 41
+
+(c0 / exagerar-01)

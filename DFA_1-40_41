@@ -1,0 +1,583 @@
+DFA_1-40_41
+
+# ::id DFA_es.1 ::annotator 41
+
+(c3 / y
+    :op1 (c4 / tener-01
+             :ARG1 (c0 / first-person-sin-sinnombre)
+             :ARG2 (c2 / año
+                       :quant 24))
+    :op2 (c6 / madre
+             :ARG2-of (c13 / have-rel-role-91
+                           :ARG0 c0
+                           :ARG1 (c8 / niño
+                                     :ARG1-of (c5 / tener-01
+                                                  :ARG2 (c10 / año
+                                                             :quant 2.5))))))
+
+# ::id DFA_es.2 ::annotator 41
+
+(c9 / separar-01
+    :ARG1 (c0 / padre
+              :ARG2-of (c1 / have-rel-role-91
+                        :ARG0 c0
+                        :ARG1 (c2 / hijo
+                                  :poss c5)))
+    :ARG2 (c5 / yo)
+    :time (c8 / desde
+              :op1 (c6 / date-entity
+                       :month 8)))
+
+# ::id DFA_es.3 ::annotator 41
+
+(c6 / y
+    :op1 (c1 / querer-01
+             :ARG0 (c0 / first-person-sing-sinnombre)
+             :ARG1 (c2 / empezar-02
+                       :ARG0 c0
+                       :ARG1 (c13 / salir-11
+                                  :ARG0 c0
+                                  :accompanier (c4 / persona
+                                                   :mod (c5 / otra)))))
+    :op2 (c11 / decir-01
+              :ARG0 (c7 / padre
+                        :ARG2-of (c10 / have-rel-role-91
+                                      :ARG1 (c9 / hijo
+                                      			:poss c0)))
+              :ARG1 (c12 / tener-que-ver-01
+              			 :polarity -
+                         :ARG1 c0
+                         :ARG2 c9
+                         :condition c13)))
+
+# ::id DFA_es.4 ::annotator 41
+
+(c3 / contrastar-01
+    :ARG1 (c9 / y
+              :op1 (c1 / posesivo)
+              :op2 (c2 / controlador)
+              :domain (c0 / third-person-sing-sinnombre))
+    :ARG2 (c10 / tener-01
+               :polarity -
+               :ARG1 c0
+               :ARG2 (c4 / derecho
+                         :purpose (c12 / así
+                                       :domain c0))
+               :cause (c8 / junto
+                          :time (c6 / ya)
+                          :polarity -
+                          :domain (c7 / first-person-plural-sinnombre))))
+
+# ::id DFA_es.5 ::annotator 41
+
+(c7 / y
+    :op1 (c0 / tener-01
+             :ARG1 (c20 / third-person-sing-sinnombre)
+             :ARG2 (c3 / cosa
+                       :mod (c2 / demasiada)
+                       :location (c4 / vida
+                                     :poss c20))
+             :time (c6 / momento
+                       :mod (c5 / este)))
+    :op2 (c13 / creer-01
+              :ARG0 c20
+              :ARG1 (c8 / poder-04
+                        :ARG1 (c14 / arreglar-01
+                                   :ARG0 (c9 / first-person-plural-sinnombre)
+                                   :ARG1 (c15 / lo)))
+              :concession (c17 / decir-01
+                               :ARG0 (c16 / first-person-sing-sinnombre)
+                               :ARG1 (c22 / y
+                                          :op1 (c25 / querer-01
+                                                    :ARG0 c16
+                                                    :ARG1 c20
+                                                    :polarity -)
+                                          :op2 (c21 / querer-01
+                                                    :ARG0 c20
+                                                    :ARG1 c16
+                                                    :degree (c19 / tampoco)
+                                                    :polarity -))
+                               :ARG3 c20
+                               :time (c26 / ya)
+                               :time (c11 / vez
+                                          :mod (c12 / demasiada)))))
+
+# ::id DFA_es.6 ::annotator 41
+
+(c0 / querer-01
+    :ARG0 (c7 / first-person-sing-sinnombre)
+    :ARG1 (c1 / second-person-sing-sinnombre
+              :location (c2 / allí)
+              :beneficiary (c3 / hijo
+              				   :poss c1)
+              :ARG0-of (c4 / necesitar-01
+                           :polarity -
+                           ;ARG1 c7
+                           :mod (c6 / también))))
+
+# ::id DFA_es.7 ::annotator 41
+
+(c0 / contrastar-01
+    :ARG2 (c2 / tener-01
+              :ARG2 (c4 / nadie)
+              :ARG1 (c16 / él))
+    :cause (c11 / y
+                :op1 (c12 / llevar-03
+                          :manner (c5 / bien)
+                          :polarity -
+                          :ARG1 (c14 / y
+                                     :op1 (c15 / familia
+                                               :poss c16)
+                                     :op2 c16))
+                :op2 (c10 / tener-01
+                          :ARG1 c14
+                          :ARG2 (c9 / problema
+                                    :mod (c8 / propio)))))
+
+# ::id DFA_es.8 ::annotator 41
+
+(c5 / y
+    :op1 (c6 / querer-01
+             :polarity -
+             :ARG0 (c0 / first-person-sing-sinnombre)
+             :ARG1 (c2 / volver-02
+                       :ARG1 c0
+                       :ARG1 (c13 / miserable
+                                  :domain c0)))
+    :op2 (c9 / correlate-91
+             :ARG1 (c11 / más
+                        :quant-of (c10 / tiempo))
+             :ARG2 (c12 / más
+                        :ARG3-of (c7 / have-degree-91
+                                     :ARG1 c0
+                                     :ARG2 (c8 / miserable)))))
+
+# ::id DFA_es.9 ::annotator 41
+
+(c0 / querer-01
+	:polarity -
+    :ARG0 (c10 / first-person-sing-sinnombre)
+    :ARG1 (c4 / third-person-sing-sinnombre
+              :location (c11 / allí)
+              :beneficiary (c3 / hijo
+                               :poss c4))
+    :cause (c9 / o
+               :op1 (c12 / padre
+                         :mod (c5 / buen)
+                         :domain c4)
+               :op2 (c8 / intentar-01
+                        :ARG0 c4
+                        :ARG1 c12
+                        :mod (c7 / al-menos))))
+
+# ::id DFA_es.10 ::annotator 41
+
+(c10 / creer-01
+     :ARG0 (c9 / first-person-sing-sinnombre)
+     :ARG1 (c2 / necesitar-01
+               :ARG0 (c1 / niño
+                         :mod (c0 / cada))
+               :ARG1 (c5 / padre
+                         :mod (c4 / ambo))
+               :condition (c7 / junto
+                              :domain c5
+                              :ARG1-of (c14 / have-degree-91
+                                            :ARG3 (c13 / igual)
+                                            :ARG4 (c15 / junto
+                                                       :polarity -
+                                                       :domain c5)))))
+
+# ::id DFA_es.11 ::annotator 41
+
+(c0 / contrastar-01
+    :ARG2 (c8 / pensar-01
+              :ARG0 (c1 / él)
+              :ARG1 (c6 / poder-04
+                        :ARG1 (c4 / tener-01
+                                  :ARG1 (c5 / nadie)
+                                  :ARG2 (c7 / first-person-sing-sinnombre))
+                        :condition (c3 / poder-04
+                                       :ARG1 (c9 / tener-01
+                                                 :ARG1 c1
+                                                 :ARG2 c7)
+                                       :polarity -))))
+
+# ::id DFA_es.12 ::annotator 41
+
+(c3 / deber-03
+    :ARG1 (c4 / hacer-02
+              :ARG0 (c1 / first-person-sing-sinnombre)
+              :ARG1 (c2 / amr-unknown)
+              :purpose (c5 / seguir-06
+                           :ARG0 c1
+                           :ARG1 (c0 / vida))))
+
+# ::id DFA_es.13 ::annotator 41
+
+(c5 / multi-sentence
+    :snt1 (c2 / amenazar-01
+              :ARG0 (c0 / ex
+                        :poss (c11 / second-person-sing-sinnombre))
+              :ARG2 (c3 / usar-01
+                        :ARG0 c0
+                        :ARG1 (c12 / hijo
+                                   :poss c11))
+              :ARG1 c11)
+    :snt2 (c9 / y
+              :op1 (c6 / malo)
+              :op2 (c7 / malo)
+              :op3 (c8 / malo)))
+
+# ::id DFA_es.14 ::annotator 41
+
+(c5 / o
+    :op1 (c0 / poder-04
+             :ARG1 (c2 / ceder-02
+                       :ARG0 (c1 / first-person-sing-sinnombre)
+                       :polarity -))
+    :op2 (c3 / esto
+             :ARG0-of (c4 / escalar-01)))
+
+# ::id DFA_es.15 ::annotator 41
+
+(c0 / tener-01
+    :ARG1 (c6 / second-person-sing-sinnombre)
+    :ARG2 (c1 / derecho
+              :purpose (c13 / y
+                              :op1 (c12 / vivir-04
+                                        :ARG0 c6
+                                        :ARG1 (c4 / vida
+                                                  :mod (c3 / propia)))
+                              :op2 (c5 / feliz
+                                       :domain c6)))
+    :ARG0-of (c15 / causar-01
+                  :ARG1 (c8 / rendir-02
+                            :polarity -
+                            :ARG0 c6
+                            :ARG2 (c16 / amenazar-01
+                                       :ARG0 (c10 / third-person-sing-sinnombre)))))
+
+# ::id DFA_es.16 ::annotator 41
+
+(c8 / contrastar-01
+    :ARG1 (c15 / ver-01
+               :ARG0 (c13 / él)
+               :manner (c30 / independientemente)
+               :condition (c3 / amar-01
+                              :ARG0 c13
+                              :ARG1 c20
+                              :manner (c2 / realmente))
+               :ARG1 (c20 / hijo))
+    :ARG2 (c9 / método
+              :mod (c11 / típico)
+              :purpose (c10 / control)
+              :ARG1-of (c21 / usar-01
+                         	:ARG0 (c14 / persona
+                                    	:example c13))
+              :domain (c7 / esto)
+              :mod (c6 / solo)))
+
+# ::id DFA_es.17 ::annotator 41
+
+(c4 / multi-sentence
+    :snt1 (c1 / decir-01
+              :ARG0 (c0 / otro)
+              :ARG1 (c10 / cosa
+                         :example (c11 / suicidarse-01
+                                       :ARG0 (c7 / first-person-sing-sinnombre)
+                                       :condition (c8 / dejar-05
+                                                      :ARG0 (c5 / second-person-sing-sinnombre)
+                                                      :ARG1 c7))))
+    :snt2 (c9 / entender-01
+              :ARG0 (c6 / second-person-sing-sinnombre)
+              :polarity (c20 / amr-unknown)))
+
+# ::id DFA_es.18 ::annotator 41
+
+(c0 / fecha)
+
+# ::id DFA_es.19 ::annotator 41
+
+(c3 / conocer-01
+    :ARG0 (c4 / third-person-sing-sinnombre)
+    :ARG1 (c1 / tipo
+              :mod (c0 / todo)
+              :consist-of (c2 / persona)))
+
+# ::id DFA_es.20 ::annotator 41
+
+(c0 / hacer-02
+    :ARG0 (c3 / second-person-sing-sinnombre)
+    :ARG1 (c1 / lo
+              :ARG1-of (c2 / querer-01
+                           :ARG0 c3))
+    :mode imperative)
+
+# ::id DFA_es.21 ::annotator 41
+
+(c10 / poder-04
+     :ARG1 (c5 / mejor
+               :manner (c9 / acompañar-01
+                           :ARG0 (c7 / él)
+                           :polarity -))
+     :condition (c11 / salir-01
+                     :ARG1 c7
+                     :ARG3 (c2 / vida
+                               :poss (c1 / second-person-plural-sinnombre))
+                     :manner (c0 / voluntario)))
+
+# ::id DFA_es.22 ::annotator 41
+
+(c0 / acordar-02
+    :ARG0 (c6 / first-person-sing-sinnombre)
+    :ARG1 (c4 / incumbencia
+              :poss (c3 / third-person-sing-sinnombre)
+              :domain (c5 / amr-choice
+                          :op1 (c10 / salir-01
+                                    :ARG1 (c8 / second-person-sing-sinnombre))
+                          :op2 (c11 / salir-01
+                                    :ARG1 c8
+                                    :polarity -)
+                          :polarity -)
+              :domain (c2 / cosa
+                          :mod (c13 / otra))))
+
+# ::id DFA_es.23 ::annotator 41
+
+(c1 / decir-01
+    :ARG0 (c3 / first-person-sing-sinnombre)
+    :ARG1 (c4 / lo)
+    :ARG3 (c2 / third-person-sing-sinnombre)
+    :polarity -)
+
+# ::id DFA_es.24 ::annotator 41
+
+(c0 / instead-of-91
+    :ARG1 (c8 / causar-01
+              :ARG0 (c5 / incumbencia
+                        :poss (c2 / third-person-sing-sinnombre)
+                        :domain (c3 / vida
+                                    :mod (c4 / personal)
+                                    :poss (c1 / second-person-sing-sinnombre)
+                                    :polarity -)))
+    :ARG2 (c9 / causar-01
+              :ARG0 (c10 / amenazar-01
+                         :ARG0 c2)))
+
+# ::id DFA_es.25 ::annotator 41
+
+(c0 / poder-04
+    :ARG1 (c1 / documentar-01
+              :ARG0 (c2 / second-person-sing-sinnombre)
+              :ARG1 (c4 / amenazar-01
+                        :ARG0 (c3 / third-person-sing-sinnombre)))
+    :polarity (c5 / amr-unknown))
+
+# ::id DFA_es.26 ::annotator 41
+
+(c1 / necesitar-01
+    :ARG0 (c4 / second-person-sing-sinnombre)
+    :ARG1 (c2 / hacer-02
+              :ARG0 c4
+              :ARG1 (c3 / third-person-sing-sinnombre))
+    :manner (c0 / realmente))
+
+# ::id DFA_es.27 ::annotator 41
+
+(c12 / y
+     :op1 (c1 / dejar-01
+              :ARG1 (c2 / second-person-sing-sinnombre)
+              :ARG2 (c5 / atender-01
+                        :ARG0 c2
+                        :ARG1 (c15 / llamar-04
+                                   :ARG0 (c4 / third-person-sing-sinnombre)))
+              :mode imperative)
+     :op2 (c7 / hacer-08
+              :ARG0 c2
+              :ARG1 (c16 / third-person-sing-sinnombre
+              			 :ARG0-of (c8 / sonar-02
+                        			  :ARG1 (c9 / buzón
+                                  				:mod (c10 / voz))))
+              :mode imperative))
+
+# ::id DFA_es.28 ::annotator 41
+
+(c0 / hacer-08
+    :ARG0 (c1 / second-person-sing-sinnombre)
+    :ARG1 (c6 / third-person-sing-sinnombre
+              :ARG0-of (c7 / enviar-01
+              			   :ARG1 (c9 / o
+                        			 :op1 (c2 / correo
+                                 			  :mod (c3 / electrónico))
+                        			 :op2 (c4 / mensaje
+                                 			  :mod (c5 / texto)))
+              			   :ARG2 c1))
+    :mode imperative)
+
+# ::id DFA_es.29 ::annotator 41
+
+(c3 / guardar-02
+    :ARG0 (c4 / second-person-sing-sinnombre)
+    :ARG1 (c1 / registro
+              :mod (c0 / eso))
+    :mode imperative)
+
+# ::id DFA_es.30 ::annotator 41
+
+(c2 / y
+    :op1 (c0 / conseguir-01
+             :ARG0 (c1 / second-person-sing-sinnombre)
+             :ARG1 (c4 / abogado)
+             :mode imperative)
+    :op2 (c3 / divorciar-01
+             :ARG0 c1
+             :mode imperative))
+
+# ::id DFA_es.31 ::annotator 41
+
+(c7 / intentar-01
+    :ARG0 (c1 / second-person-sing-sinnombre)
+    :manner (c5 / asistencia
+                :mod (c6 / legal))
+    :mode (c8 / imperative)
+    :condition (c0 / poder-04
+                   :polarity -
+                   :ARG1 (c4 / pagar-01
+                             :ARG0 c1
+                             :ARG2 (c10 / uno))))
+
+# ::id DFA_es.32 ::annotator 41
+
+(c6 / decir-01
+    :ARG0 (c1 / second-person-sing-sinnombre)
+    :ARG1 (c4 / deber-03
+              :ARG1 (c9 / pasar-02
+                        :ARG0 (c3 / comunicación
+                                  :mod (c2 / toda))
+                        :ARG2 (c5 / abogado)))
+    :ARG3 (c0 / ex
+              :poss c1)
+    :mode imperative)
+
+# ::id DFA_es.33 ::annotator 41
+
+(c16 / y
+     :op1 (c4 / querer-01
+              :ARG0 (c2 / persona
+                        :ARG0-of (c1 / conducir-03
+                                     :ARG1 (c3 / autobús)))
+              :ARG1 (c5 / cambio
+                        :mod (c6 / exacto)))
+     :op2 (c9 / querer-01
+              :ARG0 (c7 / gente
+                        :mod (c8 / tienda))
+              :ARG1 c5)
+     :op3 (c11 / querer-01
+               :ARG0 (c10 / gente
+                          :ARG0-of (c15 / llevar-12
+                                        :ARG1 (c14 / comida)
+                                        :ARG3 (c13 / second-person-sing-sinnombre)))
+               :ARG1 c5
+               :mod (c12 / también)))
+
+# ::id DFA_es.34 ::annotator 41
+
+(c6 / dar-cuenta-01
+    :ARG0 (c7 / third-person-plural-sinnombre)
+    :ARG1 (c1 / conseguir-01
+              :polarity -
+              :ARG0 (c10 / second-person-sing-sinnombre)
+              :ARG1 (c3 / montón
+                        :consist-of (c4 / cambio))
+              :location (c5 / banco))
+    :polarity (c8 / amr-unknown))
+
+# ::id DFA_es.35 ::annotator 41
+
+(c6 / necesitar-01
+    :ARG0 (c1 / alguien
+              :location (c3 / lugar
+                            :mod (c2 / algún)))
+    :ARG1 (c5 / quedar-08
+              :ARG1 c1
+              :ARG2 (c4 / billete)))
+
+# ::id DFA_es.36 ::annotator 41
+
+(c2 / volver-02
+    :ARG1 (c0 / gente)
+    :ARG2 (c3 / vaga))
+
+# ::id DFA_es.37 ::annotator 41
+
+(c11 / gustar-01
+     :ARG1 (c17 / y
+                :op1 (c16 / quedar-05
+                          :ARG1 (c13 / me)
+                          :ARG2 (c0 / lo
+                                    :ARG1-of (c14 / have-degree-91
+                                                  :ARG2 (c2 / cerca
+                                                            :mod (c15 / posible))
+                                                  :ARG3 (c1 / más))))
+                :op2 (c18 / contar-03
+                          :ARG0 c13
+                          :ARG1 (c7 / moneda
+                                    :consist-of (c8 / cobre))
+                          :polarity -
+                          :duration (c4 / día
+                                        :mod (c5 / todo))))
+     :ARG2 c13)
+
+# ::id DFA_es.38 ::annotator 41
+
+(c3 / decir-01
+    :ARG0 (c9 / third-person-plural-sinnombre)
+    :ARG1 (c6 / subir-02
+              :ARG1 (c2 / second-person-sing-sinnombre)
+              :ARG4 (c10 / autobús)
+              :cause (c7 / vago
+                         :domain c2))
+    :ARG3 c2
+    :condition (c11 / llevar-12
+                    :mode imperative
+                    :ARG0 c2
+                    :ARG1 (c1 / billete
+                              :ARG1-of (c5 / valer-03
+                                           :ARG2 (c15 / monetary-quantity
+                                                      :quant 20)))
+                    :ARG4 c10))
+
+# ::id DFA_es.39 ::annotator 41
+
+(c9 / ilegal
+    :domain (c10 / pagar-01
+                 :ARG1 (c13 / cantidad
+                            :mod (c1 / cierta)
+                            :instrument (c2 / moneda))
+                 :example (c3 / poder-04
+                            :ARG1 (c14 / pagar-01
+                                       :ARG0 (c5 / second-person-sing-sinnombre)
+                                       :ARG1 (c15 / monetary-quantity
+                                                  :quant 30
+                                                  :unit (c7 / céntimo))
+                                       :instrument (c8 / moneda
+                                                       :ARG1-of (c18 / valer-03
+                                                                     :ARG2 (c20 / monetary-quantity
+                                                                                :quant 1)))
+                                       :mod (c21 / solo)))))
+
+# ::id DFA_es.40 ::annotator 41
+
+(c6 / identificar-01
+    :ARG0 (c4 / first-person-sing-sinnombre
+    		  :example-of (c7 / mayoría
+                 			  :part-of (c8 / gente)))
+    :ARG1 c4
+	:beneficiary (c10 / universidad)
+    :manner (c5 / inmediatamente)
+    :polarity -
+    :time (c1 / date-entity
+	       :month 9
+	       :time-of (c3 / empezar-02
+         	         :ARG0 c4
+           	         :ARG1 c10)))

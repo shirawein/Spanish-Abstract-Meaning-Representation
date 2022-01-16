@@ -1,0 +1,1233 @@
+# proxy_1-50_106
+# ::id proxy_es.1 ::annotator 106
+
+(c0 / date-entity
+    :year 2007
+    :month 8
+    :day 21)
+
+# ::id proxy_es.2 ::annotator 106
+
+
+(c5 / country
+  :name (c6 / name
+         :op1 "Irán"
+         :op2 "República"
+         :op3 "Islámica"
+         :op4 "del"
+         :op5 "IR"))
+
+# ::id proxy_es.3 ::annotator 106
+
+
+(c0 / y
+	:op1 (c1 / internacional)
+	:op2 (c2 / arma)
+	:op3 (c3 / política)
+	:op4 (c4 / proliferación)
+	:op5 (c5 / energía))
+
+
+# ::id proxy_es.4 ::annotator 106
+
+(c4 / llegar-02
+  :arg0 (c0 / organization
+              :name (c1 / name
+            :op1 "Agencia"
+            :op2 "Internacional"
+            :op3 "de"
+            :op4 "Energía"
+            :op5 "Atómica"))
+  :arg1 (c5 / acordar-02
+        :arg0 c0
+        :arg1 (c6 / funcionario
+            :mod (c7 / country
+                :name (c20 / name
+                    :op1 "Iran"))
+            :arg0-of (c9 / afirmar-01
+                  :arg1 (c10 / haber-01
+                        :arg1 (c24 / o
+                            :op1 (c11 / problema)
+                            :op2 (c12 / ambigüedad)
+                            :topic (c25 / y
+                                :op1 (c13 / programa)
+                                :op2 (c14 / actividad
+                                :mod (c15 / nuclear)
+                                :poss c7
+                        :polarity -))))))))
+
+# ::id proxy_es.5 ::annotator 106
+
+(c0 / sospechar-01
+    :ARG0 (c2 / funcionario
+              :mod (c22 / y
+                        :op1 (c23 / country
+                                  :name (c71 / name
+                                         :op1 "Estados"
+                                         :op2 "Unidos"))
+                        :op2 (c6 / continent
+                                  :name (c72 / name
+                                       :op1 "Europa")))
+    :arg1 (c7 / enmascarar-01
+              :arg0 (c8 / programa
+                        :mod (c9 / civil)
+                        :mod (c10 / energía
+                                  :mod (c11 / nuclear))
+                        :poss (c12 / country
+                                   :name (c73 / name
+                                          :op1 "Irán")))
+              :arg1 (c14 / esfuerzo
+                         :purpose (c15 / obtener-01
+                                       :arg0 c8
+                                       :arg1 (c16 / tecnología
+                                                  :arg01-of (c17 / usar-01
+                                                                 :arg1-of (c18 / poder-04
+                                                                            :purpose (c19 / producir-01
+                                                                                          :ARG1 (c20 / bomba)
+                                                                                          :mod (c21 / atómica))))))))))
+
+# ::id proxy_es.6 ::annotator 106
+
+(c0 / sospechar-01
+    :ARG0 (c2 / funcionario
+              :mod (c22 / y
+                        :op1 (c23 / country
+                                  :name (c71 / name
+                                         :op1 "Estados"
+                                         :op2 "Unidos"))
+                        :op2 (c6 / continent
+                                  :name (c72 / name
+                                       :op1 "Europa")))
+    :arg1 (c7 / enmascarar-01
+              :arg0 (c8 / programa
+                        :mod (c9 / civil)
+                        :mod (c10 / energía
+                                  :mod (c11 / nuclear))
+                        :poss (c12 / country
+                                   :name (c73 / name
+                                          :op1 "Irán")))
+              :arg1 (c14 / esfuerzo
+                         :purpose (c15 / obtener-01
+                                       :arg0 c8
+                                       :arg1 (c16 / tecnología
+                                                  :arg01-of (c17 / usar-01
+                                                                 :arg1-of (c18 / poder-04
+                                                                            :purpose (c19 / producir-01
+                                                                                          :ARG1 (c20 / bomba)
+                                                                                          :mod (c21 / atómica))))))))))
+
+
+# ::id proxy_es.7 ::annotator 106
+
+(c0 / y
+    :op1 (c1 / poder-04
+            :arg1 (c2 / imponer-01
+                      :arg0 (c8 / funcionario
+                                :mod (c82 / y
+                                      :op1 (c13 / country
+                                                    :name (c80 / name
+                                                             :op1 "Estados"
+                                                             :op2 "Unidos"))
+                                        :op2 (c14 / continent
+                                                    :name (c81 / name
+                                                           :op1 "Europa"))))
+                      :arg1 (c15 / ronda
+                                 :mod (c17 / ordinal-entity
+                                           :value (c16 / 4))
+                                 :consist-of (c18 / sanciones))
+                      :arg2 (c35 / city :name
+                             (c84 / name
+                                      :op1 "Teherán"))
+                      :time-of (c19 / considerar-01
+                                    :arg0 (c20 / organization
+                                               :name (c21 / name
+                                                          :op1 "Consejo"
+                                                          :op2 "de"
+                                                          :op3 "Seguridad"
+                                               :poss (c87 / organization
+                                                       :name (c88 / name
+                                                              :op1 "ONU"))))
+                                    :arg1 (c29 / problema
+                                               :topic (c30 / programa
+                                                           :mod (c31 / energía
+                                                                     :mod (c32 / nuclear))
+                                                           :poss (c33 / country
+                                                                      :name (c89 / name
+                                                                             :op1 "Irán")))))))
+    :op2 (c3 / poder-04
+            :arg1 c2
+            :time-of (c5 / date-entity
+                         :month (c6 / 8)
+                         :year (c7 / 2007))))
+
+# ::id proxy_es.8 ::annotator 106
+
+(c0 / distribuir-01
+    :arg0 (c1 / organization
+              :name (c2 / name
+                        :op1 "Agencia"
+                        :op2 "Internacional"
+                        :op3 "de"
+                        :op4 "Energía"
+                        :op5 "Atómica"))
+    :arg1 (c8 / copia
+              :ARG1-of (c30 / limitar-01)
+              :poss (c10 / informe
+                         :poss (c11 / organization
+                                    :name (c51 / name
+                                           :op1 "OIEA"))))
+    :time (c15 / antes
+               :op1 (c16 / reunir-03
+                     :arg0 (c19 / miembro
+                                    :quant (c22 / 35)
+                                    :ARG0-of (c40 / have-org-role-91
+                                            :ARG1 (c20 / consejo
+                                                       :poss c12)))
+             :time (c17 / date-entity
+                          :day 11
+                              :month 9
+                              :year 2007))))
+
+# ::id proxy_es.9 ::annotator 106
+
+(c0 / reflejar-02
+    :arg1 (c1 / resultado)
+    :arg2 (c2 / acordar-02
+              :arg0 (c3 / agencia)
+              :arg2 (c4 / city
+            :name (c20 / name
+                   :op1 "Teherán"))
+              :time (c12 / date-entity
+                         :day 21
+                         :month 8
+                         :year 2007)
+              :arg1 (c10 / comenzar-02
+                        :arg0 (c8 / funcionario
+                                  :mod (c13 / country
+                                            :name (c71 / name
+                                                   :op1 "Iran"))
+                        :arg1 (c11 / publicar-01
+                               :time (c14 / date-interval
+                                          :op1 (c15 / date-entity :year 2007 :month 8 :day 12)
+                                              :op2 (c16 / date-entity :year 2007 :month 8 :day 19)))))))
+
+# ::id proxy_es.10 ::annotator 106
+
+(c0 / decir-01
+    :arg0 (c1 / acuerdo)
+    :arg1 (c2 / quedar-01
+              :polarity -
+              :arg1 (c4 / y
+                        :op1 (c5 / problemas)
+                        :op2 (c6 / ambigüedad)
+                        :topic (c7 / y
+                                   :op1 (c8 / programa
+                                            :mod (c9 / nuclear))
+                                   :op2 (c10 / actividad
+                                             :poss (c12 / country
+                                                        :name (c20 / name
+                                                               :op1 "Irán")))))))
+
+# ::id proxy_es.11 ::annotator 106
+
+(c0 / decir-01
+    :arg0 (c1 / cuenta
+              :poss (c2 / organization
+                        :name (c3 / name)
+                        		  :op1 "Reuters"))
+    :arg1 (c8 / decir-01
+              :arg0 (c5 / informe
+                        :poss (c6 / organization
+                                  :name (c20 / name
+                                  			 :op1 "OIEA")))
+              :arg1 (c11 / paso
+                         :domain (c9 / plan
+                                     :mod (c10 / trabajo))
+                         :mod (c12 / significativo)
+                         :direction (c14 / adelante))))
+
+
+# ::id proxy_es.12 ::annotator 106
+
+(c0 / citar-01
+    :ARG0 (c1 / company
+               :name (c2 / name
+                          :op1 "Reuters"))
+    :ARG1 (c4 / funcionario
+               :mod (c5 / alto)
+               :poss (c6 / organization
+                          :name (c7 / name
+                                     :op1 "ONU"))
+               :ARG0-of (c9 / declarar-01
+                            :ARG1 (c10 / disminuir-01
+                                      :ARG1 (c11 / esforzar-01
+                                                :ARG0 (c12 / gobierno
+                                                          :poss (c13 / country
+                                                                     :name (c14 / name
+                                                                                :op1 "Irán")))
+                                                :ARG1 (c15 / enriquecer-01
+                                                		  :ARG0 c12
+                                                          :ARG1 (c16 / uranio)))))))
+
+
+# ::id proxy_es.13 ::annotator 106
+
+(c0 / indicar-01
+    :arg0 (c6 / informe
+              :poss (c7 / organization
+                        :name (c8 / name
+                                  :op1 "OIEA")))
+    :arg1 (c1 / deber-03
+              :arg1 (c5 / continuar-01
+                        :arg0 (c2 / funcionario
+                        		 :mod (c3 / country
+                                 		  :name (c27 / name
+                                 		    		 :op1 "Irán")))
+                        :arg1 (c10 / construir-01
+                                   :arg0 c2
+                                   :arg1 (c11 / confianza
+                                              :topic (c13 / y
+                                                          :op1 (c14 / alcance)
+                                                          :op2 (c15 / naturaleza)
+                                                               		:poss (c16 / programa
+                                                                          	   :mod (c17 / nuclear)
+                                                                          	   :mod (c18 / y
+                                                                                    	 :op1 (c19 / presente)
+                                                                                    	 :op2 (c20 / futuro)
+                                                                          				 :poss (c22 / country
+                                                                          			 		   		:name (c25 / name
+                                                                                     					  	   :op1 "Irán"))))))))))
+
+
+# ::id proxy_es.14 ::annotator 106
+
+(c0 / manifestar-01
+    :time (c6 / date-entity
+              :day 30
+              :month 8)
+    :arg0 (c1 / funcionario
+              :mod (c2 / country
+                       :name (c20 / name
+                       	          :op1 "Irán")))
+    :arg1 (c7 / cooperar-01
+              :arg0 c1
+              :arg1 (c8 / organization
+                        :name (c9 / name
+                                  :op1 "OIEA"))
+              :purpose (c12 / evitar-01
+                         :arg1 (c13 / ronda
+                                    :mod (c14 / nueva)
+                                    :consist-of (c15 / sanción
+                                                     :mod (c16 / internacional))
+    								:mod (c11 / posiblemente)))))
+
+
+# ::id proxy_es.15 ::annotator 106
+
+(c0 / declarar-01
+    :ARG0 (c1 / person
+              :poss (c2 / country
+                        :name (c40 / name
+                        		   :op1 "Irán"))
+              :name (c4 / name
+                        :op1 "Ali"
+                        :op2 "Ashgar"
+                        :op3 "Soltanieh")
+              :ARG0-of (c44 / representar-01))
+    :ARG2 (c14 / company
+               :name (c16 / name
+                          :op1 "Fars")
+               :mod (c43 / noticia)
+               :mod (c15 / city
+                         :name (c41 / name
+                         			:op1 "Teherán")))
+    :ARG1 (c9 / enfatizar-01
+              :arg0 (c10 / informe)
+              :arg1 (c12 / existir-01
+                         :arg1 (c23 / o
+                                     :op1 (c21 / indicio)
+                                     :op2 (c22 / evidencia)
+                                     :ARG0-of (c46 / indicar-01)
+                                              :arg1 (c42 / y
+                                              			 :op1 (c25 / desviar-01
+                                                                   :ARG1 (c26 / actividad
+                                                                    		  :mod (c27 / núcleo)
+                                                                   			  :poss (c28 / country
+                                                                              			 :name (c45 / name
+                                                                               			  			op1 "Irán"))))
+    													 :op2 (c13 / auditar-01
+                                   								   :arg1 (c30 / material
+                                              								  :mod (c32 / todo)
+                                              								  :mod (c31 / núcleo)
+                                              								  :poss (c33 / country
+                                                         								 :name (c47 / name
+                                                         											:op1 "Irán"))))))
+                         :polarity -)))
+
+# ::id proxy_es.16 ::annotator 106
+
+(c0 / declarar-01
+    :arg0 (c1 / experto
+              :mod (c2 / alguno)
+              :mod (c3 / proliferación
+                       :polarity -))
+    :arg1 (c8 / ceder-01
+              :arg0 (c5 / organization
+                        :name (c6 / name
+                                  :op1 "OIEA"))
+              :arg1 (c9 / demasiado)
+              :arg2 (c10 / country
+                         :name (c11 / name)
+                         			:op1 "Irán")))
+
+# ::id proxy_es.17 ::annotator 106
+
+(c21 / escribir-01
+     :ARG0 (c0 / experto
+               :topic (c1 / control
+                          :mod (c2 / arma))
+               :poss (c3 / organization
+                         :name (c11 / name
+                                    :op1 "Instituto"
+                                    :op2 "de"
+                                    :op3 "Ciencia"
+                                    :op4 “y”
+                                    :op5 "Seguridad"
+                                    :op6 "Internacional")
+                         :location (c19 / city
+                                        :name (c20 / name
+                                                   :op1 "Washington")))
+               :name (c4 / y
+                         :op1 (c9 / name
+                                  :op1 "David"
+                                  :op2 "Albright")
+                         :op2 (c10 / name
+                                   :op1 "Jacqueline"
+                                   :op2 "Shire")))
+     :ARG1 (c22 / crítica
+                :ARG1-of (c23 / publicar-01
+                              :time (c24 / date-entity
+                                         :day 19
+                                         :month 8
+                                         :year 2007))
+                :topic (c28 / y
+                            :op1 (c29 / violar-01
+                                      :ARG0 (c30 / idea
+                                                 :topic (c31 / cerrar-01
+                                                             :ARG1 (c32 / archivo)))
+                                      :ARG1 (c33 / principios
+                                                 :mod (c34 / fundamental)
+                                                 :poss (c35 / salvaguardia)))
+                            :op2 (c36 / especificar-01
+                                      :ARG0 (c38 / acuerdo)
+                                      :polarity -
+                                      :ARG1 (c39 / proporcionar-01
+                                                 :ARG0 (c40 / oficial
+                                                            :mod (c42 / country
+                                                                      :name (c43 / name
+                                                                                 :op1 "Irán")))
+                                                 :ARG2 (c44 / organization
+                                                            :name (c45 / name
+                                                                       :op1 "OIEA"))
+                                                 :ARG1 (c47 / acceso
+                                                            :topic (c48 / y
+                                                                        :op1 (c49 / persona)
+                                                                        :op2 (c50 / instalacion)
+                                                                        :op3 (c51 / documento)
+                                                                        :mod (c52 / clave)
+                                                                        :mod (c53 / necesario
+                                                                                  :purpose (c54 / verificar-01
+                                                                                                :ARG1 (c55 / dar_respuesta-01
+                                                                                                           :ARG1 c42
+                                                                                                           :ARG2 (c59 / pregunta
+                                                                                                                      :poss c44)))))))))))
+
+# ::id proxy_es.18 ::annotator 106
+
+(c40 / y
+	 :op1 (c0 / declarar-01
+    		  :ARG0 (c1 / experto
+              			 :mod (c2 / independiente))
+              :ARG1 (c4 / acuerdo
+                        :mod (c5 / último)
+                        :source (c6 / country
+                                    :name (c7 / name
+                                              :op1 "Irán"))
+                        :beneficiary (c9 / organization
+                                         :name (c10 / name
+                                                    :op1 "OIEA"))
+                        :ARG0-of (c14 / otorgar-01
+                                      :ARG1 (c15 / entrar-01
+                                                 :ARG1 (c16 / inspector)
+                                                 :ARG2 (c17 / y
+                                                            :op1 (c18 / sitio
+                                                                      :mod (c19 / nuclear))
+                                                            :op2 (c20 / información))))))
+     :op2 (c3 / satisfacer-01
+              :ARG1 (c13 / demanda
+                         :poss (c21 / world-region
+                                    :name (c22 / name
+                                               :op1 "Occidente"))
+                         :purpose (c24 / detener-01
+                                       :ARG1 (c25 / producir-01
+                                                  :ARG1 (c26 / uranio
+                                                             :mod (c27 / concentrado))
+                                                  :ARG1-of (c28 / poder-04
+                                                                :purpose (c31 / utilizar-01
+                                                                              :manner (c29 / potencialmente)
+                                                                              :purpose (c32 / bomba))))))))
+
+# ::id proxy_es.19 ::annotator 106
+
+(c0 / afirmar-01
+    :ARG0 (c1 / portavoz
+              :poss (c2 / departamento
+                        :mod (c3 / country
+                                 :name (c4 / name
+                                           :op1 "Estados"
+                                           :op2 "Unidos"))
+                        :part-of (c7 / gobierno
+                                     :poss (c8 / person
+                                               :name (c9 / name
+                                                         :op1 "Bush"))))
+              :name (c11 / name
+                         :op1 "Tom"
+                         :op2 "Casey"))
+    :ARG1 (c14 / cumplir-01
+               :condition (c25 / poder-04
+                               :ARG0 (c27 / informe)
+                               :ARG1 (c26 / ofrecer-01
+                                          :ARG1 (c29 / o
+                                                     :op1 (c30 / detalle
+                                                               :mod (c31 / nuevo))
+                                                     :op2 (c32 / información
+                                                               :topic (c33 / desarrollo
+                                                                           :poss (c34 / programa
+                                                                                      :mod c17))))))
+               :ARG0 (c16 / oficial
+                          :mod (c17 / country
+                                    :name (c18 / name
+                                               :op1 "Iran")))
+               :polarity -
+               :ARG1 (c20 / obligación
+                          :mod (c21 / ninguna)
+                          :mod (c22 / internacional)
+                          :topic (c23 / programa
+                                      :mod (c24 / nuclear)))))
+
+# ::id proxy_es.20 ::annotator 106
+
+(c0 / afirmar-01
+    :arg0 (c3 / person
+              :name (c1 / name
+                       :op1 "Casey"))
+    :arg1 (c4 / demostrar-01
+              :arg0 (c14 / continuar-02
+                        :arg0 (c15 / programa
+                                  :mod (c16 / nuclear))
+                        :arg1 (c17 / avanzar-01
+                                   :arg0 c15))
+              :arg1 (c6 / continuar-01
+                        :arg0 (c7 / régimen
+                                  :mod (c8 / country
+                                           :name (c9 / name
+                                           			 :op1 "Irán")))
+                        :arg1 (c10 / caminar-01
+                                   :arg0 c7
+                                   :arg2 (c11 / desafío
+                                              :poss (c12 / comunidad
+                                                         :mod (c13 / internacional)))))))
+
+# ::id proxy_es.21 ::annotator 106
+
+(c0 / afirmar-01
+    :arg0 (c1 / mayoría
+              :consist-of (c2 / experto
+                              :mod (c3 / proliferación
+                                       :polarity -)
+                              :poss (c5 / world-region
+                                       :name (c40 / name
+                                       			  :op1 "Occidente"))))
+    :arg1 (c11 / contener-01
+               :arg1 (c6 / acuerdo
+                         :time (c7 / date-entity
+                                   :year 21
+                                   :month 8
+                                   :year 2007))
+               :arg2 (c12 / poco
+                           :arg0-of (c14 / disuadir-01
+                           				 :ARG1-of(c47 / poder-04)
+                                         :arg1 (c15 / legislador
+                                                    :location (c16 / y
+                                                                   :op1 (c27 / city
+                                                                             :name (c41 / name
+                                                                                       	:op1 "Washington"))
+                                                                   :op2 (c28 / city
+                                                                             :name (c42 / name
+                                                                                       	:op1 "Londres"))
+                                                                   :op3 (c29 / city
+                                                                             :name (c43 / name
+                                                                                       	op1 "París"))
+                                                                   :op4 (c30 / city
+                                                                             :name (c44 / name
+                                                                                       	:op1 "Berlín"))))
+                                         :arg2 (c21 / seguir-06
+                                                    :arg0 c15
+                                                    :mod (c31 / adelante)
+                                                    :arg1 (c22 / ronda
+                                                               :mod (c23 / otra)
+                                                               :consist-of (c24 / sanción
+                                                                                :source (c25 / organization
+                                                                                			 :name (c89 / name
+                                                                                           				:op1 "consejo"
+                                                                                           				:op2 "de"
+                                                                                           				:op3 "seguridad")))))))))
+
+# ::id proxy_es.22 ::annotator 106
+
+(c0 / indicar-01
+    :arg0 (c1 / experto)
+    :arg1 (c3 / deber-03
+              :arg1 (c2 / resolver-01
+                        :ARG1 (c20 / problema
+                        		   :mod (c4 / mucho)
+                        :mod (c5 / transparencia)
+                        :mod (c6 / informar-01
+                                 :arg0 c2
+                                 :time (c12 / date-entity
+                                            :day 21
+                                            :month 8
+                                            :year 2007))))
+              :arg1 (c13 / haber-01
+                         :arg0 c2
+                         :arg1 (c14 / resuelto)
+                         :mod (c15 / previamente))))
+
+# ::id proxy_es.23 ::annotator 106
+
+(c0 / afirmar-01
+    :arg0 (c1 / director
+              :mod (c2 / ejecutivo)
+              :poss (c3 / grupo
+                        :poss (c4 / experto
+                                  :poss (c5 / organization
+                                            :name (c19 / name
+                                                       :op1 "asociación"
+                                                       :op2 "para"
+                                                       :op3 "el"
+                                                       :op4 "control"
+                                                       :op5 "de"
+                                                       :op6 "armas"
+                                            		   :op7 "no"
+                                            		   :op8 "partidista")
+                                            :mod (c20 / city
+                                                      :name (c14 / name
+                                                      			 :op1 "Washington")))))
+              :name (c18 / name
+                         :op1 "Daryl"
+                         :op2 "G."
+                         :op3 "Kimball"))
+    :agr1 (c21 / abordar-01
+               :arg0 (c22 / acuerdo)
+               :polarity -
+               :arg1 (c24 / problema
+                          :consist-of (c25 / buscar-01
+                                           :arg0 (c26 / gobierno
+                                                      :mod (c28 / country
+                                                      			:name (c27 / name
+                                                      					   :op1 "Irán")))
+                                           :arg1 (c29 / y
+                                                      :op1 (c30 / tecnología)
+                                                      :op2 (c31 / capacidad
+                                                                :consist-of (c35 / poder-04
+                                                                                 :arg1 (c36 / conducir-01
+                                                                                            :agr2 (c37 / producción
+                                                                                            		   :mod (c38 / material))))))))))
+
+# ::id proxy_es.24 ::annotator 106
+
+(c0 / afirmar-01
+    :arg0 (c2 / persona
+              :name (c4 / name
+                        :op1 "Kimball"))
+    :arg1 (c5 / consistir-01
+              :arg1 (c6 / diseñar-01
+                        :ARG0 (c7 / gobierno
+                                  :mod (c9 / country
+                                           :name "Irán")))
+              :arg2 (c10 / desviar-01
+                         :arg0 c6
+                         :arg1 (c12 / y
+                                    :op1 (c11 / desviar-01
+                                    		  :ARG1 (c20 / y
+                                              			 :op1 (c16 / crítica)
+                                              			 :op2 (c17 / presión))
+                                    :op2 (c13 / afirmar-01
+                                              :arg1 (c14 / producir-01
+                                                         :arg1 (c15 / progresar-01))))))))
+
+# ::id proxy_es.25 ::annotator 106
+
+(c0 / declarar-01
+    :arg0 (c1 / funcionario
+              :mod (c2 / country
+                        :name (c11 / name
+                        		   :op1 "Irán")))
+    :arg1 (c6 / reducir-01
+              :arg1 (c5 / colaborar-01
+                        :arg0 c1
+                        :arg1 (c7 / inspector))
+              :arg1-of (c13 / poder-04)
+              :condition (c8 / sanción
+                             :mod (c12 / más))))
+
+# ::id proxy_es.26 ::annotator 106
+
+(c9 / contrast-01
+    :arg1 (c0 / votar-01
+              :arg0 (c1 / organization
+                        :name (c2 / name
+                        		  :op1 "consejo"
+                        		  :op2 "de"
+                        		  :op3 "seguridad"))
+              :manner (c3 / unánime)
+              :arg1 (c4 / imponer
+                        :arg1 (c5 / sanción)
+                        :arg2 (c8 / country
+                                  :name (c30 / name
+                                  			 :op1 "Irán"))))
+    :arg2 (c10 / limitar-01
+               :arg1 (c15 / pena
+                          :poss (c12 / country
+                                     :mod (c16 / name
+                                               :op1 "Estados"
+                                               :op2 "Unidos")))
+               :arg0 (c11 / demanda)
+               :ARG1-of (c17 / presionar-01
+                                :ARG0 (c18 / y
+                                           :op1 (c19 / country
+                                                     :name "China")
+                                           :op2 (c20 / country
+                                                     :name "Rusia")))))
+
+# ::id proxy_es.27 ::annotator 106
+
+(c0 / declarar-01
+    :ARG0 (c8 / person
+              :name (c40 / name
+                     :op1 "soltanieh"))
+    :medium (c1 / entrevista
+                 :mod (c2 / televisión
+                                :mod (c3 / country
+                                         :name (c4 / 
+                                               :name "Irán"))
+                                :ARG1-of (c5 / controlar-01
+                                             :ARG0 (c6 / estado))))
+    :ARG1 (c13 / hacer-02
+               :ARG0 (c9 / y
+                         :op1 (c10 / informe)
+                         :op2 (c11 / medidas
+                                   :ARG1-of (c12 / adoptar-01)))
+               :ARG1 (c14 / y
+                          :ARG1-of (c17 / intervención
+                                        :poss (c18 / organización
+                                                   :mod (c19 / internacional)
+                                                   :subset (c24 / organization
+                                                                :name (c25 / name
+                                                                           :op1 "consejo"
+                                                                           :op2 "de"
+                                                                           :op3 "seguridad"))))
+                          :op1 (c15 / irrelevante)
+                          :op2 (c16 / injustificada))))
+
+# ::id proxy_es.28 ::annotator 106
+
+(c0 / date-entity
+    :year 2007
+    :month 9
+    :day 30)
+
+
+# ::id proxy_es.29 ::annotator 106
+
+(c0 / country
+    :name (c1 / name
+    :op1 "Israel"))
+
+# ::id proxy_es.30 ::annotator 106
+
+(c0 / y
+    :op1 (c1 / proliferación)
+    :op2 (c2 / tecnología)
+    :op3 (c3 / internacional)
+    :op4 (c4 / política))
+
+# ::id proxy_es.31 ::annotator 106
+
+(c0 / distribuir-01
+    :beneficiary (c2 / organization
+              :name (c7 / name
+                       :op1 "grupo"
+                       :op2 "de"
+                       :op3 "proveedores"
+                       :op4 "nucleares"))
+    :ARG1 (c1 / documento
+              :ARG0-of (c8 / esbozar-01
+                           :ARG1 (c9 / proponer-01
+                                     :ARG0 (c10 / country
+                                                :name (c11 / name
+                                                		   :op1 "israel"))
+                                     :ARG1 (c19 / permitir-02
+                                                   :ARG1 (c12 / transferir-01
+                                                              :mod (c13 / internacional)
+                                                              :ARG1 (c14 / tecnología
+                                                                         :mod (c15 / nuclear))
+                                                              :ARG2 (c16 / estados
+                                                                         :ARG0-of (c20 / adherir-01
+                                                                                       :polarity (c21 / -)
+                                                                                       :ARG1 (c22 / normas
+                                                                                                  :consist-of (c17 / proliferación.
+                                                                                                                   :polarity (c18 / -)))))))))))
+
+
+# ::id proxy_es.32 ::annotator 106
+
+(c0 / poder-04
+    :ARG1 (c2 / complicar-01
+              :ARG0 (c1 / propuesta)
+              :ARG1 (c3 / esforzar-01
+                        :ARG0 (c4 / administración
+                                  :poss (c5 / person
+                                            :name (c6 / name
+                                            		  :op1 "Bush")))
+                        :ARG1 (c7 / obtener-02
+                                        :ARG0 c4
+                                        :ARG1 (c8 / exención
+                                                  :purpose (c9 / participar-01
+                                                                  :ARG0 (c11 / country
+                                                                             :name (c10 / name
+                                                                             			:op1 "India"))
+                                                                  :ARG1 (c12 / comercio
+                                                                             :mod (c13 / núcleo))))))))
+
+# ::id proxy_es.33 ::annotator 106
+
+(c0 / convencer-01
+    :ARG0 (c1 / funcionarios
+              :mod (c2 / country
+                       :name (c3 / name
+                       			 :op1 "Israel")))
+    :ARG1 (c4 / grupo
+              :mod (c5 / clave)
+              :consist-of (c6 / nación
+                              :ARG1-of (c7 / involucrar-01
+                                           :ARG2 (c8 / comercio
+                                                     :mod (c9 / núcleo)))))
+    :ARG2 (c10 / adoptar-01
+               :ARG0 c4
+               :ARG1 (c11 / directriz
+                          :mod (c12 / nueva)
+                          :ARG0-of (c13 / permitir-01
+                                        :ARG1 (c14 / transferir-01
+                                                   :mod (c15 / internacional)
+                                                   :ARG1 (c16 / tecnología
+                                                              :mod (c17 / núcleo))
+                                                   :ARG2 (c18 / estados
+                                                              :ARG0-of (c19 / adherir-01
+                                                              				:polarity -
+                                                                            :ARG1 (c20 / regla
+                                                                                       :consist-of (c21 / proliferación
+                                                                                                        :polarity -)))))))))
+
+# ::id proxy_es.34 ::annotator 106
+
+(c0 / prohibir-01
+    :ARG2 (c1 / país
+              :example (c7 / y
+                           :op1 (c30 / country 
+                           			 :name (c2 / name
+                           			 		   :op1 "India"))
+                           :op2 (c3 / country
+                           			:name (c31 / name
+                           					   :op1 "Israel"))
+                           :op3 (c4 / country
+                           			:name (c32 / name
+                           					   :op1 "pakistán")))
+              :ARG0-of (c5 / firmar
+                           :polarity -
+                           :ARG1 (c8 / treat
+                                     :name (c9 / name
+                                              :op1 "no"
+                                              :op2 "Proliferación"
+                                              :op3 "nuclear"))))
+    :ARG1 (c12 / participar-01
+               :ARG0 c1
+               :ARG1 (c13 / comercio
+                          :mod (c14 / nuclear)
+                          :mod (c15 / internacional,)
+                          :example (c16 / comprar-01
+                                        :ARG1 (c17 / reactor
+                                                   :mod (c18 / o
+                                                             :op1 (c19 / combustible
+                                                                       :poss (c20 / uranio))
+                                                             :op2 (c21 / óxido
+                                                                       :poss (c22 / uranio))))))))
+
+
+# ::id proxy_es.35 ::annotator 106
+
+(c0 / distribuir-01
+    :time (c15 / date-entity
+               :month 3
+               :year 2007)
+    :beneficiary (c6 / miembro
+              :quant 45
+              :poss (c8 / organization
+                        :name (c9 / name
+                                 :op1 "Grupo"
+                                 :op2 "de"
+                                 :op3 "proveedores"
+                                 :op4 "nucleares"
+                                 :op5 "NSG")))
+    :ARG1 (c1 / documento
+              :ARG0-of (c2 / describir-01
+                           :ARG1 (c3 / propuesta
+                                     :poss (c4 / country
+                                               :name (c5 / name
+                                               			 :op1 "Israel"))))))
+
+
+# ::id proxy_es.36 ::annotator 106
+
+(c0 / hacer-09
+    :ARG1 (c1 / presentación
+              :poss (c2 / country
+                        :name (c3 / name
+                        		  :op1 "Israel")))
+    :location (c4 / documento
+                 :mod (c5 / oficial
+                          :polarity -)
+                 :ARG0-of (c7 / permiir-01
+                           :ARG1 (c8 / negación
+                                     :mod (c9 / oficial)))))
+
+
+# ::id proxy_es.37 ::annotator 106
+
+(c0 / decir-01
+    :ARG0 (c1 / carta
+              :poss (c2 / presidente
+                        :poss (c8 / organization
+                                  :name (c9 / name
+                                           :op1 "nsg")))
+    		  :time (c4 / date-entity
+              			:day 17
+              			:month 3
+              			:year 2007))
+    :ARG1 (c14 / ofrecer-01
+               :ARG1 (c18 / presentación
+                          :mod (c19 / country
+                                    :name (c5 / name
+                              :op1 "Israel")))
+               :topic (c11 / debate
+                           :topic (c12 / solicitud
+                                       :topic (c13 / exención
+                                                   :poss (c15 / funcionario
+                                                              :mod (c16 / country
+                                                                       :name (c17 / name
+                                                                                  :op1 "India"))))))))
+
+
+# ::id proxy_es.38 ::annotator 106
+
+(c0 / calificar-01
+    :ARG0 (c1 / y
+              :location (c30 / entre
+              				 :op1 (c7 / firmar-01
+                             		  :ARG0 (c10 / nación)
+                             		  :polarity -
+                             		  :ARG1 (c9 / tratado)))
+              :mod (c2 / solo)
+              :op1 (c3 / country
+                       :name (c4 / name
+                       			 :op1 "India"))
+              :op2 (c11 / country
+                        :name (c5 / name
+                        		  :op1 "Israel")))
+    :ARG1 (c13 / admitir-01
+               :ARG2 (c14 / organization
+                          :name (c15 / name
+                                    :op1 "NSG"))
+               :location (c24 / bajo
+               				  :op1 (c17 / propuesta
+                                		:mod (c18 / country
+                                          		  :name (c19 / name
+                                          		  			 :op1 "Israel"))))))
+
+
+# ::id proxy_es.39 ::annotator 106
+
+(c0 / ofrecer-01
+    :ARG0 (c1 / plan
+              :mod (c2 / country
+                       :name (c3 / name
+                       			 :op1 "Israel")))
+    :ARG1 (c4 / criterio
+              :quant 12
+              :ARG0-of (c6 / permitir-01
+                           :ARG1 (c7 / comercio
+                                     :mod (c8 / nuclear)
+                                     :poss (c9 / estados
+                                                    :ARG0-of (c13 / incluir-01
+                                                    	  :polarity -
+                                                    	  :ARG1 (c10 / tratado)))))))
+
+# ::id proxy_es.40 ::annotator 106
+
+(c34 / y
+     :op1 (c1 / indicar-01
+              :ARG0 (c0 / criterio)
+              :ARG1 (c2 / estado
+			:ARG1-of (c50 / tener-01
+				    :ARG2 (c33 / armamento
+                                       	      :mod (c8 / núcleo)
+                                                            :ARG1-of (c10 / declarar-01
+                                                                  :polarity -)))
+                        :domain (c6 / estado
+                                    :mod (c35 / country
+                                              :name (c5 / name
+                                                        :op1 "Israel")))))
+     :op2 (c11 / decir-01
+               :ARG0 c0
+               :ARG1 (c36 / recomendar-01
+                          :ARG1 (c12 / permitir-01
+                                     :ARG1 (c14 / participar-01
+                                                :ARG0 (c13 / estado)
+                                                :ARG1 (c15 / comercio
+                                                           :mod (c16 / núcleo)))
+                                     :condition (c17 / aplicar-01
+                                                     :ARG0 c13
+                                                     :ARG1 (c18 / medida
+                                                                :mod (c19 / estricta)
+                                                                :mod (c20 / protección
+                                                                          :mod (c21 / física))
+                                                                :mod (c38 / y
+                                                                          :op1 (c22 / controlar-01
+                                                                                    :ARG1 (c39 / arma
+                                                                                               :mod (c25 / toda)
+                                                                                               :mod (c26 / núcleo)))
+                                                                          :op2 (c23 / contabilidad
+                                                                                    :mod c39))
+                                                                :mod (c27 / material
+                                                                          :mod (c28 / origen))
+                                                                :mod (c29 / energía
+                                                                          :mod (c30 / r)
+                                                                          :mod (c31 / especial)
+                                                                          :location (c32 / territorio
+                                                                                         :poss c13))))))))
+
+# ::id proxy_es.41 ::annotator 106
+
+(c0 / circular-01
+    :ARG1 (c1 / documento)
+    :location (c5 / place
+                  :name (c6 / name
+                           :op1 "Capitolio"))
+    :time (c11 / date-entity
+               :month 9
+               :year 2007
+    		   :time-of (c12 / trabajar-01
+                  			 :ARG0 (c7 / administración
+                            		   :poss (c9 / person
+                                      			 :name (c10 / name
+                                                		    :op1 "Bush")))
+                 			 :purpose (c13 / llegar-02
+                             			   :ARG0 c7
+                             			   :ARG1 (c14 / acordar-02
+                                        			  :ARG0 c7
+                                        			  :ARG2 (c15 / funcionario
+                                                   				 :mod (c16 / country
+                                                             			   :name (c17 / name 
+                                                             			   			  :op1 "India"))))))))
+
+# ::id proxy_es.42 ::annotator 106
+
+(c0 / afirmar-01
+    :ARG1 (c4 / poder-04
+              :ARG1 (c5 / afectar-01
+                        :ARG0 (c1 / documento
+                        		  :mod (c3 / country
+                                 		   :name (c2 / name
+                                 		   			 :op1 "Israel")))
+                        :ARG1 (c6 / debate
+                                  :topic (c7 / country
+                                             :name (c8 / name
+                                             		   :op1 "India")))))
+	:ARG0 (c9 / director
+    		  :mod (c10 / ejecutivo)
+    		  :poss (c11 / organization
+               		     :name (c12 / name
+                         		   :op1 "Asociación"
+                         		   :op2 "para"
+                         		   :op3 "el"
+                         		   :op4 "Control"
+                         		   :op5 "de"
+                         		   :op6 "las"
+                         		   :op7 "Armas")
+              		 			   :mod (c21 / city
+                         		   			 :name (c20 / name
+                         		   			  		    :op1 "Washington")))
+    		  :name (c24 / name
+              			 :op1 "Daryl"
+              			 :op2 "Kimball")))
+
+# ::id proxy_es.43 ::annotator 106
+
+(c0 / decir-01
+    :arg0 (c2 / person
+              :name (c3 / name
+                       :op1 "Kimball")))
+
+# ::id proxy_es.44 ::annotator 106
+
+(c13 / querer-01
+     :ARG0 (c14 / funcionario
+                :poss (c15 / país))
+     :polarity -
+     :ARG1 (c18 / obstaculizar-01
+                :ARG0 c14
+                :ARG1 (c0 / y
+                          :op1 (c7 / country
+                                   :name (c2 / name
+                                   			 :op1 "India")
+                                   :mod (c9 / grande
+                                            :degree (c10 / más)))
+                          :op2 (c8 / country
+                                   :mod (c4 / name
+                                            :op1 "Estados"
+                                            :op2 "Unidos")
+                                   :degree (c12 / más)
+                                   :mod (c11 / poderoso)))))
+
+# ::id proxy_es.45 ::annotator 106
+
+(c0 / ser-01
+    :ARG0 (c1 / consenso
+              :topic (c2 / country
+                         :name (c3 / name
+                         		   :op1 "India")))
+    :ARG1 (c4 / difícil
+              :domain (c5 / alcanzar-01
+                           :time (c13 / reunir-03
+                                         :ARG0 (c12 / organization
+                                                    :name (c11 / name
+                                                              :op1 "NSG"))
+                                         :time (c7 / date-entity
+                                                   :month 11
+                                                   :year 2007)))))
+
+# ::id proxy_es.46 ::annotator 106
+
+(c0 / motivar-01
+    :ARG0 (c1 / propuesta
+              :poss (c2 / country
+                        :name (c3 / name
+                        		  :op1 "Israel")))
+    :ARG1 (c10 / funcionario
+               :mod (c11 / país
+                         :mod (c12 / alguno)))
+    :purpose (c5 / sugerir-01
+                 :ARG0 c10
+                 :ARG1 (c6 / enfoque
+                           :mod (c7 / alternativo))
+                 :ARG2 (c8 / exención
+                           :mod (c9 / específica))))
+
+# ::id proxy_es.47 ::annotator 106
+
+(c0 / have-degree-91
+    :ARG1 (c1 / historial
+              :poss (c2 / country
+                        :name (c3 / name
+                        		  :op1 "Israel")))
+    :ARG2 (c4 / bueno
+              :ARG0-of (c12 / seguir-01
+                            :ARG1 (c9 / regla
+                                      :mod (c10 / nuclear)
+                                      :mod (c11 / internacional))))
+    :ARG3 (c5 / más)
+    :ARG4 (c6 / historial
+              :poss (c7 / country
+                        :name (c8 / name
+                        		  :op1 "India"))))
+
+# ::id proxy_es.48 ::annotator 106
+
+(c10 / rechazar-01
+     :concession (c0 / relación
+                     :location (c25 / entre
+                     	   :op1 (c1 / y
+                                    :op1 (c2 / gubierno
+                                             :mod (c3 / country
+                                                      :name (c26 / name
+                                                      			 :op1 "Israel")))
+                                    :op2 (c5 / gubierno
+                                             :mod (c6 / country
+                                                      :name (c9 / name
+                                                                  :op1 "Estados"
+                                                                  :op2 "Unidos"))))))
+     :ARG0 (c11 / administración
+                :poss (c12 / person
+                           :name (c14 / name
+                                     :op1 "Bush")))
+     :ARG1 (c15 / propuesta
+                :mod (c16 / country
+                          :name (c17 / name
+                          			 :op1 "Israel"))))
+
+# ::id proxy_es.49 ::annotator 106
+
+(c0 / poder-04
+    :ARG1 (c2 / complicar-01
+              :ARG0 (c1 / propuesta)
+              :ARG1 (c3 / esfuerzo
+                        :poss (c4 / administración
+                                  :mod (c5 / person
+                                            :name (c6 / name
+                                            		  :op1 "Bush")))
+                        :purpose (c7 / obtener-01
+                                        :ARG0 c4
+                                        :ARG1 (c8 / exención
+                                                  :purpose (c9 / participar-01
+                                                                  :ARG0 (c11 / country
+                                                                             :name (c10 / name
+                                                                             		    :op1 "India"))
+                                                                  :ARG1 (c12 / comercio
+                                                                             :mod (c13 / nuclear))))))))
+
+# ::id proxy_es.50 ::annotator 106
+
+(c0 / ver-01
+    :ARG0 (c1 / y
+              :op1 (c2 / person
+                       :name (c4 / name
+                                :op1 "Bush")
+                       :ARG0-of (c23 / have-org-role-91
+                       			     :ARG2 (c24 / presidente)))
+              :op2 (c5 / person
+                       :name (c9 / name
+                                :op1 "Condoleezaza"
+                                :op2 "Rice")
+                       :ARG0-of (c25 / have-org-role-91
+                       				 :ARG2 (c27 / secretaria
+                       				 			:poss (c26 / estado)))))
+    :ARG1 (c10 / pacto)
+    :ARG2 (c11 / parte
+               :mod (c12 / importante)
+               :part-of (c13 / legado
+                                :poss (c14 / política
+                                           :mod (c15 / exterior)
+                                           :poss (c16 / administración
+                                                      :poss (c17 / person
+                                                                 :mod (c19 / name
+                                                                           :op1 "Bush")))))))
