@@ -1,0 +1,1512 @@
+Consensus_1-100_131
+
+# ::id Consensus_es.1 ::annotator 131
+
+(c0 / Braaac
+    :mode expressive)
+
+# ::id Consensus_es.2 ::annotator 131
+
+(c0 / Braac
+    :mode expressive)
+
+# ::id Consensus_es.3 ::annotator 131
+
+(c1 / tomar-01
+    :ARG1 (c0 / tiempo
+              :mod (c3 / mucho))
+    :polarity -
+    :ARG0 (c4 / third-person-sing-sinnombre))
+
+# ::id Consensus_es.4 ::annotator 131
+
+(c2 / inaugurar-01
+    :ARG1 (c3 / road
+              :domain (c0 / carretera
+                       	  :mod (c7 / circunferencial)
+                       	  :ARG1-of (c1 / discurrir-01
+                                       :location (c32 / alrededor
+                                                   	  :op1 (c8 / cuadrante
+                                                               :location (c20 / local-region
+                                                                           	  :name (c21 / name
+                                                                                      	 :op2 "región"
+                                                                                      	 :op1 "Nueva"
+                                                                                      	 :op3 "urbana")
+                                                                              :location (c9 / city
+                                                                                            :name (c10 / name
+                                                                                                       :op1 "Richmond")))
+                                                               :mod (c25 / suroeste)))))
+              :name (c6 / name
+                        :op1 "ruta"
+                        :op2 "288"))
+    :time (c31 / final
+               :op1 (c29 / date-entity
+                         :year 2004)))
+
+# ::id Consensus_es.5 ::annotator 131
+
+(c8 / y
+    :op2 (c9 / causar-01
+             :ARG1 (c15 / congestionar-01
+                        :ARG0 (c11 / tráfico)
+                        :ARG1-of (c12 / localizar-01
+                                      :location (c14 / alrededor
+                                                     :op1 (a13 / salida))))
+             :ARG0 c4)
+    :op1 (c0 / cambiar-02
+             :ARG0 (c4 / third-person-plural-sinnombre)
+             :mod (c1 / ya)
+             :ARG1 (c2 / patrón
+                       :mod (c3 / desarrollar-02))
+             :extent (c5 / have-degree-91
+                         :ARG2 (c6 / mal)
+                         :ARG3 (c7 / más))))
+
+# ::id Consensus_es.6 ::annotator 131
+
+(c6 / contar-01
+    :ARG0 (c0 / newspaper
+              :name (c1 / name
+                        :op1 "The"
+                        :op2 "Richmond"
+                        :op3 "Times"
+                        :op4 "Dispatch"))
+    :ARG1 (c18 / historia
+               :time (c19 / hoy)
+               :topic (c17 / impactar-02
+                           :ARG1 (c12 / road
+                                      :op1 "Huguenot")
+                           :ARG2 (c7 / county
+                                     :name (c8 / name
+                                               :op1 "Powhatan")))))
+
+# ::id Consensus_es.7 ::annotator 131
+
+(c19 / informar-01
+     :ARG1 (c15 / duplicar-01
+                :ARG4-of (c16 / have-degree-91
+                              :ARG3 (c17 / más))
+                :location (c18 / sección
+                               :consist-of (c4 / road
+                                               :name (c5 / name
+                                                         :op1 "Huguenot")))
+                :ARG1 (c14 / trafico)
+                :time (c13 / desde
+                           :op1 (c12 / abrir-01
+                                     :ARG1 (c9 / road
+                                               :name (c10 / name
+                                                          :op1 "288")))))
+     :ARG0 (c0 / person
+               :name (c1 / name
+                         :op1 "Will"
+                         :op2 "Jones")))
+
+# ::id Consensus_es.8 ::annotator 131
+
+(c0 / aumentar-01
+    :manner (c1 / también)
+    :ARG1 (c2 / y
+              :op1 (c3 / exceder-01
+                       :ARG1 (c4 / velocidad))
+              :op2 (c5 / accidente)))
+
+# ::id Consensus_es.9 ::annotator 131
+
+(c8 / reportar-01
+    :location (c20 / cerca
+                   :op1 (c2 / intersección
+                            :poss (c10 / road
+                                       :name (c11 / name
+                                                  :op1 "Winterfield"))))
+    :time (c17 / año
+               :mod (c16 / esto))
+    :ARG1 (c9 / accidentar-01
+              :quant 17)
+    :manner (c19 / encima
+                 :op1 (c13 / accidentar-01
+                           :quant 12
+                           :duration (c6 / date-entity
+                                         :year 2004
+                                         :mod (c15 / todo)))))
+
+# ::id Consensus_es.10 ::annotator 131
+
+(c14 / señalar
+     :ARG1 (c15 / construir-01
+                :instrument (c20 / monetary-quantity
+                                 :unit (c19 / dólar)
+                                 :quant 13000000)
+                :condition (c21 / tener-01
+                                :ARG2 (c22 / dinero
+                                           :degree (c23 / más))
+                                :ARG1 c4)
+                :ARG1 (c16 / carril
+                           :quant 4)
+                :ARG0 c4)
+     :ARG0 (c0 / person
+               :name (c1 / name
+                         :op1 "Dale"
+                         :op2 "Totten")
+               :ARG0-of (c11 / have-org-role-91
+                             :ARG1 (c4 / government-organization
+                                       :name (c10 / name
+                                                  :op1 "Departamento"
+                                                  :op2 "de"
+                                                  :op3 "Transporte")
+                                       :poss (c25 / state
+                                       			  :name (c26 / name
+                                       			  			 :op1 "Virginia")))
+                             :ARG2 (c12 / ingeniero
+                                        :mod (c13 / residente)))))
+
+# ::id Consensus_es.11 ::annotator 131
+
+(c3 / tener-01
+    :ARG2 (c7 / dinero
+              :degree (c6 / más))
+    :polarity -
+    :ARG1 (c0 / government-organization
+              :name (c1 / name
+                        :op1 "VDOT"))
+    :purpose (c4 / construir-01
+    			 :ARG0 c0
+                 :ARG1 (c5 / carretera)
+                 :location (c8 / region
+                               :name (c9 / name
+                                         :op1 "Richmond")))
+    :manner (c13 / por-supuesto))
+
+# ::id Consensus_es.12 ::annotator 131
+
+(c15 / razón
+     :domain (c5 / gastar-01
+                 :ARG1-of (c3 / instar-01
+                              :ARG0 (c4 / y
+                                        :op1 (c0 / político)
+                                        :op2 (c1 / person
+                                        		 :ARG0-of (c20 / promocionar-01)
+                                                 :mod (c2 / local))))
+                 :ARG1 (c7 / dinero
+                           :mod (c6 / maldito)
+                           :mod (c11 / todo)
+                           :poss c12)
+                 :ARG0 (c12 / government-organization
+                            :name (c13 / name
+                                       :op1 "VDOT"))
+                 :purpose (c8 / road
+                              :name (c9 / name
+                                        :op1 "288")))
+     :quant 1)
+
+# ::id Consensus_es.13 ::annotator 131
+
+(c4 / amr-unknown
+    :location-of (c0 / person
+                     :name (c1 / name
+                               :op1 "Homer"
+                               :op2 "Simpson"))
+    :time (c5 / necesitar-01
+              :ARG0 (c6 / second-person-sing-sinnombre)
+              :ARG1 c0))
+
+# ::id Consensus_es.14 ::annotator 131
+
+(c0 / thing
+    :name (c3 / name
+    		  :op1 "Oh")
+    :mod (c1 / gran)
+    :domain (c2 / esto))
+
+# ::id Consensus_es.15 ::annotator 131
+
+(c5 / generar-01
+    :location (c6 / área
+                  :ARG1-of (c7 / poblar-01
+                               :manner (c8 / escaso))
+                  :location (c18 / alrededor
+                                 :op1 (c9 / salida
+                                          :poss c0)))
+    :ARG1-of (c17 / predecir-01
+    			  :ARG0 (c25 / first-person-plural-sinnombre))
+    :ARG0 (c0 / road
+              :ARG0-of (c15 / sobrecargar-01
+                            :ARG1 (c12 / carretera
+                                       :poss (c14 / país)
+                                       :mod (c13 / local)))
+              :name (c1 / name
+                        :op1 "ruta"
+                        :op2 "288"))
+    :ARG1 (c10 / desarrollar-01
+               :mod (c11 / residencia)))
+
+# ::id Consensus_es.16 ::annotator 131
+
+(c29 / decidir-01
+     :concession (c3 / poder-04
+                     :ARG1 (c4 / proporcionar-01
+                               :ARG1 (c5 / aliviar-01
+                                         :ARG1 (c6 / tráfico)
+                                         :ARG1-of (c7 / limitar-01))
+                               :ARG0 (c0 / carretera
+                                         :mod (c1 / acceso
+                                                  :ARG1-of (c2 / limitar-01)))
+                               :beneficiary (c9 / persona
+                                                :ARG0-of (c17 / viajar-01
+                                                              :manner (c21 / y
+                                                                           :op1 (c19 / ida)
+                                                                           :op2 (c20 / vuelta)
+                                                                           :location (c34 / entre
+                                                                                          :op1 (c28 / y
+                                                                                                    :op1 (c22 / county
+                                                                                                              :name (c23 / name
+                                                                                                                         :op1 "Chesterfield"))
+                                                                                                    :op2 (c25 / county
+                                                                                                              :name (c26 / name
+                                                                                                                         :op1 "Goochland")))))))))
+     :ARG0 (c31 / persona
+                :mod (c32 / otra))
+     :ARG1 (c33 / lugar
+                :location-of (c16 / y
+                                  :op1 (c14 / vivir-02
+                                            :ARG1 c31)
+                                  :op2 (c15 / trabajar-01
+                                            :ARG0 c31))))
+
+# ::id Consensus_es.17 ::annotator 131
+
+(c6 / y
+	:op2 (c1 / crear-01
+    		 :ARG1 (c2 / congestionar-01
+              	  	   :ARG0 (c3 / tráfico))
+    		 :ARG0 (c0 / third-person-plural-sinnombre)
+    		 :location (c4 / lugar
+                  	  	   :mod (c5 / nuevo))))
+
+# ::id Consensus_es.18 ::annotator 131
+
+(c0 / único
+    :ARG0-of (c1 / sorprender-01
+                 :ARG1 (c3 / first-person-sing-sinnombre))
+    :domain (c5 / rápido
+                :manner-of (c2 / suceder-01
+                               :ARG1 (c4 / esto))))
+
+# ::id Consensus_es.19 ::annotator 131
+
+(c1 / pensar-01
+    :ARG0 (c2 / first-person-sing-sinnombre)
+    :manner (c0 / incluso)
+    :ARG1 (c5 / poder-04
+              :ARG1 (c6 / haber-01
+                        :ARG1 (c7 / desfase
+                                  :duration (c3 / o
+                                                :op1 (c8 / temporal-quantity
+                                                         :unit (c9 / year)
+                                                         :quant 3)
+                                                :op2 (c12 / temporal-quantity
+                                                          :unit (c13 / year)
+                                                          :quant 4))))))
+
+# ::id Consensus_es.20 ::annotator 131
+
+(c13 / pensar-02
+     :mode imperative
+     :ARG0 (c15 / second-person-sing-sinnombre)
+     :ARG1 (c19 / responsabilidad
+                :ARG1-of (c18 / crear-01
+                              :ARG0 c0
+                              :beneficiary (c17 / salida
+                                                :mod (c16 / toda)
+                                                :poss c0)))
+     :condition (c4 / crear-01
+                    :ARG0 (c0 / road
+                              :name (c1 / name
+                                        :op1 "ruta"
+                                        :op2 "288"))
+                    :manner (c21 / ya)
+                    :ARG1 (c5 / carretera
+                              :ARG1-of (c11 / value-01
+                                            :ARG2 (c6 / monetary-quantity
+                                                      :quant 13000000
+                                                      :unit (c8 / dólar))))
+                    :manner (c12 / solo)
+                    :location (c9 / salida
+                                  :mod (c10 / esta))))
+
+# ::id Consensus_es.21 ::annotator 131
+
+(c2 / haber-01
+    :location (c3 / aquí)
+    :ARG1 (c0 / predecir-01
+              :mod (c1 / otra)))
+
+# ::id Consensus_es.22 ::annotator 131
+
+(c4 / disparar-02
+    :time (c21 / después
+               :op1 (c16 / año
+                         :degrees (c18 / más)
+                         :duration-of (c20 / y
+                                           :op1 (c13 / desarrollar-01
+                                                     :ARG1 (c14 / subdivisión)
+                                                     :manner (c15 / disperso))
+                                           :op2 (c12 / aprobar-01
+                                                     :ARG1 (c8 / megaproyecto
+                                                               :mod (c9 / comercial)
+                                                               :location (c10 / intersección
+                                                                              :mod (c11 / principal)
+                                                                              :location (c5 / road
+                                                                                            :name (c6 / name
+                                                                                                      :op1 "288"))))))
+                         :mod (c17 / alguno)))
+    :ARG1 (c0 / necesitar-01
+              :ARG1 (c1 / mejorar-01
+              			:mod (c3 / nueva)
+                        :ARG1 (c2 / vía))))
+
+# ::id Consensus_es.23 ::annotator 131
+
+(c0 / poder-04
+    :time (c14 / antes
+               :op1 (c12 / finalizar-02
+                         :ARG1 (c13 / década)))
+    :ARG1 (c15 / ver-01
+               :ARG1 (c4 / aumentar-01
+                         :ARG2-of (c17 / have-degree-91
+                                       :ARG4 (c5 / monetary-quantity
+                                                 :unit (c6 / dólar)
+                                                 :quant 400000000
+                                                 :ARG1-of (c8 / necesitar-01
+                                                              :ARG0 (c9 / construir-01
+                                                                        :ARG1 (c10 / carretera
+                                                                                   :mod (c11 / original)))))
+                                       :ARG3 (c18 / más)
+                                       :ARG1 (c2 / responsibilidad
+                                                 :ARG1-of (c1 / financiar-01
+                                                              :polarity -))))
+               :ARG0 (c16 / first-person-plural-sinnombre)))
+
+# ::id Consensus_es.24 ::annotator 131
+
+(c7 / cerebro
+    :ARG0-of (c0 / pensar-01
+                 :ARG1 (c5 / idea
+                           :mod (c6 / gran)
+                           :domain (c1 / road
+                                       :name (c2 / name
+                                                 :op1 "ruta"
+                                                 :op2 "288")))))
+
+# ::id Consensus_es.25 ::annotator 131
+
+(c0 / agradecer-01
+    :ARG0 (c1 / first-person-sing-sinnombre)
+    :ARG2 (c3 / second-person-sing-sinnombre)
+    :ARG1 (c2 / nada))
+
+# ::id Consensus_es.26 ::annotator 131
+
+(c5 / creer-01
+    :ARG0 (c6 / first-person-sing-sinnombre)
+    :ARG1 (c3 / poder-04
+              :ARG1 (c4 / gastar-01
+                        :ARG1 (c0 / monetary-quantity
+                                  :quant 400000000
+                                  :unit (c2 / dólar))
+                        :location (c7 / lugar
+                                      :mod (c8 / otro)))))
+
+# ::id Consensus_es.27 ::annotator 131
+
+(c0 / creer-01
+    :ARG0 (c1 / first-person-sing-sinnombre)
+    :polarity -
+    :ARG1 (c7 / poder-04
+              :ARG1 (c2 / culpar-01
+                        :ARG1 (c3 / road
+                                  :name (c4 / name
+                                            :op1 "288"))
+                        :ARG0 (c8 / second-person-sing-sinnombre)
+                        :purpose (c9 / crear-01
+                                     :ARG0 c3
+                                     :ARG1 (c10 / persona
+                                                :mod (c11 / esa))))))
+
+# ::id Consensus_es.28 ::annotator 131
+
+(c1 / alternativa
+    :condition (c0 / haber-01
+                   :purpose (c9 / crear-01
+                                :ARG1 (c6 / congestionar-01
+                                          :ARG0 (c7 / tráfico)
+                                          :mod (c5 / nueva))
+                                :location (c3 / lugar
+                                              :mod (c4 / nuevo)))
+                   :ARG1 (c8 / suficiente))
+    :domain (c2 / amr-unknown))
+
+# ::id Consensus_es.29 ::annotator 131
+
+(c5 / haber-01
+    :ARG1 (c0 / congestionar-01
+              :ARG0 (c1 / tráfico)
+              :mod (c2 / adicional)
+              :location (c3 / lugar
+                            :mod (c4 / antiguo)))
+    :polarity amr-unknown)
+
+# ::id Consensus_es.30 ::annotator 131
+
+(c0 / entender-01
+    :ARG0 (c2 / second-person-sing-sinnombre)
+    :time (c1 / ahora)
+    :ARG1 (c10 / lo
+               :ARG2-of (c11 / sentir-01
+                             :ARG1 (c9 / persona
+                                       :example (c3 / person
+                                                    :name (c4 / name
+                                                              :op1 "TMT")))
+                             :location (c6 / city
+                                           :name (c7 / name
+                                                     :op1 "Fairfax")))))
+
+# ::id Consensus_es.31 ::annotator 131
+
+(c0 / tomar-01
+    :ARG1 (c2 / posición
+              :mod (c4 / apoyar-01
+                       :ARG1 (c3 / carretera)))
+    :ARG0 (c1 / first-person-sing-sinnombre)
+    :manner (c5 / generalmente))
+
+# ::id Consensus_es.32 ::annotator 131
+
+(c9 / contrast-01
+    :ARG2 (c6 / exceso
+              :manner (c7 / definitivo)
+              :domain (c0 / road
+                          :name (c1 / name
+                                    :op1 "288")))
+    :accompanier (c10 / necesitar-01
+                      :ARG0-of (c8 / deslumbrar-01)
+                      :location (c3 / parte
+                                    :mod (c4 / otra)
+                                    :part-of (c5 / estado))))
+
+# ::id Consensus_es.33 ::annotator 131
+
+(c3 / haber-01
+    :ARG1 (c0 / city
+              :ARG1-of (c5 / tener-01
+                           :manner (c7 / práctico)
+                           :ARG2 (c8 / tráfico)
+                           :polarity -)
+              :name (c1 / name
+                        :op1 "Richmond")))
+
+# ::id Consensus_es.34 ::annotator 131
+
+(c5 / durar-01
+    :ARG1 (c3 / hora
+              :mod (c4 / punta))
+    :duration (c0 / temporal-quantity
+                  :quant 30
+                  :unit (c2 / minuto)))
+
+# ::id Consensus_es.35 ::annotator 131
+
+(c3 / y
+    :op2 (c6 / dar-01
+             :ARG1 (c7 / circunvalar-01
+                       :path (c0 / área
+                                 :mod (c1 / rural
+                                          :degree (c2 / mayormente))))
+             :ARG0 (c4 / second-person-sing-sinnombre)
+             :ARG2 (c5 / les)))
+
+# ::id Consensus_es.36 ::annotator 131
+
+(c0 / caminar-01
+    :ARG4 (c1 / parte
+              :mod (c2 / ninguna)))
+
+# ::id Consensus_es.37 ::annotator 131
+
+(c1 / pensar-02
+	:manner (c20 / solo)
+    :mode imperative
+    :ARG1 (c16 / truth-value
+               :polarity-of (c5 / gastar-01
+                                :ARG1 (c2 / dinero
+                                          :mod (c3 / todo)
+                                          :mod (c4 / este))
+                                :purpose (c12 / o
+                                              :op1 (c6 / cosa
+                                                       :mod (c7 / otra))
+                                              :op2 (c8 / mejorar-01)
+                                              :ARG1-of (c9 / necesitar-01
+                                                           :manner (c10 / desesperado
+                                                                        :degree (c11 / tan))
+                                                           :ARG0 (c13 / local-region
+                                                                      :name (c14 / name
+                                                                                 :op1 "NOVA")))))))
+
+# ::id Consensus_es.38 ::annotator 131
+
+(c13 / multi-sentence
+     :snt1 (c9 / ayudar-01
+               :time (c11 / acordar-02
+                          :time (c3 / año
+                                    :ARG1-of (c4 / pasar-05))
+                          :mod (c12 / presupuesto))
+               :ARG2 (c10 / pagar-02
+                          :ARG2 (c0 / road
+                                    :name (c1 / name
+                                              :op1 "288")))
+               :ARG0 (c5 / organization
+                         :name (c6 / name
+                                   :op1 "Virginia"
+                                   :op2 "Centrist"))
+               :manner (c14 / para-colmo))
+     :snt2 (c15 / borrar-01
+                :ARG0 c5
+                :ARG1 (c16 / deuda)
+                :location (c17 / pizarra)))
+
+# ::id Consensus_es.39 ::annotator 131
+
+(c2 / amable
+    :degree (c5 / muy)
+    :domain (c1 / obligar-01
+                :ARG1 (c0 / nos)
+                :ARG0 (c4 / third-person-sing-sinnombre)))
+
+# ::id Consensus_es.40 ::annotator 131
+
+(c5 / contrast-01
+    :ARG2 (c0 / tener-01
+              :ARG1 (c1 / third-person-sing-sinnombre)
+              :polarity -
+              :ARG2 (c2 / sentir-01
+                        :degree (c4 / mucho))))
+
+# ::id Consensus_es.41 ::annotator 131
+
+(c0 / problema
+    :mod (c1 / viejo)
+    :mod (c2 / mismo)
+    :domain (c3 / third-person-sing-sinnombre))
+
+# ::id Consensus_es.42 ::annotator 131
+
+(c4 / acusar-01
+    :ARG1 c0
+    :ARG2 (c5 / causar-01
+              :ARG1 (c6 / expandir-01))
+    :condition (c1 / salir-01
+                   :ARG1 (c0 / second-person-sing-sinnombre)
+                   :time (c3 / antes
+                             :op1 (c2 / necesitar-01))))
+
+# ::id Consensus_es.43 ::annotator 131
+
+(c5 / poder-04
+    :ARG1 (c7 / allanar-02
+              :ARG0 c2
+              :ARG1 (c8 / caminar-01)
+              :purpose (c9 / salir-01
+                           :ARG3 (c10 / congestionar-01)))
+    :polarity -
+    :domain (c4 / problema)
+    :condition (c3 / construir-01
+                   :ARG0 (c2 / second-person-sing-sinnombre)
+                   :location-of (c1 / aguda
+                                    :domain (c0 / necesitar-01))))
+
+# ::id Consensus_es.44 ::annotator 131
+
+(c0 / anónimo)
+
+# ::id Consensus_es.45 ::annotator 131
+
+(c0 / punto
+    :mod (c1 / bueno)
+    :domain (c2 / ese))
+
+# ::id Consensus_es.46 ::annotator 131
+
+(c0 / punto
+    :mod (c1 / bueno)
+    :domain (c2 / date-entity
+                :time 5:26))
+
+# ::id Consensus_es.47 ::annotator 131
+
+(c2 / recalcar-01
+    :ARG0 (c0 / situación
+              :mod (c1 / esta))
+    :ARG1 (c24 / validez
+               :poss (c3 / informe
+                         :poss (c4 / person
+                         		   :ARG0-of (c5 / auditar-01)
+                         		   :mod (c6 / estado))
+                         :ARG0-of (c23 / constatar-01
+                                       :ARG1 (c13 / financiar-01
+                                                  :polarity -
+                                                  :ARG0 (c17 / y
+                                                             :op1 (c7 / government-organization
+                                                                      :name (c8 / name
+                                                                                :op1 "CTB"))
+                                                             :op2 (c10 / government-organization
+                                                                       :name (c11 / name
+                                                                                  :op1 "VDOT")))
+                                                  :ARG1 (c15 / proyecto
+                                                             :mod (c16 / transporte)
+                                                             :ARG1-of (c18 / basar-01
+                                                                           :ARG2 (c21 / plan
+                                                                                      :mod (c22 / integral)
+                                                                                      :mod (c19 / transporte
+                                                                                                :mod (c20 / estado)))
+                                                                           :ARG1-of (c32 / constrast-01
+                                                                                         :ARG2 (c25 / basar-01
+                																		            :ARG1 c15
+                																				    :ARG2 (c26 / person
+                           																					   :ARG0-of (c27 / hacer-02
+                                         																					 :ARG1 (c28 / trabar-01
+                                                    																				    :ARG1-of (c31 / have-degree-91
+                                                                  																					  :ARG2 (c29 / bueno)
+                                                                  																					  :ARG3 (c30 / más))))))))))))))
+
+# ::id Consensus_es.48 ::annotator 131
+
+(c5 / y
+    :op1 (c2 / vergonzosa
+             :domain (c0 / situación
+                         :mod (c1 / esta)))
+    :op2 (c3 / deber-03
+             :ARG1 (c4 / tolerar-01
+             		   :ARG0 (c6 / se-impersonal)
+                       :ARG1 c0)
+             :polarity -))
+
+# ::id Consensus_es.49 ::annotator 131
+
+(c8 / empeorar-01
+    :manner (c12 / inyectar-01
+                 :ARG1 (c13 / dinero
+                            :degree (c14 / más))
+                 :location (c9 / situación
+                               :mod (c10 / esta)
+                               :mod (c15 / defecto))
+                 :ARG0 c7)
+    :ARG0 (c7 / y
+              :op1 (c0 / person
+                       :name (c1 / name
+                                 :op1 "Chichester")
+                       :ARG0-of (c3 / have-org-role-91
+                                    :ARG2 (c4 / senador)))
+              :op2 (c5 / person
+                       :ARG0-of (c6 / adular-01)
+                       :poss c0))
+    :ARG1 (c11 / esto))
+
+# ::id Consensus_es.50 ::annotator 131
+
+(c4 / have-purpose-91
+    :ARG2 (c0 / amr-unknown)
+    :ARG1 (c2 / gastar-01
+              :ARG1-of (c1 / relacionar-01
+                           :ARG2 (c3 / transporte))))
+
+# ::id Consensus_es.51 ::annotator 131
+
+(c12 / have-purpose-91
+	 :ARG1 (c20 / third-person-sing-sinnombre)
+     :ARG2 (c3 / y
+               :op2 (c10 / servir-01
+                         :ARG2 (c8 / interesar-01
+                                   :ARG0 (c9 / público))
+                         :polarity -)
+               :op1 (c7 / beneficiar-01
+                        :ARG1 (c4 / plan
+                                  :poss (c5 / negocio
+                                            :mod (c6 / privado))))
+               :location (c0 / state
+                             :name (c1 / name
+                                       :op1 "Virginia"))))
+
+# ::id Consensus_es.52 ::annotator 131
+
+(c2 / equivocar-01
+    :ARG0 (c0 / todo)
+    :manner (c1 / completamente))
+    
+# ::id Consensus_es.53 ::annotator 131
+
+(c4 / declarar-01
+    :ARG1 (c9 / destinar-01
+              :ARG2 (c13 / pagar-02
+                         :ARG1 (c8 / dinero
+                                   :mod (c12 / desarrollar-01
+                                             :mod (c11 / económico)))
+                         :ARG2 c10)
+              :ARG1 (c10 / dinero
+                         :purpose (c5 / road
+                                      :name (c6 / name
+                                                :op1 "288"))))
+    :ARG0 (c0 / person
+              :name (c1 / name
+                        :op1 "Walter"
+                        :op2 "Stoch")
+              :ARG4-of (c14 / have-degree-91
+                            :ARG3 (c15 / menos)
+                            :ARG1 (c16 / nada))))
+
+# ::id Consensus_es.54 ::annotator 131
+
+(c0 / ir-02
+    :mode imperative
+    :ARG0 (c2 / first-person-plural-sinnombre)
+    :ARG1-of (c3 / decir-01
+    			 :ARG3 (c4 / amigo)))
+
+# ::id Consensus_es.55 ::annotator 131
+
+(c3 / decir-01
+    :ARG0 (c0 / person
+              :name (c1 / name
+                        :op1 "TMT"))
+    :ARG1 (c7 / entender-01
+              :ARG0 c0
+              :ARG1 (c4 / punto
+                        :poss (c5 / second-person-sing-sinnombre))
+              :mod-polite +
+              :polarity -))
+
+# ::id Consensus_es.56 ::annotator 131
+
+(c2 / vez
+    :mod (c3 / última)
+    :time-of (c6 / y
+                 :op1 (c4 / atrapar-01
+                          :ARG0 (c0 / tráfico)
+                          :ARG1 (c5 / second-person-sing-sinnombre))
+                 :op2 (c14 / o
+                           :op1 (c12 / ir-02
+                                     :ARG4 (c7 / tipo
+                                               :mod (c8 / algún)
+                                               :consist-of (c11 / negocio))
+                                     :ARG0 c5)
+                           :op2 (c9 / volver-01
+                                    :ARG3 c7
+                                    :ARG1 c5)))
+    :domain (c1 / amr-unknown))
+
+# ::id Consensus_es.57 ::annotator 131
+
+(c10 / parecer-01
+     :ARG1 (c0 / objetivo
+               :purpose (c4 / facilitar-02
+                            :ARG1 (c2 / interesar-01
+                                      :ARG0 (c3 / público)
+                                      :ARG1 (c9 / y
+                                                :op1 (c7 / llegar-01
+                                                         :direction (c5 / empresa
+                                                                        :mod (c6 / privada)))
+                                                :op2 (c8 / salir-01
+                                                         :source c5))))
+               :poss (c1 / carretera))
+     :ARG3 (c11 / me))
+
+# ::id Consensus_es.58 ::annotator 131
+
+(c15 / contrast-01
+     :ARG1 (c10 / haber-01
+                :ARG1 (c9 / y
+                          :op3 (c7 / partido
+                                   :consist-of (c8 / fútbol))
+                          :op1 (c2 / pasear-01
+                                   :time (c3 / date-entity
+                                   			 :weekday (c30 / domingo)))
+                          :op2 (c4 / viajar-01
+                                   :purpose (c5 / ver-01
+                                                :ARG1 (c6 / abuela))))
+                :manner (c0 / luego)
+                :manner (c1 / por-supuesto))
+     :ARG2 (c16 / haber-01
+                :manner (c17 / aún)
+                :ARG1 (c12 / necesitar-01
+                           :ARG0-of (c11 / abrumar-01)
+                           :ARG1 (c13 / apoyar-01
+                                      :ARG1 (c14 / negocio)))))
+
+# ::id Consensus_es.59 ::annotator 131
+
+(c9 / extrañar-01
+    :polarity -
+    :ARG1 (c10 / sufrir-01
+               :ARG2 (c11 / problema
+                          :mod (c12 / congestionar-01))
+               :ARG1 c1)
+    :cause (c0 / coincidir-02
+               :polarity -
+               :ARG1 (c2 / gastar-01
+                         :ARG0 (c1 / first-person-plural-sinnombre)
+                         :purpose (c8 / carretera))
+               :ARG2 (c3 / aumentar-01
+                         :ARG1 (c4 / producto
+                                   :mod (c14 / o
+                                             :op1 (c6 / comercial)
+                                             :op2 (c7 / estatal)
+                                             :op3 (c16 / nacional))))))
+
+# ::id Consensus_es.60 ::annotator 131
+
+(c6 / deber-03
+    :ARG1 (c9 / hacer-02
+              :ARG0 c0
+              :ARG1 (c7 / cosa
+                        :quant 2))
+    :condition (c3 / reconocer-01
+                   :ARG0 (c0 / first-person-plural-sinnombre)
+                   :ARG1 (c4 / beneficiar-01
+                             :ARG0 (c1 / carretera)
+                             :ARG1 (c2 / empresa)
+                             :manner (c5 / principal))))
+
+# ::id Consensus_es.61 ::annotator 131
+
+(c26 / y
+     :op2 (c13 / incentivar-01
+               :purpose (c14 / localizar-01
+                             :ARG2 (c19 / loco
+                                        :location-of (c18 / haber-01
+                                                          :ARG1 (c16 / estrés
+                                                                     :degree (c17 / menos)
+                                                                     :location (c15 / sistema))))
+                             :concession (c22 / significar-01
+                                              :ARG2 (c23 / tener-01
+                                                         :ARG2 (c24 / viajar-01
+                                                                    :degree (c25 / más)))
+                                              :ARG1 (c21 / eso))
+                             :ARG1 c0
+                             :ARG0 c0)
+               :ARG1 c0)
+     :op1 (c4 / dejar-03
+              :ARG1 (c6 / pagar-02
+                        :ARG2 (c7 / parte
+                                  :ARG1-of (c11 / have-degree-91
+                                                :ARG3 (c10 / más)
+                                                :ARG2 (c9 / grande))
+                                  :consist-of (c1 / factura
+                                                  :mod (c2 / transporte)
+                                                  :poss (c3 / first-person-plural-sinnombre)))
+                        :ARG0 (c0 / empresa)
+                        :ARG1-of (c12 / pasar-01
+                                      :ARG2 c3
+                                      :manner (c5 / por-supuesto)))))
+
+# ::id Consensus_es.62 ::annotator 131
+
+(c4 / have-degree-91
+    :ARG2 (c0 / difícil)
+    :ARG3 (c1 / tan)
+    :ARG6 (c3 / entender-01)
+    :ARG1 (c2 / amr-unknown))
+
+# ::id Consensus_es.63 ::annotator 131
+
+(c0 / solución
+    :domain (c17 / y
+                 :op2 (c5 / equilibrio
+                          :mod (c15 / entre
+                                    :op1 (c6 / capacidad
+                                             :poss (c7 / sistema
+                                                       :mod (c8 / transporte)))
+                                    :op2 (c9 / usar-01
+                                             :ARG1 (c10 / tierra)
+                                             :ARG1-of (c14 / generar-01
+                                                           :ARG0 (c11 / demandar-01
+                                                                      :ARG1 (c13 / viajar-01))))))
+                 :op1 (c1 / patrón
+                          :mod (c2 / funcional)
+                          :consist-of (c3 / asentar-02
+                                          :ARG1 (c4 / humano)))))
+
+# ::id Consensus_es.64 ::annotator 131
+
+(c0 / girar-01
+    :ARG1 (c1 / demás
+              :mod (c2 / todo)))
+
+# ::id Consensus_es.65 ::annotator 131
+
+(c0 / organization
+    :name (c1 / name
+              :op1 "EMR"))
+
+# ::id Consensus_es.66 ::annotator 131
+
+(c3 / decir-01
+    :ARG1 (c17 / have-purpose-91
+    		   :ARG1 (c20 / third-person-sing-sinnombre)
+               :ARG2 (c15 / y
+                          :op2 (c14 / servir-01
+                                    :ARG2 (c13 / interesar-01
+                                               :ARG0 (c12 / público))
+                                    :polarity -)
+                          :op1 (c10 / beneficiar-01
+                                    :ARG1 (c7 / plan
+                                              :poss (c8 / negocio
+                                                        :mod (c9 / privado))))
+                          :location (c4 / state
+                                        :name (c5 / name
+                                                  :op1 "Virginia"))))
+    :ARG0 (c0 / person
+              :name (c1 / name
+                        :op1 "TMT")))
+
+# ::id Consensus_es.67 ::annotator 131
+
+(c6 / ver-01
+    :cause (c20 / parecer-01
+                :ARG1 (c18 / y
+                           :op2 (c5 / poner-01
+                                    :ARG1 (c3 / interesar-01
+                                              :ARG0 (c4 / público))
+                                    :ARG2 (c15 / encima
+                                               :op1 (c19 / todo))
+                                    :ARG0 c10)
+                           :op1 (c12 / demonizar-01
+                                     :ARG0 c10
+                                     :ARG1 (c0 / plan
+                                               :poss (c1 / negocio
+                                                         :mod (c2 / privado))))))
+    :ARG0 (c7 / first-person-sing-sinnombre)
+    :polarity -
+    :ARG1 (c9 / sentido
+              :poss (c10 / declarar-01
+                         :mod (c11 / esta))))
+
+# ::id Consensus_es.68 ::annotator 131
+
+(c0 / creer-01
+    :ARG1 (c1 / entrelazar-01
+              :manner (c4 / estrecho
+                          :degree (c3 / tan
+                                      :ARG3-of (c8 / have-degree-91
+                                                   :ARG6 (c7 / mismo
+                                                             :manner (c2 / práctico)
+                                                             :domain c5))))
+              :ARG1 (c5 / third-person-plural-sinnombre))
+    :ARG0 (c6 / first-person-sing-sinnombre))
+
+# ::id Consensus_es.69 ::annotator 131
+
+(c0 / haber-01
+    :ARG1 (c1 / problema
+              :mod (c2 / local))
+    :manner (c8 / obviamente)
+    :cause (c6 / tener-01
+               :ARG1 (c3 / masa
+                         :mod (c4 / galleta)
+                         :mod (c7 / esta))
+               :ARG2 (c5 / grumo)))
+
+# ::id Consensus_es.70 ::annotator 131
+
+(c9 / contrast-01
+    :ARG2 (c5 / descubrir-01
+              :ARG0 c2
+              :ARG1 (c6 / trabajar-01
+                        :ARG0 c2
+                        :beneficiary (c8 / Diablo))
+              :time (c4 / eventualmente)
+              :condition (c0 / demonizar-01
+                             :ARG0 (c2 / first-person-plural-sinnombre
+                                       :mod (c7 / todo))
+                             :ARG1 (c1 / negocio)
+                             :degree (c3 / suficiente)))
+    :manner (c10 / en-conjunto))
+
+# ::id Consensus_es.71 ::annotator 131
+
+(c0 / ver-01
+    :ARG1 (c5 / tener-01
+              :ARG2 (c3 / sentido)
+              :ARG1 (c6 / third-person-sing-sinnombre))
+    :polarity -
+    :ARG0 (c2 / first-person-sing-sinnombre)
+	:purpose (c7 / reclamar-01
+    			 :ARG1 (c10 / y
+               				:example-of (c13 / solución)
+              			    :op1 (c8 / equilibrio
+                        			 :mod (c9 / dinámico))
+               				:op2 (c11 / naturaleza
+                         			  :ARG1-of (c12 / cambiar-01)))))
+
+# ::id Consensus_es.72 ::annotator 131
+
+(c4 / ver-03
+    :ARG1 (c0 / ferrocarril
+              :destination (c1 / airport
+                               :name (c2 / name
+                                         :op1 "Dulles")))
+    :ARG2 (c5 / algo
+              :mod (c6 / positivo))
+    :cause (c7 / centro
+               :mod (c8 / trabajar-01)
+               :domain c1
+               :ARG0-of (c9 / promover-01
+                            :ARG1 (c13 / demanda
+                                       :mod (c11 / dirección
+                                                 :quant 2)
+                                       :location c0)))
+    :manner (c14 / incluso))
+
+# ::id Consensus_es.73 ::annotator 131
+
+(c1 / acordar-02
+    :ARG0 (c0 / first-person-sing-sinnombre))
+
+# ::id Consensus_es.74 ::annotator 131
+
+(c4 / poder-04
+    :ARG1 (c3 / razón
+              :degree (c2 / suficiente
+                          :ARG3-of (c9 / have-degree-91
+                                       :ARG6 (c1 / construir-01
+                                                 :ARG1 (c0 / lo))
+                                       :manner (c8 / sí-mismo)))
+              :domain (c5 / third-person-sing-sinnombre))
+    :manner (c6 / de-hecho))
+
+# ::id Consensus_es.75 ::annotator 131
+
+(c3 / deber-03
+    :ARG1 (c4 / aplicar-01
+    		  :ARG0 (c8 / impersonal-se)
+              :ARG1 (c5 / lógica
+                        :mod (c6 / misma))
+              :ARG2 (c7 / carretera))
+    :domain (c2 / todo
+                :ARG1-of (c1 / decir-01
+                             :ARG0 (c0 / first-person-sing-sinnombre))))
+
+# ::id Consensus_es.76 ::annotator 131
+
+(c9 / deber-03
+    :ARG1 (c3 / tener-01
+              :purpose (c5 / aprovechar-01
+              			   :ARG1-of (c15 / poder-04)
+                           :manner (c8 / máximo)
+                           :ARG0 (c6 / first-person-plural-sinnombre)
+                           :ARG1 (c7 / invertir-02
+                                     :ARG0 c6))
+              :ARG1 (c4 / third-person-plural-sinnombre)
+              :ARG2 (c2 / destino
+                        :destination (c0 / extremo
+                                         :mod (c1 / ambo)))))
+
+# ::id Consensus_es.77 ::annotator 131.
+
+(c0 / necesitar-01
+    :ARG1 (c1 / lugar
+              :mod (c3 / más))
+    :ARG0 (c2 / first-person-plural-sinnombre)
+	:purpose (c4 / acercar-01
+    			 :ARG1 c2
+    			 :ARG2 (c5 / equilibrio
+              			   :ARG1-of (c6 / necesitar-01
+                           				:ARG0 c2
+                           				:ARG1-of (c7 / decir-01
+                                        			 :ARG0 (c8 / third-person-sing-sinnombre))))))
+
+# ::id Consensus_es.78 ::annotator 131
+
+(c2 / comprobar-01
+    :ARG0 (c1 / first-person-plural-sinnombre)
+    :ARG1 (c0 / realidad)
+    :mod imperative)
+
+# ::id Consensus_es.79 ::annotator 131
+
+(c4 / conducir-03
+    :direction (c10 / allá
+                    :op1 (c0 / road
+                             :name (c1 / name
+                                       :op1 "Watkins"
+                                       :op2 "Landing")))
+    :frequency (c11 / rate-entity-91
+                    :ARG4 (c9 / y
+                              :dayperiod (c6 / mañana)
+                              :dayperiod (c7 / tarde)))
+    :ARG0 (c5 / first-person-sing-sinnombre))
+
+# ::id Consensus_es.80 ::annotator 131
+
+(c6 / viajar-01
+    :ARG0 (c7 / first-person-sing-sinnombre)
+    :manner (c3 / y
+                :op1 (c4 / ida)
+                :op2 (c5 / vuelta))
+    :location (c0 / road
+                  :name (c1 / name
+                            :op1 "Huguenot"))
+    :direction (c8 / trabajar-01))
+
+# ::id Consensus_es.81 ::annotator 131
+
+(c2 / ver-01
+    :ARG1 (c7 / cosa
+              :ARG1-of (c5 / parecer-02
+                           :ARG2 (c0 / inundar-01
+                                     :ARG0 (c1 / tráfico))
+                           :manner (c6 / remoto)))
+    :ARG0 (c3 / first-person-sing-sinnombre)
+    :polarity -)
+
+# ::id Consensus_es.82 ::annotator 131
+
+(c19 / multi-sentence
+     :snt1 (c15 / zona
+                :frequency (c17 / rate-entity-91
+                          :ARG4 (c18 / mañana)
+                          :ARG1 (c14 / coche
+                                     :quant (c11 / entre
+                                                 :op1 75
+                                                 :op2 100)))
+                :domain (c16 / third-person-sing-sinnombre)
+                :mod (c10 / o
+                          :op2 (c2 / rate-entity-91
+                                   :ARG1 (c4 / milla
+                                             :quant 55)
+                                   :ARG2 (c6 / hora))
+                          :op1 (c7 / rate-entity-91
+                                   :ARG1 (c5 / kilómetro
+                                             :quant 88)
+                                   :ARG2 (c9 / hora))))
+     :snt2 (c1 / tiempo
+               :quant (c0 / amr-unknown)))
+
+# ::id Consensus_es.83 ::annotator 131
+
+(c32 / y
+     :op2 (c19 / zonificar-01
+               :time (c21 / antes
+                          :quant (c23 / temporal-quantity
+                                      :unit (c24 / año))
+                          :op1 (c22 / ahora))
+               :ARG1 (c20 / y
+                          :ARG1-of (c25 / canalizar-01
+                                        :location (c28 / a-través
+                                                       :op1 (c29 / road
+                                                                 :name (c30 / name
+                                                                            :op1 "Robious")))
+                                        :time (c26 / momento
+                                                   :mod (c27 / ese)))
+                          :op1 (c11 / escuela
+                                    :mod (c12 / nueva))
+                          :op2 (c13 / conjunto
+                                    :consist-of (c14 / desarrollar-01
+                                                     :ARG1-of (c15 / existir-01)))))
+     :op1 (c5 / planificar-01
+              :ARG1 (c3 / ampliar-01
+                        :ARG1 (c0 / road
+                                  :name (c1 / name
+                                            :op1 "Huguenot")))
+              :manner (c4 / ya)
+              :cause (c6 / demandar-01
+                         :mod (c7 / fuerte)
+                         :ARG1 (c18 / desarrollar-01
+                                    :location (c17 / lado
+                                                   :poss (c8 / county
+                                                             :name (c9 / name
+                                                                       :op1 "Chesterfield")))))))
+
+# ::id Consensus_es.84 ::annotator 131
+
+(c6 / have-mod-91
+	:ARG2 (c25 / maravillosa)
+    :ARG1 (c0 / road
+              :name (c1 / name
+                        :op1 "288"))
+    :beneficiary (c3 / first-person-plural-sinnombre
+                     :ARG0-of (c5 / utilizar-01
+                                  :ARG1 c0
+                                  :mod (c4 / real)))
+    :ARG1-of (c9 / instead-of-91
+                  :ARG2 (c19 / y
+                             :op1 (c10 / county
+                                       :name (c11 / name
+                                                  :op1 "Powhatan"))
+                             :op2 (c13 / county
+                                       :name (c14 / name
+                                                  :op1 "Western"
+                                                  :op2 "Chesterfield"))
+                            :ARG1-of (c20 / embotellar-01
+                                          :ARG0 (c7 / falta
+                                                    :consist-of (c8 / carretera))))))
+
+# ::id Consensus_es.85 ::annotator 131
+
+(c0 / poder-04
+	:manner (c16 / realidad)
+    :ARG1 (c12 / y
+               :op1 (c8 / obtener-01
+                        :ARG2 (c2 / desarrollar-01
+                                  :mod (c9 / algún)
+                                  :mod (c10 / comercial))
+                        :ARG1 (c1 / first-person-plural-sinnombre))
+               :op2 (c11 / tener-01
+                         :ARG1 c1
+                         :ARG2 (c4 / capacidad
+                                   :consist-of (c3 / trabajar-01
+                                                   :location (c5 / cerca
+                                                   				 :degree (c15 / más)
+                                                                 :op1 (c6 / lugar
+                                                                          :location-of (c7 / vivir-02
+                                                                                           :ARG1 c1))))))))
+
+# ::id Consensus_es.86 ::annotator 131
+
+(c0 / poder-04
+    :ARG1 (c4 / pensar-01
+              :ARG0 (c5 / second-person-sing-sinnombre)
+              :ARG1 (c1 / usar-01
+                        :ARG1 (c2 / tierra)
+                        :mod (c3 / racional)
+                        :domain (c6 / third-person-sing-sinnombre)
+                        :polarity -)))
+
+# ::id Consensus_es.87 ::annotator 131
+
+(c0 / desear-01
+    :ARG0 (c1 / first-person-sing-sinnombre)
+    :ARG1 (c4 / vivir-02
+              :ARG1 c1
+              :ARG2 (c2 / ciudad))
+    :polarity -)
+
+# ::id Consensus_es.88 ::annotator 131
+
+(c3 / trabajar-01
+    :ARG0 (c2 / first-person-sing-sinnombre)
+    :polarity -
+    :location (c0 / zona
+                  :mod (c1 / centro)))
+
+# ::id Consensus_es.89 ::annotator 131
+
+(c6 / utilizar-01
+    :ARG0 (c5 / first-person-sing-sinnombre)
+    :polarity -
+    :ARG1 (c8 / transporte
+              :mod (c9 / masivo)
+              :ARG1-of (c10 / have-mod-91
+              		    	:ARG2 (c17 / seguro)
+                        	:polarity -
+                        	:beneficiary (c12 / mujer
+                                          	  :ARG0-of (c4 / trabajar-01
+                                                       	   :duration (c0 / turno
+                                                                    	 :mod (c1 / irregular)
+                                                                   	     :mod (c2 / largo)))))))
+
+# ::id Consensus_es.90 ::annotator 131
+(c5 / y
+	:op2 (c3 / gustar-01
+    	 	 :ARG2 (c4 / first-person-sing-sinnombre)
+   	     	 :ARG1 (c2 / desarrollar-01
+              	   	   :ARG1 (c0 / lote
+                        	 	 :mod (c1 / grande)))))
+
+# ::id Consensus_es.91 ::annotator 131
+
+(c10 / superar-02
+     :ARG0 (c9 / cómo
+               :manner-of (c8 / suponer-01
+               				  :ARG0 c7
+                              :ARG1 (c6 / deber-03
+                                        :ARG1 (c0 / tener-01
+                                                  :location (c2 / terreno
+                                                                :quant (c5 / area-quantity
+                                                                           :unit (c4 / hectárea)
+                                                                           :quant 0.25))
+                                                  :ARG1 (c7 / first-person-sing-sinnombre)
+                                                  :ARG2 (c1 / caballo)))))
+     :ARG1 c7)
+
+# ::id Consensus_es.92 ::annotator 131
+
+(c5 / poder-04
+    :ARG1 (c8 / value-01
+              :ARG2 (c0 / rate-entity-91
+                        :ARG2 (c3 / galón
+                        		  :quant 1)
+                        :ARG1 (c6 / dólar
+                                  :quant 10))
+              :ARG1 (c4 / combustible)))
+
+# ::id Consensus_es.93 ::annotator 131
+(c5 / y
+	:op2 (c3 / pagar-02
+    		 :manner (c4 / aún)
+    		 :manner (c6 / así)
+    		 :ARG2 (c2 / vivir-02
+              		   :ARG2 (c1 / campo)
+              		   :ARG1 c0)
+    	     :ARG0 (c0 / first-person-sing-sinnombre)))
+
+# ::id Consensus_es.94 ::annotator 131
+
+(c2 / tener-01
+    :ARG2 (c3 / preferencia
+              :mod (c4 / legítima)
+              :example (c12 / y
+                            :op3 (c7 / jardinería)
+                            :op4 (c9 / tipo
+                                     :consist-of (c10 / empresa
+                                                      :mod (c11 / pequeña))
+                                     :mod (c8 / cierto))
+                            :ARG0-of (c16 / hacer-08
+                                          :ARG1 (c17 / querer-01
+                                                     :ARG1 (c15 / vivir-02
+                                                                :ARG2 (c13 / núcleo
+                                                                           :mod (c14 / urbano))
+                                                                :ARG1 c0)
+                                                     :polarity -
+                                                     :ARG0 c0))
+                            :op1 (c5 / caballo)
+                            :op2 (c6 / caza)))
+    :ARG1 (c0 / persona
+              :mod (c1 / mucha)))
+
+# ::id Consensus_es.95 ::annotator 131
+
+(c5 / desconcertar-01
+    :ARG0 (c3 / enamorar-01
+              :ARG1 (c1 / vivir-02
+                        :ARG2 (c2 / ciudad))
+              :mod (c4 / este))
+    :ARG1 (c0 / me)
+    :manner (c6 / real))
+
+# ::id Consensus_es.96 ::annotator 131
+
+(c11 / decir-01
+     :ARG3 (c0 / person
+               :name (c1 / name
+                         :op1 "Anónimo"
+                         :op2 "6:37"))
+     :ARG1 (c4 / tener-01
+               :ARG1 (c9 / second-person-sing-sinnombre)
+               :ARG2 (c5 / derecho
+                         :mod (c6 / todo)
+                         :purpose (c7 / vivir-02
+                                      :ARG2 (c8 / campo)
+                                      :ARG1 c9))
+               :condition (c10 / desear-01
+                               :ARG0 c9
+                               :ARG1 c7)))
+
+# ::id Consensus_es.97 ::annotator 131
+
+(c0 / tener-01
+    :ARG2 (c1 / derecho
+              :purpose (c13 / tener-01
+              				:ARG1 c11
+                            :ARG2 (c31 / resto
+                            		   :consist-of (c3 / estado
+                                      				   :ARG1-of (c8 / suscribir-01
+                                                     				:beneficiary (c9 / construir-01
+                                                                    				 :ARG1 (c10 / carretera
+                                                                               					:value (c4 / monetary-quantity
+                                                                                          				   :unit (c5 / dólar)
+                                                                                          		:quantity 400000000)
+                                                                               		 :purpose (c18 / ser-01
+                                                                                             	   :ARG2 (c20 / fácil
+                                                                                                        	  :degree (c19 / más))
+                                                                                             	   :ARG1 (c17 / ir-02
+                                                                                                        	  :ARG4 (c16 / y
+                                                                                                                  		 :op1 (c15 / comprar-01)
+                                                                                                                   		 :op2 (c14 / trabajar-01)))
+                                                                                             	   :ARG3 c11))))))))
+    :ARG1 (c11 / second-person-sing-sinnombre)
+    :polarity -)
+
+# ::id Consensus_es.98 ::annotator 131
+
+(c13 / pasar-02
+     :ARG0 (c11 / cosa
+                :purpose-of (c6 / gastar-01
+                				:ARG1-of (c20 / poder-04)
+                                :ARG1 (c5 / monetary-quantity
+                                          :unit (c4 / dólar)
+                                          :quant 400000000))
+                :mod (c12 / otra))
+     :manner (c21 / constantemente)
+     :ARG2 (c14 / alto)
+     :time (c8 / debatir-03
+               :ARG1 (c0 / road
+                         :name (c1 / name
+                                   :op1 "288"))))
+
+# ::id Consensus_es.99 ::annotator 131
+
+(c4 / poder-04
+    :ARG1 (c2 / aliviar-01
+              :ARG1 (c0 / congestionar-01
+                        :ARG0 (c1 / tráfico)
+                        :quant (c3 / amr-unknown)))
+    :condition (c5 / aplicar-01
+                   :ARG1 (c6 / dinero)
+                   :ARG2 (c17 / o
+                              :op1 (c7 / proyecto
+                                       :mod (c8 / otro)
+                                       :mod (c10 / viajar-01)
+                                       :mod (c9 / urgente))
+                              :op2 (c11 / proyecto
+                                        :mod (c12 / vial
+                                                  :polarity -)
+                                        :ARG1-of (c18 / incluir-01)
+                                        :ARG1-of (c14 / querer-01
+                                                      :polarity -
+                                                      :ARG0 (c16 / Dios))))))
+
+# ::id Consensus_es.100 ::annotator 131
+
+(c31 / decir-01
+     :ARG0 (c33 / first-person-sing-sinnombre)
+     :ARG3 (c0 / person
+               :name (c1 / name
+                         :op1 "Ray"
+                         :op2 "Hyde"))
+     :ARG1 (c6 / dirigir-03
+               :ARG1 (c4 / comentar-01
+                         :ARG0 c33)
+               :ARG2 (c16 / y
+                          :op1 (c7 / person
+                                   :ARG0-of (c8 / invertir-02)
+                                   :ARG0-of (c9 / hacer-02
+                                                :purpose (c11 / colocar-01
+                                                     		  :ARG1 (c12 / carretera)
+                                                     		  :ARG2 (c14 / cerca-de
+                                                                  	     :op1 (c13 / lugar
+                                                                         		   :location-of (c15 / poseer-01
+                                                                                             		 :ARG1 c7
+                                                                                             		 :ARG2 (c17 / propiedad)))))
+                                                :ARG1 (c10 / lobby)))
+                          :op2 (c18 / sistema
+                                    :mod (c19 / incompetente)
+                                    :ARG0-of (c20 / financiar-01
+                                                  :ARG1 (c22 / solicitud
+                                                             :mod (c21 / esta))
+                                                  :manner (c30 / sin
+                                                               :op1 (c29 / importar-02
+                                                                         :ARG2 (c28 / o
+                                                                                    :op1 (c26 / vincular-01
+                                                                                              :ARG1 (c23 / plan
+                                                                                                         :mod (c24 / maestro)
+                                                                                                         :mod (c25 / transporte)))
+                                                                                    :op2 (c27 / faltar-01
+                                                                                              :ARG1 c23)))))))))                                                                          
