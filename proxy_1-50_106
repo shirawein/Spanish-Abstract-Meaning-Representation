@@ -1,14 +1,11 @@
 # proxy_1-50_106
 # ::id proxy_es.1 ::annotator 106
-
 (c0 / date-entity
     :year 2007
     :month 8
     :day 21)
 
 # ::id proxy_es.2 ::annotator 106
-
-
 (c5 / country
   :name (c6 / name
          :op1 "Irán"
@@ -18,8 +15,6 @@
          :op5 "IR"))
 
 # ::id proxy_es.3 ::annotator 106
-
-
 (c0 / y
 	:op1 (c1 / internacional)
 	:op2 (c2 / arma)
@@ -29,7 +24,6 @@
 
 
 # ::id proxy_es.4 ::annotator 106
-
 (c4 / llegar-02
   :arg0 (c0 / organization
               :name (c1 / name
@@ -57,7 +51,6 @@
                         :polarity -))))))))
 
 # ::id proxy_es.5 ::annotator 106
-
 (c0 / sospechar-01
     :ARG0 (c2 / funcionario
               :mod (c22 / y
@@ -87,7 +80,6 @@
                                                                                           :mod (c21 / atómica))))))))))
 
 # ::id proxy_es.6 ::annotator 106
-
 (c0 / sospechar-01
     :ARG0 (c2 / funcionario
               :mod (c22 / y
@@ -118,7 +110,6 @@
 
 
 # ::id proxy_es.7 ::annotator 106
-
 (c0 / y
     :op1 (c1 / poder-04
             :arg1 (c2 / imponer-01
@@ -161,7 +152,6 @@
                          :year (c7 / 2007))))
 
 # ::id proxy_es.8 ::annotator 106
-
 (c0 / distribuir-01
     :arg0 (c1 / organization
               :name (c2 / name
@@ -189,7 +179,6 @@
                               :year 2007))))
 
 # ::id proxy_es.9 ::annotator 106
-
 (c0 / reflejar-02
     :arg1 (c1 / resultado)
     :arg2 (c2 / acordar-02
@@ -212,7 +201,6 @@
                                               :op2 (c16 / date-entity :year 2007 :month 8 :day 19)))))))
 
 # ::id proxy_es.10 ::annotator 106
-
 (c0 / decir-01
     :arg0 (c1 / acuerdo)
     :arg1 (c2 / quedar-01
@@ -229,7 +217,6 @@
                                                                :op1 "Irán")))))))
 
 # ::id proxy_es.11 ::annotator 106
-
 (c0 / decir-01
     :arg0 (c1 / cuenta
               :poss (c2 / organization
@@ -248,7 +235,6 @@
 
 
 # ::id proxy_es.12 ::annotator 106
-
 (c0 / citar-01
     :ARG0 (c1 / company
                :name (c2 / name
@@ -266,12 +252,11 @@
                                                                      :name (c14 / name
                                                                                 :op1 "Irán")))
                                                 :ARG1 (c15 / enriquecer-01
-                                                		  :ARG0 c12
+                                                		  :ARG0 c2
                                                           :ARG1 (c16 / uranio)))))))
 
 
 # ::id proxy_es.13 ::annotator 106
-
 (c0 / indicar-01
     :arg0 (c6 / informe
               :poss (c7 / organization
@@ -300,7 +285,6 @@
 
 
 # ::id proxy_es.14 ::annotator 106
-
 (c0 / manifestar-01
     :time (c6 / date-entity
               :day 30
@@ -323,7 +307,6 @@
 
 
 # ::id proxy_es.15 ::annotator 106
-
 (c0 / declarar-01
     :ARG0 (c1 / person
               :poss (c2 / country
@@ -365,7 +348,6 @@
                          :polarity -)))
 
 # ::id proxy_es.16 ::annotator 106
-
 (c0 / declarar-01
     :arg0 (c1 / experto
               :mod (c2 / alguno)
@@ -381,7 +363,6 @@
                          			:op1 "Irán")))
 
 # ::id proxy_es.17 ::annotator 106
-
 (c21 / escribir-01
      :ARG0 (c0 / experto
                :topic (c1 / control
@@ -443,7 +424,6 @@
                                                                                                                       :poss c44)))))))))))
 
 # ::id proxy_es.18 ::annotator 106
-
 (c40 / y
 	 :op1 (c0 / declarar-01
     		  :ARG0 (c1 / experto
@@ -478,7 +458,6 @@
                                                                               :purpose (c32 / bomba))))))))
 
 # ::id proxy_es.19 ::annotator 106
-
 (c0 / afirmar-01
     :ARG0 (c1 / portavoz
               :poss (c2 / departamento
@@ -516,7 +495,6 @@
                                       :mod (c24 / nuclear)))))
 
 # ::id proxy_es.20 ::annotator 106
-
 (c0 / afirmar-01
     :arg0 (c3 / person
               :name (c1 / name
@@ -539,7 +517,6 @@
                                                          :mod (c13 / internacional)))))))
 
 # ::id proxy_es.21 ::annotator 106
-
 (c0 / afirmar-01
     :arg0 (c1 / mayoría
               :consist-of (c2 / experto
@@ -584,7 +561,6 @@
                                                                                            				:op3 "seguridad")))))))))
 
 # ::id proxy_es.22 ::annotator 106
-
 (c0 / indicar-01
     :arg0 (c1 / experto)
     :arg1 (c3 / deber-03
@@ -604,7 +580,6 @@
                          :mod (c15 / previamente))))
 
 # ::id proxy_es.23 ::annotator 106
-
 (c0 / afirmar-01
     :arg0 (c1 / director
               :mod (c2 / ejecutivo)
@@ -645,7 +620,6 @@
                                                                                             		   :mod (c38 / material))))))))))
 
 # ::id proxy_es.24 ::annotator 106
-
 (c0 / afirmar-01
     :arg0 (c2 / persona
               :name (c4 / name
@@ -667,7 +641,6 @@
                                                          :arg1 (c15 / progresar-01))))))))
 
 # ::id proxy_es.25 ::annotator 106
-
 (c0 / declarar-01
     :arg0 (c1 / funcionario
               :mod (c2 / country
@@ -682,7 +655,6 @@
                              :mod (c12 / más))))
 
 # ::id proxy_es.26 ::annotator 106
-
 (c9 / contrast-01
     :arg1 (c0 / votar-01
               :arg0 (c1 / organization
@@ -711,7 +683,6 @@
                                                      :name "Rusia")))))
 
 # ::id proxy_es.27 ::annotator 106
-
 (c0 / declarar-01
     :ARG0 (c8 / person
               :name (c40 / name
@@ -741,7 +712,6 @@
                           :op2 (c16 / injustificada))))
 
 # ::id proxy_es.28 ::annotator 106
-
 (c0 / date-entity
     :year 2007
     :month 9
@@ -749,13 +719,11 @@
 
 
 # ::id proxy_es.29 ::annotator 106
-
 (c0 / country
     :name (c1 / name
     :op1 "Israel"))
 
 # ::id proxy_es.30 ::annotator 106
-
 (c0 / y
     :op1 (c1 / proliferación)
     :op2 (c2 / tecnología)
@@ -763,7 +731,6 @@
     :op4 (c4 / política))
 
 # ::id proxy_es.31 ::annotator 106
-
 (c0 / distribuir-01
     :beneficiary (c2 / organization
               :name (c7 / name
@@ -791,7 +758,6 @@
 
 
 # ::id proxy_es.32 ::annotator 106
-
 (c0 / poder-04
     :ARG1 (c2 / complicar-01
               :ARG0 (c1 / propuesta)
@@ -811,7 +777,6 @@
                                                                              :mod (c13 / núcleo))))))))
 
 # ::id proxy_es.33 ::annotator 106
-
 (c0 / convencer-01
     :ARG0 (c1 / funcionarios
               :mod (c2 / country
@@ -840,7 +805,6 @@
                                                                                                         :polarity -)))))))))
 
 # ::id proxy_es.34 ::annotator 106
-
 (c0 / prohibir-01
     :ARG2 (c1 / país
               :example (c7 / y
@@ -875,7 +839,6 @@
 
 
 # ::id proxy_es.35 ::annotator 106
-
 (c0 / distribuir-01
     :time (c15 / date-entity
                :month 3
@@ -898,7 +861,6 @@
 
 
 # ::id proxy_es.36 ::annotator 106
-
 (c0 / hacer-09
     :ARG1 (c1 / presentación
               :poss (c2 / country
@@ -913,7 +875,6 @@
 
 
 # ::id proxy_es.37 ::annotator 106
-
 (c0 / decir-01
     :ARG0 (c1 / carta
               :poss (c2 / presidente
@@ -939,7 +900,6 @@
 
 
 # ::id proxy_es.38 ::annotator 106
-
 (c0 / calificar-01
     :ARG0 (c1 / y
               :location (c30 / entre
@@ -966,7 +926,6 @@
 
 
 # ::id proxy_es.39 ::annotator 106
-
 (c0 / ofrecer-01
     :ARG0 (c1 / plan
               :mod (c2 / country
@@ -983,7 +942,6 @@
                                                     	  :ARG1 (c10 / tratado)))))))
 
 # ::id proxy_es.40 ::annotator 106
-
 (c34 / y
      :op1 (c1 / indicar-01
               :ARG0 (c0 / criterio)
@@ -1027,7 +985,6 @@
                                                                                          :poss c13))))))))
 
 # ::id proxy_es.41 ::annotator 106
-
 (c0 / circular-01
     :ARG1 (c1 / documento)
     :location (c5 / place
@@ -1051,7 +1008,6 @@
                                                              			   			  :op1 "India"))))))))
 
 # ::id proxy_es.42 ::annotator 106
-
 (c0 / afirmar-01
     :ARG1 (c4 / poder-04
               :ARG1 (c5 / afectar-01
@@ -1082,14 +1038,12 @@
               			 :op2 "Kimball")))
 
 # ::id proxy_es.43 ::annotator 106
-
 (c0 / decir-01
     :arg0 (c2 / person
               :name (c3 / name
                        :op1 "Kimball")))
 
 # ::id proxy_es.44 ::annotator 106
-
 (c13 / querer-01
      :ARG0 (c14 / funcionario
                 :poss (c15 / país))
@@ -1110,7 +1064,6 @@
                                    :mod (c11 / poderoso)))))
 
 # ::id proxy_es.45 ::annotator 106
-
 (c0 / ser-01
     :ARG0 (c1 / consenso
               :topic (c2 / country
@@ -1127,7 +1080,6 @@
                                                    :year 2007)))))
 
 # ::id proxy_es.46 ::annotator 106
-
 (c0 / motivar-01
     :ARG0 (c1 / propuesta
               :poss (c2 / country
@@ -1144,7 +1096,6 @@
                            :mod (c9 / específica))))
 
 # ::id proxy_es.47 ::annotator 106
-
 (c0 / have-degree-91
     :ARG1 (c1 / historial
               :poss (c2 / country
@@ -1162,7 +1113,6 @@
                         		  :op1 "India"))))
 
 # ::id proxy_es.48 ::annotator 106
-
 (c10 / rechazar-01
      :concession (c0 / relación
                      :location (c25 / entre
@@ -1186,7 +1136,6 @@
                           			 :op1 "Israel"))))
 
 # ::id proxy_es.49 ::annotator 106
-
 (c0 / poder-04
     :ARG1 (c2 / complicar-01
               :ARG0 (c1 / propuesta)
@@ -1206,7 +1155,6 @@
                                                                              :mod (c13 / nuclear))))))))
 
 # ::id proxy_es.50 ::annotator 106
-
 (c0 / ver-01
     :ARG0 (c1 / y
               :op1 (c2 / person
