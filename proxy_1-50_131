@@ -1,13 +1,11 @@
 # proxy_1-50_131
 # ::id proxy_es.1 ::annotator 131
-
 (c0 / date-entity
     :year 2007
     :month 8
     :day 21)
 
 # ::id proxy_es.2 ::annotator 131
-
 (c0 / country
     :name (c11 / name
                :op1 "Irán"
@@ -17,7 +15,6 @@
                :op5 "(IR)"))
 
 # ::id proxy_es.3 ::annotator 131
-
 (c0 / y
     :op1 (c1 / internacional)
     :op2 (c2 / arma)
@@ -26,7 +23,6 @@
     :op5 (c5 / energía))
 
 # ::id proxy_es.4 ::annotator 131
-
 (c7 / llegar-02
 	:ARG0 (c0 / organization
               :name (c1 / name
@@ -54,7 +50,6 @@
                                                                                    :mod (c20 / núcleo)))))))))
 
 # ::id proxy_es.5 ::annotator 131
-
 (c4 / sospechar-01
     :ARG1 (c10 / enmascarar-01
                :ARG0 (c5 / programa
@@ -85,8 +80,6 @@
 
 
 # ::id proxy_es.6 ::annotator 131
-
-
 (c4 / sospechar-01
     :ARG1 (c10 / enmascarar-01
                :ARG0 (c5 / programa
@@ -117,7 +110,6 @@
 
 
 # ::id proxy_es.7 ::annotator 131
-
 (c40 / y
      :op1 (c30 / poder-04
               :ARG1 (c31 / imponer-01
@@ -159,7 +151,6 @@
                          :month 9)))
 
 # ::id proxy_es.8 ::annotator 131
-
 (c23 / distribuir-01
      :ARG0 (c37 / organization
                 :name (c38 / name
@@ -185,7 +176,6 @@
                                                :month 9
                                                :year 2007)))))
 # ::id proxy_es.9 ::annotator 131
-
 (c0 / reflejar-02
     :ARG2 (c13 / acordar-02
                :ARG2 (c15 / city
@@ -216,7 +206,6 @@
     :ARG1 (c14 / resultado))
 
 # ::id proxy_es.10 ::annotator 131
-
 (c0 / decir-01
     :ARG1 (c2 / quedar-01
               :ARG1 (c4 / y
@@ -233,7 +222,6 @@
     :ARG0 (c1 / acuerdo))
 
 # ::id proxy_es.11 ::annotator 131
-
 (c1 / decir-01
     :ARG0 (c5 / cuenta
               :poss (c7 / organization
@@ -251,7 +239,6 @@
                          :direction (c15 / adelante))))
 
 # ::id proxy_es.12 ::annotator 131
-
 (c0 / citar-01
     :ARG0 (c10 / company
                :name (c11 / name
@@ -273,7 +260,6 @@
                                                           :ARG1 (c7 / uranio)))))))
 
 # ::id proxy_es.13 ::annotator 131
-
 (c1 / indicar-01
     :ARG1 (c4 / deber-03
               :ARG1 (c5 / continuar-01
@@ -299,7 +285,6 @@
 
 
 # ::id proxy_es.14 ::annotator 131
-
 (c8 / manifestar-01
     :ARG0 (c6 / funcionario
               :mod (c3 / country
@@ -321,7 +306,6 @@
               :month 8))
 
 # ::id proxy_es.15 ::annotator 131
-
 (c9 / declarar-01
     :ARG0 (c0 / person
               :ARG0-of (c1 / representar-01
@@ -359,7 +343,6 @@
                           :polarity -)))
 
 # ::id proxy_es.16 ::annotator 131
-
 (c0 / declarar-01
     :ARG0 (c1 / experto
               :mod (c2 / proliferación
@@ -375,7 +358,6 @@
                                     :op1 "OIEA"))))
 
 # ::id proxy_es.17 ::annotator 131
-
 (c73 / escribir-01
      :ARG1 (c99 / y
                 :op1 (c78 / violar-01
@@ -440,7 +422,6 @@
                                                                    :op1 "Washington"))))))
 
 # ::id proxy_es.18 ::annotator 131
-
 (c33 / y
      :op1 (c2 / declarar-01
               :ARG1 (c11 / acordar-01
@@ -477,7 +458,6 @@
                                      :ARG0 c20))))
 
 # ::id proxy_es.19 ::annotator 131
-
 (c16 / afirmar-01
      :condition (c19 / poder-04
                       :ARG1 (c21 / ofrecer-01
@@ -516,7 +496,6 @@
                                               :op1 "Bush")))))
 
 # ::id proxy_es.20 ::annotator 131
-
 (c3 / afirmar-01
     :ARG1 (c6 / continuar-02
               :ARG0-of (c8 / demostrar-01
@@ -536,7 +515,6 @@
                         :op1 "Casey")))
 
 # ::id proxy_es.21 ::annotator 131
-
 (c6 / afirmar-01
     :ARG0 (c19 / mayoría
                :consist-of (c1 / experto
@@ -549,7 +527,7 @@
                :ARG2 (c41 / poco
                           :ARG0-of (c13 / disuadir-01
                                         :ARG1-of (c14 / poder-04)
-                                        :ARG0 c4
+                                        :ARG0 c14
                                         :ARG1 (c38 / legislador
                                                     :location (c37 / y
                                                                    :op3 (c31 / city
@@ -583,7 +561,6 @@
 
 
 # ::id proxy_es.22 ::annotator 131
-
 (c1 / indicar-01
     :ARG0 (c0 / experto)
     :ARG1 (c9 / deber-03
@@ -600,7 +577,6 @@
 
 
 # ::id proxy_es.23 ::annotator 131
-
 (c18 / afirmar-01
      :ARG0 (c38 / have-org-role-91
                 :ARG1 (c0 / organization
@@ -645,7 +621,6 @@
                 :ARG0 (c42 / acuerdo)))
 
 # ::id proxy_es.24 ::annotator 131
-
 (c4 / afirmar-01
     :ARG1 (c0 / consistir-01
               :ARG2 (c13 / y
@@ -667,7 +642,6 @@
                         :op1 "Kimball")))
 
 # ::id proxy_es.25 ::annotator 131
-
 (c4 / declarar-01
     :ARG1 (c5 / reducir-01
               :condition (c10 / sanción
@@ -682,7 +656,6 @@
 
 
 # ::id proxy_es.26 ::annotator 131
-
 (c25 / contrast-01
      :ARG1 (c1 / votar-01
                :mod (c0 / unánime)
@@ -713,7 +686,6 @@
                                                                                    :op1 "Rusia"))))))))
 
 # ::id proxy_es.27 ::annotator 131
-
 (c3 / declarar-01
     :medium (c30 / entrevistar-01
                  :ARG1 (c6 / controlar-01
@@ -746,7 +718,6 @@
                         :op1 "SOLTANIEH")))
 
 # ::id proxy_es.28 ::annotator 131
-
 (c3 / date-entity
     :year 2007
     :month 9
@@ -754,14 +725,12 @@
 
 
 # ::id proxy_es.29 ::annotator 131
-
 (c0 / country
     :name (c1 / name
               :op1 "Israel"))
 
 
 # ::id proxy_es.30 ::annotator 131
-
 (c0 / y
     :op1 (c1 / proliferación)
     :op2 (c2 / tecnología)
@@ -770,7 +739,6 @@
 
 
 # ::id proxy_es.31 ::annotator 131
-
 (c0 / distribuir-01
     :ARG1 (c6 / documento
               :ARG0-of (c21 / esbozar-01
@@ -797,7 +765,6 @@
                          :op4 "Nucleares")))
 
 # ::id proxy_es.32 ::annotator 131
-
 (c0 / poder-04
     :ARG1 (c1 / complicar-01
               :ARG1 (c5 / esforzar-01
@@ -816,7 +783,6 @@
               :ARG0 (c15 / propuesta)))
 
 # ::id proxy_es.33 ::annotator 131
-
 (c4 / convencer-01
     :ARG2 (c11 / adoptar-01
                :ARG1 (c12 / directriz
@@ -865,7 +831,7 @@
                                      :name (c19 / name
                                                 :op1 "Israel"))))
      :ARG1 (c10 / participar-01
-                :ARG0 c25
+                :ARG0 c26
                 :ARG1 (c27 / comercio
                            :ARG0-of (c8 / incluir-01
                                         :ARG1 (c6 / comprar-01
@@ -879,7 +845,6 @@
                            :mod (c29 / núcleo))))
 
 # ::id proxy_es.35 ::annotator 131
-
 (c18 / distribuir-01
      :ARG1 (c4 / documento
                :ARG0-of (c5 / describir-01
@@ -901,7 +866,6 @@
                :month 3))
 
 # ::id proxy_es.36 ::annotator 131
-
 (c10 / hacer-09
      :location (c7 / documento
                    :ARG0-of (c6 / permitir-01
@@ -915,7 +879,6 @@
                                    :op1 "Israel"))))
 
 # ::id proxy_es.37 ::annotator 131
-
 (c0 / decir-01
     :ARG1 (c8 / ofrecer-01
               :ARG1 (c14 / presentación
@@ -942,7 +905,6 @@
                          :year 2007)))
 
 # ::id proxy_es.38 ::annotator 131
-
 (c9 / calificar-01
     :ARG0 (c10 / y
                :op1 (c0 / country
@@ -966,7 +928,6 @@
                                			:mod c3))))
 
 # ::id proxy_es.39 ::annotator 131
-
 (c4 / ofrecer-01
     :ARG0 (c3 / plan
               :mod (c0 / country
@@ -984,7 +945,6 @@
 
 
 # ::id proxy_es.40 ::annotator 131
-
 (c36 / y
      :op2 (c6 / decir-01
               :concession (c13 / aplicar-01
@@ -1025,7 +985,6 @@
                                       :mod (c12 / núcleo)))))
 
 # ::id proxy_es.41 ::annotator 131
-
 (c9 / circular-01
     :time (c0 / date-entity
               :time-of (c6 / trabajar-01
@@ -1050,7 +1009,6 @@
 
 
 # ::id proxy_es.42 ::annotator 131
-
 (c13 / afirmar-01
      :ARG1 (c17 / poder-04
                 :ARG1 (c18 / afectar-01
@@ -1084,14 +1042,12 @@
 
 
 # ::id proxy_es.43 ::annotator 131
-
 (c0 / decir-01
     :ARG0 (c1 / person
               :name (c2 / name
                         :op1 "Kimball")))
 
 # ::id proxy_es.44 ::annotator 131
-
 (c13 / querer-01
      :domain (c10 / dinámica
                   :location (c0 / organization
@@ -1118,7 +1074,6 @@
      :polarity -)
 
 # ::id proxy_es.45 ::annotator 131
-
 (c12 / alcanzar-01
      :mod (c11 / difícil)
      :ARG1 (c0 / consenso
@@ -1134,7 +1089,6 @@
                          :year 2007)))
 
 # ::id proxy_es.46 ::annotator 131
-
 (c6 / motivar-01
     :ARG1 (c7 / funcionario
               :poss (c0 / país
@@ -1150,7 +1104,6 @@
                                   :op1 "Israel"))))
 
 # ::id proxy_es.47 ::annotator 131
-
 (c11 / have-degree-91
      :ARG1 (c3 / historial
                :poss (c0 / country
@@ -1169,7 +1122,6 @@
                            :mod (c9 / internacional))))
 
 # ::id proxy_es.48 ::annotator 131
-
 (c10 / rechazar-01
      :ARG0 (c15 / administración
                 :mod (c7 / person
@@ -1191,7 +1143,6 @@
                                                                     		:op2 "Unidos")))))))
 
 # ::id proxy_es.49 ::annotator 131
-
 (c7 / poder-04
     :ARG1 (c8 / complicar-01
     		  :ARG0 (c6 / propuesta)
@@ -1210,7 +1161,6 @@
                                                                      :mod (c14 / núcleo))))))))
 
 # ::id proxy_es.50 ::annotator 131
-
 (c13 / ver-01
      :ARG2 (c17 / parte
                 :part-of (c19 / legado
