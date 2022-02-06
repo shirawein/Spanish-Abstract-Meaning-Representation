@@ -172,7 +172,7 @@
                                     :quant (c22 / 35)
                                     :ARG0-of (c40 / have-org-role-91
                                             :ARG1 (c20 / consejo
-                                                       :poss c12)))
+                                                       :poss c2)))
              :time (c17 / date-entity
                           :day 11
                               :month 9
@@ -252,7 +252,7 @@
                                                                      :name (c14 / name
                                                                                 :op1 "Irán")))
                                                 :ARG1 (c15 / enriquecer-01
-                                                		  :ARG0 c2
+                                                		  :ARG0 c12
                                                           :ARG1 (c16 / uranio)))))))
 
 
