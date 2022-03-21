@@ -620,7 +620,7 @@ bolt_1-100_41
                                             :op2 (c19 / enfrentar-01
                                                       :ARG0 c23
                                                       :ARG1 (c20 / desfío
-                                                                 mod (c21 / mucho)))))
+                                                                 :mod (c21 / mucho)))))
                :beneficiary (c3 / nación
                                 :mod (c4 / country
                                          :name (c5 / name
