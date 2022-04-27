@@ -812,14 +812,14 @@ DFA_41-100_106
     :time (c5 / tiempo
               :mod (c6 / todo)))
 
-# ::id AFA_es.88 ::annotator 106
+# ::id DFA_es.88 ::annotator 106
 
 (c0 / alguien
     :condition (c3 / alguien
                    :ARG0-of (c6 / have-rel-role-91
                    				:ARG1 (c4 / familia
                    						  :poss (c5 / tú))
-                   				:ARG2 (c6 / miembro)
+                   				:ARG2 (c7 / miembro)
                                 :polarity -))
     :mod (c1 / extraño))
 
