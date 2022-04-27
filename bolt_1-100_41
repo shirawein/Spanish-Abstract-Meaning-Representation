@@ -1872,7 +1872,7 @@ bolt_1-100_41
      :snt4 (c14 / y
                 :op1 (c34 / dejar-03
                           :ARG0 c9
-                          :imperative
+                          :mode imperative
                           :ARG1 (c44 / y
                                      :op1 (c43 / tener-01
                                                :ARG1 c29
