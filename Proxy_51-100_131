@@ -224,7 +224,7 @@ Proxy_51-100_131
 (c0 / country
     :name (c1 / name
               :op1 "Irán"
-              :op2 ("IR")))
+              :op2 "(IR)"))
 
 # ::id Proxy_es.63 ::annotator 131
 
