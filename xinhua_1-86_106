@@ -1711,7 +1711,7 @@ xinhua_1-86_106
     :time (c0 / después
               :op1 (c1 / competir-01))
     :ARG0 (c2 / persona
-    		  :ARG0-of (entrenar-01)
+    		  :ARG0-of (c17 / entrenar-01)
               :poss (c3 / equipo
                         :mod (c4 / country
                                  :name (c5 / name
