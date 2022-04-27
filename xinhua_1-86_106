@@ -564,7 +564,7 @@ xinhua_1-86_106
     :ARG1 (c2 / promover-01
               :ARG0 (c11 / visitar-01
                          :ARG0 (c12 / person
-                         			ARG0-of (c20 / have-org-role-91
+                         			:ARG0-of (c20 / have-org-role-91
                          						 :ARG2 (c21 / ministro
                          						 			:mod (c13 / primer)))
                                     :name (c14 / name
