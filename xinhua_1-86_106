@@ -1557,7 +1557,7 @@ xinhua_1-86_106
                           			  :mod (c2 / name
                                    			   :op1 "Aiguo"
                                    			   :op2 "Yang"))
-                 			 :op2 (c6 / person
+                 			 :op2 (c8 / person
                           			  :mod (c7 / name
                                    			   :op1 "Changrui"
                                    			   :op2 "Huang")))))
