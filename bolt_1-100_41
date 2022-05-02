@@ -526,7 +526,7 @@
                                                     :op1 "Asia")))
                 :ARG1-of (c17 / despertar-01
                           	  :mode imperative
-                          	  :mod-polite +))
+                          	  :mod-polite +)))
 
 # ::id bolt_es.21 ::annotator 41
 
